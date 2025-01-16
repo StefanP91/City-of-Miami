@@ -868,16 +868,26 @@ body {
             }    
         }
 
-        & ul>a>li{
+        & ul>li{
             list-style: none;
             color: #4269DC;
             font-weight: 500;
             font-size: 20px;
         }
 
-        & ul>a{
-            text-decoration: none;
+        & ul>li>ul>li{
+            list-style: outside;
+            font-size: 16px;
+            color: #001b6a;
+            font-weight: 400;
         }
+
+        & ul>li>ul>li>a{
+            color: #001b6a;
+
+        }
+
+
 
         & .accordion-button:focus,
         & .accordion-button:hover{
