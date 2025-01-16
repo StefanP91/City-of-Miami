@@ -809,19 +809,19 @@
                 <h1>Key Sectors Driving Miami's Growth</h1>
             </div>
 
-            <div class="card-container">
+            <div class="card-container" id="cardContainerKI">
                 <div class="row">
                     <div class="col-12 col-md-8">
                         <div class="row g-3">
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500">
-                                <div class="card blue-card">
+                                <div class="card active" onclick="openDescriptionKI('description1', 'images/key-industries-aviation-bg.svg')">
                                     <img src="images/key-industries-icon-1.svg" alt="key-industries-icon-1">
                                     <h6>Aviation</h6>
                                 </div>
                             </div>
 
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-delay="200">
-                                <div class="card">
+                                <div class="card" onclick="openDescriptionKI('description2', 'images/key-industries-tech-bg.svg')">
                                     <img src="images/key-industries-icon-2.svg" alt="key-industries-icon-2">
 
                                     <h6>Technology & ICT </h6>
@@ -829,7 +829,7 @@
                             </div>
 
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-delay="400">
-                                <div class="card">
+                                <div class="card" onclick="openDescriptionKI('description3', 'images/key-industries-global-bg.svg')">
                                     <img src="images/key-industries-icon-3.svg" alt="key-industries-icon-3">
 
                                     <h6>Global Logistics</h6>
@@ -837,7 +837,7 @@
                             </div>
 
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-delay="600">
-                                <div class="card">
+                                <div class="card" onclick="openDescriptionKI('description4', 'images/key-industries-art-bg.svg')">
                                     <img src="images/key-industries-icon-4.svg" alt="key-industries-icon-4">
 
                                     <h6>Art & Culture</h6>
@@ -845,7 +845,7 @@
                             </div>
 
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-delay="800">
-                                <div class="card">
+                                <div class="card" onclick="openDescriptionKI('description5', 'images/key-industries-life-bg.svg')">
                                     <img src="images/key-industries-icon-5.svg" alt="key-industries-icon-5">
 
                                     <h6>Life Science & Healthcare</h6>
@@ -853,7 +853,7 @@
                             </div>
 
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="1500" data-aos-delay="1000">
-                                <div class="card">
+                                <div class="card" onclick="openDescriptionKI('description6', 'images/key-industries-finance-bg.svg')">
                                     <img src="images/key-industries-icon-6.svg" alt="key-industries-icon-6">
 
                                     <h6>Finance</h6>
@@ -863,15 +863,169 @@
                     </div>
 
                     <div class="col-12 col-md-4">
-                        <div class="without-card">
-                            <h2>Aviation</h2>
+                        <div class="descriptions" id="descriptionsKI">
 
-                            <p>
-                                Aviation is a key technology sector in Miami, with over 1,800 aviation companies, 
-                                more than 88,500 local jobs, a regional economic impact of $26 billion, and Miami 
-                                ranking #1 in international air freight volume and #4 for the best international 
-                                large airport in the U.S. for passengers.
-                            </p>
+                            <div id="description1" class="show" data-aos="fade-in">
+                                <h3>Aviation</h3>
+                                
+                                <p>
+                                    Miami’s trade and logistics industry is a key economic driver, generating $137 billion 
+                                    annually and supporting over 275,000 jobs. Anchored by Miami International Airport (MIA) 
+                                    and PortMiami, the city connects North America to Latin America, the Caribbean, and beyond, 
+                                    solidifying its role as a global commerce hub.
+                                </p>
+
+                                <p>
+                                    Miami International Airport (MIA):
+
+                                    <ul>
+                                        <li>
+                                            Busiest U.S. airport for international freight, handling 2.78 million tons of cargo in 2023.
+                                        </li>
+
+                                        <li>
+                                            Supports 700,000 jobs locally and contributes $118 billion annually to the economy.
+                                        </li>
+
+                                        <li>
+                                            Leading in perishable goods, electronics, and pharmaceuticals, with ongoing expansion through a $400 million Vertically Integrated Cargo Community.
+                                        </li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    PortMiami:
+
+                                    <ul>
+                                        <li>
+                                            Generates $61.4 billion in economic impact and directly supports 29,423 jobs. 
+                                        </li>
+
+                                        <li>
+                                            Handles over 1 million TEUs annually and is equipped with a $2 billion multimodal upgrade, preparing for doubled cargo volumes in the next decade.
+                                        </li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    Strategic Assets:
+
+                                    <ul>
+                                        <li>
+                                            277 million square feet of warehouse capacity, with 3.9 million under construction in 2024.
+                                        </li>
+
+                                        <li>
+                                            Free Trade Zones (FTZs) offer duty exemptions and streamlined processes.
+                                        </li>
+
+                                        <li>
+                                            Home to 1,800 logistics companies, including Ryder, FedEx, and Crowley Logistics.
+                                        </li>
+                                    </ul>
+                                </p>
+
+                                <p>
+                                    With robust infrastructure and strategic investments, Miami remains a global 
+                                </p>
+                               
+
+                                <div class="d-flex self-start">
+                                    <button id="read-more-btn" onclick="toggleReadMoreKI(this)">
+                                        <div class="hstack gap-5">
+                                            <span>Read More</span>
+                                            <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="description2" data-aos="fade-in">
+                                <h3>Technology & ICT</h3>
+                        
+                                <p>
+                                    Miami’s booming tech ecosystem, with over 2,500 startups, 6 unicorns, $2.41 billion 
+                                    in annual VC funding, and a #4 ranking in tech job growth, has become a global leader 
+                                    in innovation, driven by a $95 billion startup ecosystem, a strategic location connecting 
+                                    North and Latin America, and a robust network of accelerators, incubators, and co-working spaces.
+                                </p>
+
+                            </div>
+
+                            <div id="description3" data-aos="fade-in">
+                                <h3>Global Logistics </h3>
+                        
+                                <p>
+                                    Miami’s trade and logistics industry, with $137 billion in annual trade, 
+                                    9.7 million tons of maritime cargo, and 277 million square feet of warehouse 
+                                    capacity, solidifies its position as the #1 U.S. airport for international 
+                                    freight and top trading partner with Latin America, supported by strategic investments
+                                    in infrastructure, free trade zones, and top organizations like Ryder, FedEx, and Crowley 
+                                    Logistics.
+                                </p>
+
+                            </div>
+
+                            <div id="description4" data-aos="fade-in">
+                                <h3>Art and Culture</h3>
+                        
+                               <p>
+                                    Miami’s creative sector contributes $2.1 billion annually to the economy 
+                                    and supports 31,500 jobs across a wide range of industries. With 100+ cultural 
+                                    institutions, including world-class museums, galleries, and performing arts 
+                                    centers, Miami offers a vibrant cultural landscape that attracts both residents 
+                                    and global visitors.
+                               </p>
+
+                               <p>
+                                    Iconic events like Art Basel position Miami as a global cultural capital, while 
+                                    the city’s thriving culinary scene, featuring 14 Michelin-starred restaurants, 
+                                    showcases its diverse and innovative gastronomy. Premier sports events, from Formula 1 
+                                    to NBA games, and a dynamic architectural landscape—blending historic Art Deco with 
+                                    cutting-edge modern design—further reinforce its creative identity.
+                               </p>
+
+                               <p>
+                                    Ranked as the #2 U.S. city for creatives, with an average earning of $91,000, Miami 
+                                    is a magnet for talent and innovation, blending culture, opportunity, and lifestyle into 
+                                    a unique and inspiring destination.
+                               </p>
+
+                                <div class="d-flex self-start">
+                                    <button id="read-more-btn" onclick="toggleReadMore(this)">
+                                        <div class="hstack gap-5">
+                                            <span>Read More</span>
+                                            <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                        </div>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div id="description5" data-aos="fade-in">
+                                <h3>Life Science & Healthcare </h3>
+                        
+                                <p>
+                                    Miami has become a key player in life sciences and healthcare, 
+                                    with over 100,000 jobs, 1,000+ companies, $4 billion in bioscience sales, 
+                                    and the second-largest medical district in the U.S., driving innovation in biotechnology, 
+                                    pharmaceuticals, medical devices, and health tech while positioning the city as a global hub 
+                                    for transformative healthcare advancements.
+                                </p>
+
+                            </div>
+
+                            <div id="description6" data-aos="fade-in">
+                                <h3>Finance </h3>
+                        
+                                <p>
+                                    Miami’s financial sector, home to over 60 international 
+                                    banks and 500+ fintech companies, employs over 150,000 people 
+                                    and generates $28 billion in regional output, positioning the 
+                                    city as the #2 U.S. city for international banks and a vital financial 
+                                    hub for Latin America and the Caribbean.
+                                </p>
+
+                            </div>
                         </div>
                     </div>
                 </div>
