@@ -13,6 +13,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.svg">
 
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/style-mobile.css">
     <link rel="stylesheet" href="Styles/fonts.css">
     <link rel="stylesheet" href="Styles/aos.css">
 
@@ -70,14 +71,26 @@
             <div class="vstack gap-3">
                 <p>DEPARTMENT OF ECONOMIC INNOVATION AND DEVELOPMENT</p>
                 
-                <h1>
+                <h1 class="d-none d-md-block">
                     Empowering Innovation, <br>  
                     Advancing Business, Building <br> 
                     Talent in the Magic City
                 </h1>
+
+                <!-- MOBILE -->
+                <h1 class="d-block d-md-none">
+                    Empowering Innovation,  
+                    Advancing Business, Building  
+                    Talent in the Magic City
+                </h1>
                 
-                <span>
+                <span class="d-none d-md-block">
                     In Miami, we empower those who live here and welcome <br> 
+                    those who dream of joining us!
+                </span>
+
+                <span class="d-block d-md-none">
+                    In Miami, we empower those who live here and welcome 
                     those who dream of joining us!
                 </span>
                 
@@ -93,7 +106,7 @@
                 </div> -->
             </div>
 
-            <div class="vstack gap-3 key-insights">
+            <div class="vstack gap-3 key-insights d-none d-md-block">
                 <h2>Key Insights</h2>
                 <p>
                     As Miami continues to show growth opportunities for businesses with its <br> 
@@ -102,7 +115,7 @@
 
 
                 <div class="row g-3">
-                    <div class="col-12 col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="card">
                             <h3>2.2<span>%</span></h3>
                             <p>Lowest Unemployment Rate Statewide</p>
@@ -118,7 +131,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="card">
                             <h3><span>#</span>1</h3>
                             <p>Happiest and Healthiest City in the US</p>
@@ -134,7 +147,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="card">
                             <h3><span>$</span>5.8<span>B</span></h3>
                             <p>VC Funding Record in 2022 <br> <br> </p>
@@ -150,7 +163,7 @@
                         </div>
                     </div>
 
-                    <div class="col-12 col-md-3">
+                    <div class="col-6 col-md-3">
                         <div class="card">
                             <h3><span>#</span>1</h3>
                             <p>Total Compensation Growth In 2022</p>
@@ -173,18 +186,110 @@
     </div>
 
     <main>
+        <!-- KEY INSIGHTS MOBILE -->
+        <section id="key-insights" class="d-block d-md-none">
+            <div class="container">
+                <div class="vstack gap-3">
+                    <h2>Key Insights</h2>
+                    <p>
+                        As Miami continues to show growth opportunities for businesses with its 
+                        diverse economy, we are building a more vibrant and inclusive tech community.
+                    </p>
+        
+        
+                    <div class="row g-3">
+                        <div class="col-6 col-md-3">
+                            <div class="card">
+                                <h3>2.2<span>%</span></h3>
+                                <p>Lowest Unemployment Rate Statewide</p>
+                                <hr>
+                                <a href="https://www.cbsnews.com/miami/news/miami-dade-unemployment-rate-lowest-florida/">
+                                    <button>
+                                        <div class="hstack d-flex justify-content-between">
+                                            <span>Read Story</span>
+                                            <img src="images/arrow-right-grey.svg" alt="arrow-right">
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-6 col-md-3">
+                            <div class="card">
+                                <h3><span>#</span>1</h3>
+                                <p>Happiest and Healthiest City in the US</p>
+                                <hr>
+                                <a href="https://www.cbsnews.com/miami/news/miami-ranked-happiest-city-united-states/">
+                                    <button>
+                                        <div class="hstack d-flex justify-content-between">
+                                            <span>Read Story</span>
+                                            <img src="images/arrow-right-grey.svg" alt="arrow-right">
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-6 col-md-3">
+                            <div class="card">
+                                <h3><span>$</span>5.8<span>B</span></h3>
+                                <p>VC Funding Record in 2022 <br> <br> </p>
+                                <hr>
+                                <a href="https://www.globest.com/2024/07/24/miami-fintech-startups-are-magnets-for-vc-funding/">
+                                    <button>
+                                        <div class="hstack d-flex justify-content-between">
+                                            <span>Read Story</span>
+                                            <img src="images/arrow-right-grey.svg" alt="arrow-right">
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+        
+                        <div class="col-6 col-md-3">
+                            <div class="card">
+                                <h3><span>#</span>1</h3>
+                                <p>Total Compensation Growth In 2022</p>
+                                <hr class="mt-auto">
+                                <a href="https://www.cubaenmiami.com/en/area-metropolitana-de-miami-ocupa-el-primer-puesto-donde-mas-rapido-han-crecido-los-salarios-en-estados-unidos-durante-el-pasado-ano/#google_vignette" >
+                                    <button>
+                                        <div class="hstack d-flex justify-content-between">
+                                            <span>Read Story</span>
+                                            <img src="images/arrow-right-grey.svg" alt="arrow-right">
+                                        </div>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
 
         <!-- KEY INITIATIVES -->
         <section id="keyInitiatives">
             <div class="container">
                 <div class="vstack gap-3 intro">
                     <p>KEY INITIATIVES</p>
-                    <h1>
+                    <h1 class="d-none d-md-block">
                         Explore Miami's Strategic Initiatives <br>
                         for Growth and Innovation
                     </h1>
-                    <span>
+
+                    <!-- MOBILE -->
+                    <h1 class="d-block d-md-none">
+                        Explore Miami's Strategic Initiatives 
+                        for Growth and Innovation
+                    </h1>
+                    <span class="d-none d-md-block">
                         Miami has become regional tech hub, attracting startups and investors with its vibrant <br> 
+                        ecosystem, favorable tax policies, and strong support for innovation.
+                    </span>
+
+                    <!-- MOBILE -->
+                    <span class="d-block d-md-none">
+                        Miami has become regional tech hub, attracting startups and investors with its vibrant 
                         ecosystem, favorable tax policies, and strong support for innovation.
                     </span>
                 </div>
@@ -310,8 +415,14 @@
         <div class="container">
             <div class="intro">
                 <h1>Key Achievements</h1>
-                <p>
+                <p class="d-none d-md-block">
                     Our department has provided financing and scholarships to drive growth and <br> 
+                    support entrepreneurship, innovation, and economic development.
+                </p>
+
+                <!-- MOBILE -->
+                <p class="d-block d-md-none">
+                    Our department has provided financing and scholarships to drive growth and
                     support entrepreneurship, innovation, and economic development.
                 </p>
             </div>

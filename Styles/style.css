@@ -760,7 +760,7 @@ body {
 }
 
 #closerLook{
-    padding: 10% 0 10% 0;
+    padding: 10% 0;
     background-color: #F6F6F6;
 
     & .intro{
