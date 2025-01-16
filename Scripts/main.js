@@ -102,9 +102,6 @@ function openDescriptionKI(id, backgroundImage) {
 
   if (keyIndustriesSection) {
     keyIndustriesSection.style.backgroundImage = `url('${backgroundImage}')`;
-    keyIndustriesSection.style.backgroundRepeat = "no-repeat";
-    keyIndustriesSection.style.backgroundSize = "cover";
-    keyIndustriesSection.style.backgroundPosition = "center";
   } 
 }
 
