@@ -198,36 +198,27 @@
             }
         }
 
-        & .card{
-            height: 100%;
-            color: #FFFFFF;
-            border: none;
-            border-radius: 24px;
-            padding: 7% 5%;
-    
-            & h3{
-                font-size: 16px;
-            }
-    
-            & p {
-                font-size: 14px;
-            }
-        }
-
-        .carousel-container {
+       & .slider-container {
             overflow: hidden;
             position: relative;
-          }
-          
-        .carousel {
-        display: flex;
-        transition: transform 0.3s ease-in-out;
+            width: 100%;
+
+            & .slider {
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            & .slide {
+                flex: 0 0 100%;
+                box-sizing: border-box;
+        
+                & .card-1{
+                    height: 100%;
+                }
+            }
+
         }
-          
-        .carousel-item {
-        min-width: 100%;
-        box-sizing: border-box;
-        }
+        
     }
 
     #techRennaissance{

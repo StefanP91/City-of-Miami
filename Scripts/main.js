@@ -160,52 +160,65 @@ function toggleReadMoreMobile(button) {
 
 
 // KEY ACHIEVEMENTS CAROUSEL - MOBILE
-document.addEventListener('DOMContentLoaded', function () {
-  const carousel = document.querySelector('.carousel');
-  let isDown = false;
-  let startX;
-  let scrollLeft;
+document.addEventListener('DOMContentLoaded', () => {
+  const slider = document.querySelector('.slider');
+  let isDragging = false;
+  let startX = 0;
+  let currentTranslate = 0;
+  let prevTranslate = 0;
+  let animationID;
+  let currentIndex = 0;
 
-  carousel.addEventListener('mousedown', (e) => {
-    isDown = true;
-    carousel.classList.add('active');
-    startX = e.pageX - carousel.offsetLeft;
-    scrollLeft = carousel.scrollLeft;
-  });
+  const slides = document.querySelectorAll('.slide');
+  const slideWidth = slides[0].offsetWidth;
 
-  carousel.addEventListener('mouseleave', () => {
-    isDown = false;
-    carousel.classList.remove('active');
-  });
+  const setSliderPosition = () => {
+    slider.style.transform = `translateX(${currentTranslate}px)`;
+  };
 
-  carousel.addEventListener('mouseup', () => {
-    isDown = false;
-    carousel.classList.remove('active');
-  });
+  const animation = () => {
+    setSliderPosition();
+    if (isDragging) requestAnimationFrame(animation);
+  };
 
-  carousel.addEventListener('mousemove', (e) => {
-    if (!isDown) return;
-    e.preventDefault();
-    const x = e.pageX - carousel.offsetLeft;
-    const walk = (x - startX) * 3; //scroll-fast
-    carousel.scrollLeft = scrollLeft - walk;
-  });
+  const touchStart = (index) => (event) => {
+    isDragging = true;
+    currentIndex = index;
+    startX = event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    prevTranslate = currentTranslate;
+    animationID = requestAnimationFrame(animation);
+  };
 
-  carousel.addEventListener('touchstart', (e) => {
-    isDown = true;
-    startX = e.touches[0].pageX - carousel.offsetLeft;
-    scrollLeft = carousel.scrollLeft;
-  });
+  const touchMove = (event) => {
+    if (!isDragging) return;
+    const currentX = event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    const distance = currentX - startX;
+    currentTranslate = prevTranslate + distance;
+  };
 
-  carousel.addEventListener('touchend', () => {
-    isDown = false;
-  });
+  const touchEnd = () => {
+    isDragging = false;
+    cancelAnimationFrame(animationID);
 
-  carousel.addEventListener('touchmove', (e) => {
-    if (!isDown) return;
-    const x = e.touches[0].pageX - carousel.offsetLeft;
-    const walk = (x - startX) * 3; //scroll-fast
-    carousel.scrollLeft = scrollLeft - walk;
+    // Snap to nearest slide
+    const movedBy = currentTranslate - prevTranslate;
+    if (movedBy < -100 && currentIndex < slides.length - 1) currentIndex += 1;
+    if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
+
+    currentTranslate = -currentIndex * slideWidth;
+    setSliderPosition();
+  };
+
+  slides.forEach((slide, index) => {
+    slide.addEventListener('touchstart', touchStart(index));
+    slide.addEventListener('touchmove', touchMove);
+    slide.addEventListener('touchend', touchEnd);
+
+    slide.addEventListener('mousedown', touchStart(index));
+    slide.addEventListener('mousemove', touchMove);
+    slide.addEventListener('mouseup', touchEnd);
+    slide.addEventListener('mouseleave', touchEnd);
   });
 });
+
 
