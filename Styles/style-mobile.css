@@ -562,31 +562,20 @@
             }
     
             & input {
-                border-radius: 12px;
-                position: relative;
-                padding: 2%;
-                z-index: 0;
+                position: static;
             }
     
             & button {
-                position: absolute;
-                right: 0;
-                top: 50%;
-                margin-right: 1%;
-                transform: translateY(-50%);
-                border: none;
-                border-radius: 9px;
-                background-color: #0A0A0A;
+                position: static;
+                margin-right: 0;
+                transform: translateY(0);
+                background-color: #8CA8FB;
                 color: #FFFFFF;
-                padding: 8px 26px;
-                transform-origin: bottom center;
-                z-index: 1;
+                transform-origin: none;
+                margin-top: 3%;
+                width: 100%;
+                font-weight: 700;
             }
-    
-            & button:hover{
-                background-color: #363535 !important;
-            }
-        
         }
     }
 }
