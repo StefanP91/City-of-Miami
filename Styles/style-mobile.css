@@ -578,6 +578,89 @@
             }
         }
     }
+
+    /* FOOTER */
+
+    footer{
+        padding: 5% 0 0 0;
+    
+        & .upper-section{
+    
+            & .left {
+                & h6 {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #404040;
+                }
+        
+                & p{
+                    font-size: 12px;
+                    color: #404040;
+                }
+            }
+    
+            & .center{
+                & a {
+                    text-decoration: none;
+                    color:#0A0A0A;
+                }
+    
+                & a:hover{
+                    color: #4e4d4d;
+                    transform: scale(1.1);
+                }
+    
+                & h6 {
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+    
+                & p {
+                   color: #848487;
+                   font-size: 12px; 
+                }
+            }
+    
+            & .right{
+                text-align: right;
+                & a {
+                    text-decoration: none;
+                    color: #606060;
+                }
+    
+                & a:hover,
+                & p:hover{
+                    color: #000000;
+                    transform: scale(1.1);
+                }
+    
+                & h6{
+                    background-color: #404040;
+                    color: #FFFFFF;
+                    width: fit-content;
+                    padding: 4px 8px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    border: none;
+                }
+    
+                & p{
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+        }
+    
+        & .bottom-section{
+            background: #f6f6f6;
+            text-align: center;
+            margin-top: 3%;
+            padding: 1% 0;
+            color: #606060;
+            font-size: 14px;
+            font-style: italic;
+        }
+    }
 }
 
 
