@@ -237,6 +237,173 @@
                 font-size: 15px;
             }
         }
+
+        & .slider-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+
+            & .PE-slider {
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            & .PE-slide {
+                flex: 0 0 100%;
+                box-sizing: border-box;
+        
+                & .card{
+                    height: 439px;
+                    border: none;
+                    border-radius: 18px;
+                    padding: 1%;
+        
+                    & h6 {
+                        margin-top: auto !important;
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+        
+        
+                    & a {
+                        text-decoration: none;
+                        color: #404040;
+                        font-size: 14px;
+                        font-weight: 500;
+                        display: none;
+        
+                        & img{
+                            margin-top: auto !important;
+                        }
+        
+                        &:hover{
+                           
+                                display: block;
+                           
+                        }
+                    }
+                }
+
+                & .card-1{
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                        url("../images/tech-ren-img-1.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+        
+                .card-1:hover {
+        
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                        url("../images/tech-ren-img-1.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+        
+                    & a{
+                        display: block;
+                    }
+                        
+                }
+        
+                & .card-2{
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                        url("../images/tech-ren-img-2.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: right;
+        
+                }
+        
+                .card-2:hover {
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                        url("../images/tech-ren-img-2.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: right;
+        
+                    & a{
+                        display: block;
+                    }
+                        
+                }
+        
+                & .card-3{
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                        url("../images/tech-ren-img-3.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+        
+                .card-3:hover {
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 100%),
+                        url("../images/tech-ren-img-3.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+        
+                    & a{
+                        display: block;
+                    }
+                        
+                }
+        
+                & .card-4{
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                        url("../images/tech-ren-img-4.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+        
+                }
+        
+                .card-4:hover {
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                        url("../images/tech-ren-img-4.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+        
+                    & a{
+                        display: block;
+                    }
+                        
+                }
+        
+                & .card-5{
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                        url("../images/tech-ren-img-5.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+        
+                .card-5:hover {
+                    background: 
+                        linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                        url("../images/tech-ren-img-5.jpeg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+        
+                    & a{
+                        display: block;
+                    }
+                        
+                }
+            }
+
+        }
     }
 
     #keyIndustries{
