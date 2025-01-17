@@ -284,3 +284,8 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+// Change content and background on Key Industries
+
+  
+
+
