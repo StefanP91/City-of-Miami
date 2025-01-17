@@ -117,6 +117,7 @@
 
     #keyInitiatives{
         background-position: left;
+        margin-top: 0;
 
         & .intro{
             & p{
@@ -582,7 +583,7 @@
     /* FOOTER */
 
     footer{
-            
+
         & .bottom-section{
             margin-top: 5%;
         }
