@@ -408,6 +408,15 @@
 
     #keyIndustries{
 
+        padding: 10% 0;
+    background: 
+        linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 68.15%),
+        linear-gradient(272.45deg, rgba(255, 255, 255, 0) 53.34%, rgba(32, 117, 150, 0.4) 92.05%),
+        url("../images/key-industries-aviation-mobile-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
         & .intro{
 
             & p{
@@ -417,6 +426,39 @@
             & h1{
                 font-size: 20px;
             }
+        }
+
+        & .card-container{
+
+            margin-top: 3%;
+    
+            & .card{
+                height: 100%;
+                gap: 10px;
+    
+                & h6 {
+                    font-size: 15px;
+                }
+            }
+    
+            & .descriptions{
+    
+                & h3 {
+                    font-size: 20px;
+                }
+    
+                p{
+                    font-size: 15px;
+                }
+    
+                & button{
+        
+                    & span{
+                        font-size: 14px;
+                    }
+                }
+            }
+    
         }
     }
 
