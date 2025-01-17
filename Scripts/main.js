@@ -116,24 +116,6 @@ function openDescriptionKI(id, backgroundImage, backgroundPositionDesktop, backg
   }; 
 }
 
-// Preload images for smooth changing of Key Industries
-// function preloadImages(imageUrls) {
-//   imageUrls.forEach(url => {
-//     const img = new Image();
-//     img.src = url;
-//   });
-// }
-
-// Preload the background images
-// preloadImages([
-//   'images/key-industries-aviation-bg.webp',
-//   'images/key-industries-tech-bg.webp',
-//  ' images/key-industries-global-bg.webp',
-//   'images/key-industries-art-bg.webp',
-//   'images/key-industries-life-bg.webp',
-//   'images/key-industries-finance-bg.webp'
-// ]);
-
 // Change active class on Key Industries
 const cardContainerKI = document.getElementById('cardContainerKI');
 const cardsKI = cardContainerKI.querySelectorAll('.card');
