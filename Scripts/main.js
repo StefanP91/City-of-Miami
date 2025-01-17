@@ -100,34 +100,39 @@ function openDescriptionKI(id, backgroundImage, backgroundPositionDesktop, backg
       }
   });
 
-  if (keyIndustriesSection) {
+  // Preload the new background image
+  const img = new Image();
+  img.src = backgroundImage;
+  img.onload = () => {
     keyIndustriesSection.style.backgroundImage = `url('${backgroundImage}')`;
 
     if (window.matchMedia("(max-width: 435px)").matches) {
       keyIndustriesSection.style.backgroundPosition = backgroundPositionMobile;
-    } else {
+    } 
+    
+    else {
       keyIndustriesSection.style.backgroundPosition = backgroundPositionDesktop;
     }
-  } 
+  }; 
 }
 
 // Preload images for smooth changing of Key Industries
-function preloadImages(imageUrls) {
-  imageUrls.forEach(url => {
-    const img = new Image();
-    img.src = url;
-  });
-}
+// function preloadImages(imageUrls) {
+//   imageUrls.forEach(url => {
+//     const img = new Image();
+//     img.src = url;
+//   });
+// }
 
 // Preload the background images
-preloadImages([
-  'images/key-industries-aviation-bg.webp',
-  'images/key-industries-tech-bg.webp',
- ' images/key-industries-global-bg.webp',
-  'images/key-industries-art-bg.webp',
-  'images/key-industries-life-bg.webp',
-  'images/key-industries-finance-bg.webp'
-]);
+// preloadImages([
+//   'images/key-industries-aviation-bg.webp',
+//   'images/key-industries-tech-bg.webp',
+//  ' images/key-industries-global-bg.webp',
+//   'images/key-industries-art-bg.webp',
+//   'images/key-industries-life-bg.webp',
+//   'images/key-industries-finance-bg.webp'
+// ]);
 
 // Change active class on Key Industries
 const cardContainerKI = document.getElementById('cardContainerKI');
