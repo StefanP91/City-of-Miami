@@ -220,6 +220,7 @@ body {
             backdrop-filter: blur(10px);
             padding: 10%;
             color: #0A0A0A;
+            height: 100%;
 
             & h3 {
                 font-size: 24px;
