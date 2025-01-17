@@ -84,8 +84,8 @@ function toggleReadMoreKI(button) {
   }
 }
 
-// Change content and background on Key Industries
-function openDescriptionKI(id, backgroundImage) {
+// Change content and Desktop and Mobilebackground on Key Industries
+function openDescriptionKI(id, backgroundImage, backgroundPositionDesktop, backgroundPositionMobile) {
   const descriptionContainer = document.getElementById('descriptionsKI');
   const descriptions = descriptionContainer.querySelectorAll('div[id^="description"]');
   const keyIndustriesSection = document.getElementById('keyIndustries');
@@ -102,6 +102,12 @@ function openDescriptionKI(id, backgroundImage) {
 
   if (keyIndustriesSection) {
     keyIndustriesSection.style.backgroundImage = `url('${backgroundImage}')`;
+
+    if (window.matchMedia("(max-width: 435px)").matches) {
+      keyIndustriesSection.style.backgroundPosition = backgroundPositionMobile;
+    } else {
+      keyIndustriesSection.style.backgroundPosition = backgroundPositionDesktop;
+    }
   } 
 }
 
@@ -283,8 +289,6 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 });
 
-
-// Change content and background on Key Industries
 
   
 
