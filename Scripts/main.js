@@ -121,12 +121,12 @@ function preloadImages(imageUrls) {
 
 // Preload the background images
 preloadImages([
-  'images/key-industries-aviation-bg.png',
-  'images/key-industries-tech-bg.png',
- ' images/key-industries-global-bg.png',
-  'images/key-industries-art-bg.png',
-  'images/key-industries-life-bg.png',
-  'images/key-industries-finance-bg.png'
+  'images/key-industries-aviation-bg.webp',
+  'images/key-industries-tech-bg.webp',
+ ' images/key-industries-global-bg.webp',
+  'images/key-industries-art-bg.webp',
+  'images/key-industries-life-bg.webp',
+  'images/key-industries-finance-bg.webp'
 ]);
 
 // Change active class on Key Industries

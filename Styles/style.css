@@ -644,7 +644,7 @@ body {
     background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0.8) 0%, rgba(255, 255, 255, 0) 68.15%),
         linear-gradient(272.45deg, rgba(255, 255, 255, 0) 53.34%, rgba(32, 117, 150, 0.4) 92.05%),
-        url("../images/key-industries-aviation-bg.png");
+        url("../images/key-industries-aviation-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
