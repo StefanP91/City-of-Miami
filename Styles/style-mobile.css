@@ -37,8 +37,8 @@
 
         padding: 5% 0;
         background: 
-            linear-gradient(179.65deg, #F6F6F6 -12.27%, rgba(246, 246, 246, 0) 41.56%, #F6F6F6 106.04%), 
-            url("../images/key-insignts-mobile-bg.jpeg"); 
+        linear-gradient(rgba(246, 246, 246, 0.9), rgba(246, 246, 246, 0.9)),
+            url("../images/key-insignts-mobile-bg.jpeg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -116,6 +116,8 @@
     }
 
     #keyInitiatives{
+        background-position: left;
+
         & .intro{
             & p{
                 font-size: 15px;
@@ -136,8 +138,45 @@
                 & h3 {
                     font-size: 18px;
                 }
+
+
+                & button{
+                    border: none;
+                    border-radius: 9px;
+                    background-color: #0A0A0A;
+                    padding: 12px 16px;
+                    width: 100%;
+        
+                    & span{
+                        color: #FFFFFF;
+                        font-weight: 700;
+                    }
+                }
+        
+                & button:hover{
+                    background-color: #363535 !important;
+                }
+        
+                & button:active{
+                    transform: scale(0.9);
+                }
+        
+                p:not(:first-of-type) {
+                    max-height: 0;
+                    opacity: 0;
+                    margin-bottom: 0rem !important;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease, opacity 0.5s ease, margin 0.5s ease;
+                }
+        
+                p.show {
+                    max-height: 100px; 
+                    opacity: 1;
+                    margin-bottom: 1rem  !important; 
+                }
     
             }
+
         }
 
     }
@@ -157,6 +196,37 @@
             & p{
                 font-size: 15px;
             }
+        }
+
+        & .card{
+            height: 100%;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 24px;
+            padding: 7% 5%;
+    
+            & h3{
+                font-size: 16px;
+            }
+    
+            & p {
+                font-size: 14px;
+            }
+        }
+
+        .carousel-container {
+            overflow: hidden;
+            position: relative;
+          }
+          
+        .carousel {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        }
+          
+        .carousel-item {
+        min-width: 100%;
+        box-sizing: border-box;
         }
     }
 

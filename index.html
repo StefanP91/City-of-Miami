@@ -296,8 +296,8 @@
 
                 <div class="row g-3">
                     <div class="col-12 col-lg-8">
-                        <div class="row g-3 card-container" id="cardContainer">
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                        <div class="row g-3 card-container d-none d-md-block" id="cardContainer">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card active"  onclick="openDescription('description1')">
                                     <h3>Smart City Initiatives</h3>
                                     <p>
@@ -310,7 +310,7 @@
                                 
                             </div>
 
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card" onclick="openDescription('description2')">
                                     <h3>Economic Growth</h3>
                                     <p>
@@ -321,7 +321,7 @@
                                 </div>
                             </div>
                             
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card" onclick="openDescription('description3')">
                                     <h3>Workforce Development</h3>
                                     <p>
@@ -330,7 +330,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card" onclick="openDescription('description4')">
                                     <h3>Sustainability and Resilience</h3>
                                     <p>
@@ -340,7 +340,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card" onclick="openDescription('description5')">
                                     <h3>Community Impact</h3>
                                     <p>
@@ -351,7 +351,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-6" data-aos="fade-up">
+                            <div class="col-md-6" data-aos="fade-up">
                                 <div class="card" onclick="openDescription('description6')">
                                     <h3>Global Competitiveness</h3>
                                     <p>
@@ -362,10 +362,246 @@
                                 </div>
                             </div>
                         </div>
+
+                        <!-- MOBILE -->
+                        <div class="row g-3 card-container d-block d-md-none" id="cardContainer">
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Smart City Initiatives</h3>
+
+                                    <p>
+                                        The Department of Economic Innovation and Development is a pioneer in promoting 
+                                        future-ready initiatives in Miami, actively driving smart city initiatives across various sectors.
+                                    </p>
+    
+                                    <p> 
+                                        Through events like the annual <b>Future of Mobility Summit,</b> the department brings together thought 
+                                        leaders and industry experts to explore cutting-edge solutions in transportation and urban mobility. 
+                                    </p>
+    
+                                    <p>
+                                        Additionally, the department supports smart city initiatives by global technology leaders such as 
+                                        Dell and NVIDIA, collaborating on projects like the <b>Brickell Digital Twin Demonstration Project,</b> 
+                                        which uses Dell’s Computer Vision AI Model and NVIDIA Omniverse to analyze the impact of bridge 
+                                        operations on traffic.
+                                    </p>
+    
+                                    <p>
+                                        The department is also backing the development of a <b>5G Innovation District in Little River</b> and Little Haiti, 
+                                        further enhancing the city's connectivity and digital infrastructure. 
+                                    </p>
+    
+                                    <p>
+                                        These efforts are crucial in positioning Miami as a hub for innovation, fostering a city that is 
+                                        not only ready for the future but actively shaping it.
+                                    </p>
+    
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Economic Growth</h3>
+
+                                    <p>
+                                        Attracting investments, fostering entrepreneurship, and strengthening the local 
+                                        economy through infrastructure and incentives are key priorities for the Department 
+                                        of Economic Innovation and Development. 
+                                    </p>
+    
+                                    <p>
+                                        The department drives economic growth by supporting small businesses and startups, 
+                                        partnering with industry leaders like <b>Google, AWS, JPMorgan, and Justworks</b> to host 
+                                        networking events and foster collaboration. 
+                                    </p>
+    
+                                    <p>
+                                        Through the <b>Built in Miami Program, a pre-accelerator initiative,</b> and <b>monthly tech 
+                                        mixers at Citizen M,</b> the department provides resources and opportunities for entrepreneurs  
+                                    </p>
+    
+                                    <p>
+                                        Additionally, the department <b>empowers women in business</b> through the <b>YouBelong</b> meetups and 
+                                        supports Latin founders in collaboration with Endeavor Miami.
+                                    </p>
+    
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Workforce Development</h3>
+
+                                    <p>
+                                        Workforce development plays a vital role in Miami’s future. 
+                                    </p>
+    
+                                    <p>
+                                        The City of Miami invests heavily in supporting 
+                                        residents through scholarships and workforce development programs. 
+                                    </p>
+    
+                                    <p>
+                                        Each year, the city hosts the <b>Venture Talent Summit,</b> connecting companies 
+                                        with local talent. The Economic Development Team works closely with 
+                                        businesses daily to understand their workforce needs, ensuring access to skilled local talent. 
+                                    </p>
+    
+                                    <p>
+                                        By focusing on retaining local talent, supporting companies in providing quality jobs, 
+                                        and helping residents access educational opportunities, Miami is positioning itself to 
+                                        thrive economically. Through these workforce development initiatives, the city is building 
+                                        a strong foundation for sustainable growth and success.
+                                    </p>
+    
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Sustainability and Resilience</h3>
+
+                                    <p>
+                                        The City of Miami is committed to sustainability and resilience 
+                                        through the Miami Forever Climate Ready strategy, aimed at reducing flood, 
+                                        heat, and storm risks over the next 40 years.  
+                                    </p>
+    
+                                    <p>
+                                        This comprehensive plan focuses on climate adaptation, addressing the impacts of 
+                                        climate change while protecting residents and the environment. Miami, recognized 
+                                        as a global leader in climate adaptation, prioritizes actions that maximize social, 
+                                        environmental, and economic benefits. 
+                                    </p>
+    
+                                    <p>
+                                        The city is enhancing infrastructure, promoting green technologies, and supporting 
+                                        community-based resilience efforts. Regular updates to the strategy ensure ongoing 
+                                        progress in creating a future-ready, climate-resilient Miami for generations to come.
+                                    </p>
+                                    
+    
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Community Impact</h3>
+
+                                    <p>
+                                        The City of Miami is committed to fostering future development 
+                                        and innovation by encouraging investors to add value to the community, 
+                                        ensuring that growth benefits both residents and businesses. 
+                                    </p>
+    
+                                    <p>
+                                        The <b>Magic City Innovation District (MCID)</b> – Little Haiti is one of Miami’s 
+                                        key economic initiatives, transforming 18 acres of underutilized land into 
+                                        a vibrant hub for innovation, technology, and culture. 
+                                    </p>
+    
+                                    <p>
+                                        This project revitalizes Little Haiti while preserving its cultural identity, 
+                                        creating opportunities for local businesses, entrepreneurs, and residents. 
+                                        With a focus on affordable housing, workforce development, and community engagement, 
+                                        MCID is projected to add <b>$188 million annually to the local economy and generate thousands of jobs.  </b>
+                                    </p>
+    
+                                    <p>
+                                        Additionally, we support local schools like <b>iTech Senior High School by providing resources 
+                                        for future-ready careers.</b> This initiative is a model for inclusive growth, driving both 
+                                        economic vitality and community prosperity in Miami.
+                                    </p>
+
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-12" data-aos="fade-up">
+                                <div class="card">
+                                    <h3>Global Competitiveness</h3>
+
+                                    <p>
+                                        The Department of Economic Innovation and Development 
+                                        is committed to positioning the City of Miami as a global 
+                                        leader by leveraging innovation, trade, and investment opportunities.
+                                    </p>
+    
+                                    <p>
+                                        Through the <b>InvestMiami</b> Program, the department fosters international 
+                                        engagement by hosting business delegations, promoting trade, and building 
+                                        partnerships with global business leaders. These efforts create pathways for 
+                                        local companies to access international markets, driving job creation and economic 
+                                        diversification. 
+                                    </p>
+    
+                                    <p>
+                                        These initiatives also promote knowledge exchange, highlight Miami’s strategic 
+                                        strengths as a business hub, and showcase opportunities in key sectors such as 
+                                        technology, real estate, and trade. By cultivating global business networks, 
+                                        <b>InvestMiami</b> solidifies Miami’s reputation as a premier destination for international 
+                                        commerce and investment.
+                                    </p>
+                                    
+    
+                                    <div class="d-flex self-start">
+                                        <button id="read-more-btn" onclick="toggleReadMoreMobile(this)">
+                                            <div class="hstack justify-content-between">
+                                                <span>Read More</span>
+                                                <img src="images/arrow-right-white.svg" alt="arrow-right-white">
+                                            </div>
+                                        </button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                     <div class="col-12 col-lg-4">
-                        <div class="descriptions" id="descriptions" data-aos="fade-up">
+                        <div class="descriptions d-none d-md-flex" id="descriptions" data-aos="fade-up">
                             <div id="description1" class="show" data-aos="fade-in">
                                 <h3>Smart City Initiatives</h3>
                         
@@ -606,7 +842,7 @@
                 </p>
             </div>
 
-            <div class="row">
+            <div class="row d-none d-md-block">
                 <div class="col-12 col-md-4">
                     <div class="card card-1">
                         <h3>1,000+ companies supported with relocation</h3>
@@ -689,6 +925,88 @@
                         </div>
                     </div>
                 </div>
+            </div>
+
+            <!-- MOBILE -->
+            <div class="carousel">
+                <div class="carousel-item d-block d-md-none">
+                    <!-- CARD 1 -->
+                    <div class="card card-1">
+                        <h3>1,000+ companies supported with relocation</h3>
+                        <p>Assisted over <span>1,000</span> companies in relocating to or expanding within Miami.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 2 -->
+                    <div class="card card-2">
+                        <h3>$800k invested in the local community</h3>
+                        <p>
+                            <span>7,000+</span> citizens participated in <span>15+</span> events, including hiring fairs and 
+                            pitch competitions, connecting local talent and entrepreneurs with stakeholders 
+                            in the innovation economy.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 3 -->
+                    <div class="card card-3">
+                        <h3>$6 million STEM scholarship fund</h3>
+
+                        <p>
+                            Over <span>95</span> City residents pursuing STEM degrees and receiving Pell Grants have been awarded scholarships. 
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 4 -->
+                    <div class="card card-4">
+                        <h3>$2 million grant for Miami Dade College</h3>
+                        <p>
+                            A $2 million grant was awarded to <span>Miami Dade College</span> to support 
+                            innovative programs and student success initiatives.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 5 -->
+                    <div class="card card-5">
+                        <h3>400+ Startups Supported</h3>
+
+                        <p>
+                            The <span>"Built in Miami"</span> program has supported over <span>400 startups,</span> 
+                            empowering founders to transform innovative ideas into successful businesses.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 6 -->
+                    <div class="card card-6">
+                        <h3>Building a Smart City</h3>
+
+                        <p>
+                            Mayor Suarez signed an MOU with Supernal for Advanced Air Mobility (AAM) 
+                            and created an AAM policy working group through Venture Miami.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <!-- CARD 7 -->
+                    <div class="card card-7">
+                        <h3>$300k FIU First Generation Scholarship Program</h3>
+
+                        <p>
+                            FIU received $300,000 to support its <span>First Generation Scholarship</span> Program, 
+                            helping students become the first in their families to attend college.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </div>
         </section>
