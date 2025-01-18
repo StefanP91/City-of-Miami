@@ -1024,9 +1024,13 @@ body {
 /* FOOTER */
 
 footer{
-    padding: 5% 0 0 0;
-
+    padding: 2% 0 0 0;
+    background-color: #F6F6F6;
+    
     & .upper-section{
+        border-top: solid 1px #DFDFDF;
+        border-bottom: solid 1px #DFDFDF;
+        padding: 4% 0;
 
         & .left {
             & h6 {
@@ -1096,7 +1100,6 @@ footer{
     & .bottom-section{
         background: #f6f6f6;
         text-align: center;
-        margin-top: 3%;
         padding: 1% 0;
         color: #606060;
         font-size: 14px;
