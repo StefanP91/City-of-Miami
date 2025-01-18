@@ -171,10 +171,24 @@
                 }
         
                 p.show {
-                    max-height: 100px; 
+                    max-height: 100%; 
                     opacity: 1;
                     margin-bottom: 1rem  !important; 
                 }
+
+                & ul {
+                    max-height: 0;
+                    opacity: 0;
+                    margin-bottom: 0rem !important;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease, opacity 0.5s ease, margin 0.5s ease;
+                  }
+                  
+                  & ul.show {
+                    max-height: 100%; 
+                    opacity: 1;
+                    margin-bottom: 1rem  !important;
+                  }
     
             }
 
@@ -462,6 +476,7 @@
             }
     
         }
+
     }
 
     #exploreOurOpportunities{
