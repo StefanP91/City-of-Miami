@@ -161,6 +161,10 @@
                 & button:active{
                     transform: scale(0.9);
                 }
+
+                & p:first-of-type{
+                    margin-bottom: 1rem !important;
+                }
         
                 p:not(:first-of-type) {
                     max-height: 0;
