@@ -376,7 +376,7 @@ body {
         background: 
             linear-gradient(158.87deg, rgba(80, 142, 158, 0) 18.88%, rgba(37, 128, 159, 0.4) 61.74%),
             linear-gradient(178.63deg, rgba(69, 93, 99, 0) 43.78%, #1E2426 86.08%),
-            url("../images/key-achiv-card1-bg.jpeg");
+            url("../images/key-achiv-card1-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -393,7 +393,7 @@ body {
         background: 
             linear-gradient(102.7deg, rgba(80, 142, 158, 0) -1.61%, rgba(1, 115, 159, 0.5) 62.4%),
             linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7) 77.43%),
-            url("../images/key-achiv-card3-bg.jpeg");
+            url("../images/key-achiv-card3-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -410,7 +410,7 @@ body {
         background: 
             linear-gradient(66.13deg, rgba(3, 139, 155, 0.67) 16.93%, rgba(255, 255, 255, 0.67) 99.34%),
             linear-gradient(180deg, rgba(0, 0, 0, 0) 21.18%, #000000 100%),
-            url("../images/key-achiv-card5-bg.jpeg");
+            url("../images/key-achiv-card5-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -427,7 +427,7 @@ body {
         background: 
             linear-gradient(231.48deg, rgba(80, 142, 158, 0) 18.91%, rgba(1, 115, 159, 0.4) 44.94%),
             linear-gradient(179.82deg, rgba(0, 0, 0, 0) 45.52%, rgba(0, 0, 0, 0.7) 85.68%),
-            url("../images/key-achiv-card6-bg.jpeg");
+            url("../images/key-achiv-card6-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -508,7 +508,7 @@ body {
         & .card-1{
             background: 
                 linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                url("../images/tech-ren-img-1.jpeg");
+                url("../images/tech-ren-img-1.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -533,7 +533,7 @@ body {
         & .card-2{
             background: 
                 linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                url("../images/tech-ren-img-2.jpeg");
+                url("../images/tech-ren-img-2.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: right;
@@ -557,7 +557,7 @@ body {
         & .card-3{
             background: 
                 linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                url("../images/tech-ren-img-3.jpeg");
+                url("../images/tech-ren-img-3.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -580,7 +580,7 @@ body {
         & .card-4{
             background: 
                 linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                url("../images/tech-ren-img-4.jpeg");
+                url("../images/tech-ren-img-4.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -604,7 +604,7 @@ body {
         & .card-5{
             background: 
                 linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                url("../images/tech-ren-img-5.jpeg");
+                url("../images/tech-ren-img-5.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
