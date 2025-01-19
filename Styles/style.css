@@ -236,6 +236,7 @@ body {
                 font-size: 24px;
                 font-weight: 800;
                 margin-bottom: 16px !important;
+                text-wrap: nowrap;
             }
 
             & p{

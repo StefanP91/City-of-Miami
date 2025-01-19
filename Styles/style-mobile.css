@@ -280,7 +280,7 @@
                     }
         
         
-                    & a {
+                    & .hstack {
                         text-decoration: none;
                         color: #404040;
                         font-size: 14px;
@@ -289,12 +289,6 @@
         
                         & img{
                             margin-top: auto !important;
-                        }
-        
-                        &:hover{
-                           
-                                display: block;
-                           
                         }
                     }
                 }
@@ -317,8 +311,8 @@
                     background-size: cover;
                     background-position: center;
         
-                    & a{
-                        display: block;
+                    & .hstack{
+                        display: flex;
                     }
                         
                 }
@@ -341,8 +335,8 @@
                     background-size: cover;
                     background-position: right;
         
-                    & a{
-                        display: block;
+                    & .hstack{
+                        display: flex;
                     }
                         
                 }
@@ -364,8 +358,8 @@
                     background-size: cover;
                     background-position: center;
         
-                    & a{
-                        display: block;
+                    & .hstack{
+                        display: flex;
                     }
                         
                 }
@@ -388,8 +382,8 @@
                     background-size: cover;
                     background-position: center;
         
-                    & a{
-                        display: block;
+                    & .hstack{
+                        display: flex;
                     }
                         
                 }
@@ -411,8 +405,8 @@
                     background-size: cover;
                     background-position: center;
         
-                    & a{
-                        display: block;
+                    & .hstack{
+                        display: flex;
                     }
                         
                 }
