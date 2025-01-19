@@ -195,7 +195,7 @@ body {
             linear-gradient(180deg, #F6F6F6 0%, rgba(241, 241, 255, 0) 20.79%),
             linear-gradient(180deg, rgba(241, 241, 255, 0) 80.08%, #F6F6F6 100%),
             linear-gradient(89.99deg, rgba(241, 241, 255, 0) -1.37%, #F6F6F6 87.44%),
-            url("../images/key-initiatives-bg.svg");
+            url("../images/key-initiatives-bg.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -328,7 +328,7 @@ body {
     padding: 5% 0;
     background: 
         linear-gradient(180deg, rgba(246, 246, 246, 0) 76.99%, #F6F6F6 100%), 
-        url("../images/key-achievments-bg.svg"), 
+        url("../images/key-achievments-bg.png"), 
         linear-gradient(180deg, #508E9E 0%, #F6F6F6 76.75%);
     background-repeat: no-repeat;
     background-size: cover;
@@ -518,7 +518,7 @@ body {
 
             background: 
                 linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                url("../images/tech-ren-img-1.jpeg");
+                url("../images/tech-ren-img-1.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -543,7 +543,7 @@ body {
         .card-2:hover {
             background: 
                 linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                url("../images/tech-ren-img-2.jpeg");
+                url("../images/tech-ren-img-2.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: right;
@@ -566,7 +566,7 @@ body {
         .card-3:hover {
             background: 
                 linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 100%),
-                url("../images/tech-ren-img-3.jpeg");
+                url("../images/tech-ren-img-3.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -590,7 +590,7 @@ body {
         .card-4:hover {
             background: 
                 linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                url("../images/tech-ren-img-4.jpeg");
+                url("../images/tech-ren-img-4.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -613,7 +613,7 @@ body {
         .card-5:hover {
             background: 
                 linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                url("../images/tech-ren-img-5.jpeg");
+                url("../images/tech-ren-img-5.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;

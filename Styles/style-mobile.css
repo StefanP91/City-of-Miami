@@ -38,7 +38,7 @@
         padding: 5% 0;
         background: 
         linear-gradient(rgba(246, 246, 246, 0.9), rgba(246, 246, 246, 0.9)),
-            url("../images/key-insignts-mobile-bg.jpeg");
+            url("../images/key-insignts-mobile-bg.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -300,7 +300,7 @@
                 & .card-1{
                     background: 
                         linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                        url("../images/tech-ren-img-1.jpeg");
+                        url("../images/tech-ren-img-1.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -310,7 +310,7 @@
         
                     background: 
                         linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                        url("../images/tech-ren-img-1.jpeg");
+                        url("../images/tech-ren-img-1.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -324,7 +324,7 @@
                 & .card-2{
                     background: 
                         linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                        url("../images/tech-ren-img-2.jpeg");
+                        url("../images/tech-ren-img-2.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: right;
@@ -334,7 +334,7 @@
                 .card-2:hover {
                     background: 
                         linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                        url("../images/tech-ren-img-2.jpeg");
+                        url("../images/tech-ren-img-2.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: right;
@@ -348,7 +348,7 @@
                 & .card-3{
                     background: 
                         linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                        url("../images/tech-ren-img-3.jpeg");
+                        url("../images/tech-ren-img-3.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -357,7 +357,7 @@
                 .card-3:hover {
                     background: 
                         linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 100%),
-                        url("../images/tech-ren-img-3.jpeg");
+                        url("../images/tech-ren-img-3.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -371,7 +371,7 @@
                 & .card-4{
                     background: 
                         linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
-                        url("../images/tech-ren-img-4.jpeg");
+                        url("../images/tech-ren-img-4.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -381,7 +381,7 @@
                 .card-4:hover {
                     background: 
                         linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                        url("../images/tech-ren-img-4.jpeg");
+                        url("../images/tech-ren-img-4.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
@@ -404,7 +404,7 @@
                 .card-5:hover {
                     background: 
                         linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
-                        url("../images/tech-ren-img-5.jpeg");
+                        url("../images/tech-ren-img-5.webp");
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;
