@@ -12,7 +12,8 @@ body {
 /* HEADER AND HERO */
 
 .nav-hero{
-
+    
+    
     #backgroundVideo{
         position: absolute;
         top: 0;
@@ -21,6 +22,17 @@ body {
         height: 930px;
         object-fit: cover;
         z-index: -2;
+    }
+         
+    .video-container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 65.69%, rgba(0, 0, 0, 0.4) 82.07%), linear-gradient(264.36deg, rgba(241, 241, 255, 0) 16.89%, rgba(0, 0, 0, 0.67) 85.37%);
+    background-blend-mode: normal, multiply;
+    z-index: -1;
     }
 
     & .navbar{
@@ -68,22 +80,24 @@ body {
         padding: 8%;
 
         & p {
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 1);
             font-weight: 700;
             font-size: 20px;
         }
 
         & h1 {
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 1);
             font-weight: 700;
             font-size: 64px;
         }
 
         & span {
-            color: rgba(255, 255, 255, 0.8);
+            color: rgba(255, 255, 255, 1);
             font-weight: 500;
             font-size: 16px;
         }
+
+        
 
         & .hero-btn {
             border: none;
@@ -118,7 +132,7 @@ body {
             }
 
             & p{
-                color: #BFBFBF;
+                color: #FFFFFF;
                 font-size: 16px;
                 font-weight: 500;
             }
@@ -143,6 +157,10 @@ body {
                         font-size: 74px;
                         font-weight: 900;
                         color: #0A0A0A;
+                    }
+
+                    & .top{
+                        font-size: 47px;
                     }
                 }
 
