@@ -127,49 +127,54 @@ cardsKI.forEach(card => {
 });
 
 // Change content on Key Initiatives Trade and Logistics
-document.getElementById('tradeIntro').style.display = 'none';
-document.getElementById('tradeView').style.display = 'none';
+// document.getElementById('tradeIntro').style.display = 'none';
+// document.getElementById('tradeView').style.display = 'none';
 
-function openTrade(){
+// function openTrade(){
 
-  document.getElementById('tradeIntro').style.display = 'block';
-  document.getElementById('tradeView').style.display = 'block';
+//   document.getElementById('tradeIntro').style.display = 'block';
+//   document.getElementById('tradeView').style.display = 'block';
 
-  document.getElementById('normalView').style.display = 'none';
-  document.getElementById('intro').style.display = 'none';
+//   document.getElementById('normalView').style.display = 'none';
+//   document.getElementById('intro').style.display = 'none';
   
-  document.getElementById('readMoreTradeBtn').style.display = 'none';
+//   document.getElementById('readMoreTradeBtn').style.display = 'none';
 
-  if (window.matchMedia("(max-width: 435px)").matches) {
-    const element = document.getElementById('descriptionsKIView');
-    if (element) {
-      element.style.marginTop = '5%';
-      element.classList.remove('col-8');
-      element.classList.add('col-12');
-    }
-  }
+//   if (window.matchMedia("(max-width: 435px)").matches) {
+//     const element = document.getElementById('descriptionsKIView');
+//     if (element) {
+//       element.style.marginTop = '5%';
+//       element.classList.remove('col-8');
+//       element.classList.add('col-12');
+//     }
+//   }
  
-}
+// }
 
-function goBack(){
-  document.getElementById('normalView').style.display = 'block';
-  document.getElementById('intro').style.display = 'block';
+// function goBack(){
+//   document.getElementById('normalView').style.display = 'block';
+//   document.getElementById('intro').style.display = 'block';
   
-  document.getElementById('tradeIntro').style.display = 'none';
-  document.getElementById('tradeView').style.display = 'none';
+//   document.getElementById('tradeIntro').style.display = 'none';
+//   document.getElementById('tradeView').style.display = 'none';
 
-  document.getElementById('readMoreTradeBtn').style.display = 'block';
+//   document.getElementById('readMoreTradeBtn').style.display = 'block';
 
-  if (window.matchMedia("(max-width: 435px)").matches) {
-    const element = document.getElementById('descriptionsKIView');
-    if (element) {
-      element.style.marginTop = '5%';
-      element.classList.remove('col-12');
-      element.classList.add('col-8');
-    }
-  }
+//   if (window.matchMedia("(max-width: 435px)").matches) {
+//     const element = document.getElementById('descriptionsKIView');
+//     if (element) {
+//       element.style.marginTop = '5%';
+//       element.classList.remove('col-12');
+//       element.classList.add('col-8');
+//     }
+//   }
 
-}
+// }
+
+
+
+
+
 
 // Accordion button
 document.querySelectorAll('.accordion-button').forEach(button => {
@@ -297,6 +302,68 @@ document.addEventListener('DOMContentLoaded', () => {
   let currentIndex = 0;
 
   const slides = document.querySelectorAll('.PE-slide');
+  const slideWidth = slides[0].offsetWidth;
+
+  const setSliderPosition = () => {
+    slider.style.transform = `translateX(${currentTranslate}px)`;
+  };
+
+  const animation = () => {
+    setSliderPosition();
+    if (isDragging) requestAnimationFrame(animation);
+  };
+
+  const touchStart = (index) => (event) => {
+    isDragging = true;
+    currentIndex = index;
+    startX = event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    prevTranslate = currentTranslate;
+    animationID = requestAnimationFrame(animation);
+  };
+
+  const touchMove = (event) => {
+    if (!isDragging) return;
+    const currentX = event.type.includes('mouse') ? event.pageX : event.touches[0].clientX;
+    const distance = currentX - startX;
+    currentTranslate = prevTranslate + distance;
+  };
+
+  const touchEnd = () => {
+    isDragging = false;
+    cancelAnimationFrame(animationID);
+
+    // Snap to nearest slide
+    const movedBy = currentTranslate - prevTranslate;
+    if (movedBy < -100 && currentIndex < slides.length - 1) currentIndex += 1;
+    if (movedBy > 100 && currentIndex > 0) currentIndex -= 1;
+
+    currentTranslate = -currentIndex * slideWidth;
+    setSliderPosition();
+  };
+
+  slides.forEach((slide, index) => {
+    slide.addEventListener('touchstart', touchStart(index));
+    slide.addEventListener('touchmove', touchMove);
+    slide.addEventListener('touchend', touchEnd);
+
+    slide.addEventListener('mousedown', touchStart(index));
+    slide.addEventListener('mousemove', touchMove);
+    slide.addEventListener('mouseup', touchEnd);
+    slide.addEventListener('mouseleave', touchEnd);
+  });
+});
+
+// TRADE&LOGISTICS SLIDER - MOBILE
+document.addEventListener('DOMContentLoaded', () => {
+  const slider = document.querySelector('.TL-slider');
+  let isDragging = false;
+  let startX = 0;
+  let currentTranslate = 0;
+  let prevTranslate = 0;
+  let animationID;
+  let currentIndex = 0;
+
+  const slides = document.querySelectorAll('.TL-slide');
   const slideWidth = slides[0].offsetWidth;
 
   const setSliderPosition = () => {

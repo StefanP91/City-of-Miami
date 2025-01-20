@@ -481,6 +481,57 @@
 
     }
 
+    #tradeAndLogistics{
+        padding: 5% 0;
+    
+        & .intro{
+            margin-bottom: 5%;
+    
+            & p{
+                font-size: 15px;
+            }
+    
+            & h1{
+                font-size: 20px;
+            }
+        }
+    
+        & .card{
+            margin-bottom: 5%;
+    
+            & h2{
+                font-size: 18px;
+            }
+        }
+
+        & .slider-container {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+
+            & .TL-slider {
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            }
+
+            & .TL-slide {
+                flex: 0 0 100%;
+                box-sizing: border-box;
+    
+            }
+
+        }
+    
+        & .card-1{
+            background-image: url("../images/trade-bg-mobile.svg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+    
+        }
+
+    }
+
     #exploreOurOpportunities{
 
         & .intro{

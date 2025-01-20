@@ -989,18 +989,9 @@
         <!--KEY INDUSTRIES-->
         <section id="keyIndustries">
         <div class="container">
-            <div class="intro" id="intro">
+            <div class="intro">
                 <p>KEY INDUSTRIES</p>
                 <h1>Key Sectors Driving Miami's Growth</h1>
-            </div>
-
-            <div class="intro" id="tradeIntro">
-                <div class="hstack gap-3" onclick="goBack()">
-                    <img src="images/back-arrow.png" alt="back-arrow">
-                    <span>GO BACK</span>
-                </div>
-                <p>KEY INDUSTRIES</p>
-                <h1>Trade and Logistics</h1>
             </div>
 
             <div class="card-container" id="cardContainerKI">
@@ -1022,14 +1013,6 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="400">
-                                <div class="card" onclick="openDescriptionKI('description3', 'images/key-industries-global-bg.webp', 'center', 'right 50% center')">
-                                    <img src="images/key-industries-icon-3.png" alt="key-industries-icon-3">
-
-                                    <h6>Trade and Logistics</h6>
-                                </div>
-                            </div>
-
                             <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="600">
                                 <div class="card" onclick="openDescriptionKI('description4', 'images/key-industries-art-bg.webp', 'center', 'right 50% center')">
                                     <img src="images/key-industries-icon-4.png" alt="key-industries-icon-4">
@@ -1038,7 +1021,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-12 col-md-4" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="800">
+                            <div class="col-12 offset-md-2 col-md-4" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="800">
                                 <div class="card" onclick="openDescriptionKI('description5', 'images/key-industries-life-bg.webp', 'center', 'right 50% center')">
                                     <img src="images/key-industries-icon-5.png" alt="key-industries-icon-5">
 
@@ -1051,65 +1034,6 @@
                                     <img src="images/key-industries-icon-6.png" alt="key-industries-icon-6">
 
                                     <h6>Finance</h6>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-md-8" id="tradeView">
-                        <div class="row g-2">
-                            <div class="col-12 col-md-4">
-                                <div class="card card-trade">
-                                    <h6>Miami International Airport (MIA)</h6>
-                                    <p>
-                                        Top U.S. Airport for International Freight: Handled 2.78 million tons of cargo in 2023. 
-                                    </p>
-
-                                    <ul>
-                                        <li>
-                                            <span>Economic Impact:</span> Contributes $118 billion annually and supports 700,000 jobs locally.
-                                        </li>
-
-                                        <li>
-                                            <span>Specialized Leadership:</span> Excels in perishable goods, electronics, and pharmaceuticals, with a $400 million expansion in progress.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-4">
-                                <div class="card card-trade">
-                                    <h6>PortMiami</h6>
-
-                                    <ul>
-                                        <li>
-                                            <span>Economic Impact:</span> Generates $61.4 billion annually and supports 29,423 jobs.
-                                        </li>
-
-                                        <li>
-                                            <span>Capacity and Growth:</span> Handles over 1 million TEUs annually, with a $2 billion multimodal upgrade to double cargo capacity in the next decade
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-md-4">
-                                <div class="card card-trade">
-                                    <h6>Strategic Assets</h6>
-
-                                    <ul>
-                                        <li>
-                                            <span>Warehouse Infrastructure:</span> 277 million square feet of capacity, with an additional 3.9 million square feet under construction in 2024.
-                                        </li>
-
-                                        <li>
-                                            <span>Free Trade Zones (FTZs):</span> Offer duty exemptions and streamlined trade processes.
-                                        </li>
-
-                                        <li>
-                                            <span>Logistics Powerhouses:</span> Home to 1,800 companies, including Ryder, FedEx, and Crowley Logistics
-                                        </li>
-                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -1140,20 +1064,6 @@
                                     and a strong network of accelerators, incubators, and co-working spaces, Miami 
                                     has emerged as a global leader in innovation.
                                 </p>
-
-                            </div>
-
-                            <div id="description3" data-aos="fade-in">
-                                <h3>Trade and Logistics </h3>
-                        
-                                <p>
-                                    Miami’s trade and logistics industry is a powerhouse, generating $137 
-                                    billion annually and supporting over 275,000 jobs, positioning the city 
-                                    as a global commerce hub. Anchored by Miami International Airport (MIA) and 
-                                    PortMiami, the city connects North America to Latin America, the Caribbean, and beyond.
-                                </p>
-
-                                <button onclick="openTrade()" id="readMoreTradeBtn">Read More</button>
 
                             </div>
 
@@ -1198,6 +1108,206 @@
                 </div>
             </div>
         </div>
+        </section>
+        
+        <!-- TRADE AND LOGISTICS -->
+        <section id="tradeAndLogistics">
+           <div class="container">
+            <div class="intro">
+                <p>KEY INDUSTRIES</p>
+                <h1>Trade and Logistics</h1>
+            </div>
+
+               <div class="row g-3 d-none d-lg-flex">
+                <div class="col-md-8">
+                    <div class="card card-1">
+                        <p>
+                            Miami’s trade and logistics industry is a powerhouse, generating $137 billion 
+                            annually and supporting over 275,000 jobs, positioning the city as a global commerce hub. 
+                            Anchored by Miami International Airport (MIA) and PortMiami, the city connects North America 
+                            to Latin America, the Caribbean, and beyond.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-2">
+                        <h2>PORT MIAMI</h2>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    <span>Economic Impact:</span> Generates $61.4 billion annually and supports 29,423 jobs.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <span>Capacity and Growth:</span> Handles over 1 million TEUs annually, with a $2 billion 
+                                    multimodal upgrade to double cargo capacity in the next decade.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-3"></div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-4">
+                        <h2>Miami International Airport (MIA)</h2>
+
+                        <p>
+                            Top U.S. Airport for International Freight: 
+                            Handled 2.78 million tons of cargo in 2023.
+                        </p>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    <span>Economic Impact:</span> Contributes $118 billion annually 
+                                    and supports 700,000 jobs locally.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <span>Specialized Leadership:</span> Excels in perishable goods, electronics, 
+                                    and pharmaceuticals, with a $400 million expansion in progress 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-5">
+                        <h2>Strategic Assets</h2>
+
+                        <ul>
+                            <li>
+                                <p>
+                                    <span>Warehouse Infrastructure:</span> 277 million square feet 
+                                    of capacity, with an additional 3.9 million square feet under 
+                                    construction in 2024.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <span>Free Trade Zones (FTZs):</span> Offer duty exemptions and 
+                                    streamlined trade processes.
+                                </p>
+                            </li>
+
+                            <li>
+                                <p>
+                                    <span>Logistics Powerhouses:</span> Home to 1,800 companies, including 
+                                    Ryder, FedEx, and Crowley Logistics. 
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               </div>
+
+               <!-- MOBILE -->
+                <div class="d-block d-md-none">
+                <div class="card card-1">
+                    <p>
+                        Miami’s trade and logistics industry is a powerhouse, generating $137 billion 
+                        annually and supporting over 275,000 jobs, positioning the city as a global commerce hub. 
+                        Anchored by Miami International Airport (MIA) and PortMiami, the city connects North America 
+                        to Latin America, the Caribbean, and beyond.
+                    </p>
+                </div>
+                
+            <div class="slider-container">
+                <div class="TL-slider">
+                    <div class="TL-slide">
+                        <div class="card card-4">
+                            <h2>PORT MIAMI</h2>
+    
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span>Economic Impact:</span> Generates $61.4 billion annually and supports 29,423 jobs.
+                                    </p>
+                                </li>
+    
+                                <li>
+                                    <p>
+                                        <span>Capacity and Growth:</span> Handles over 1 million TEUs annually, with a $2 billion 
+                                        multimodal upgrade to double cargo capacity in the next decade.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="TL-slide">
+                        <div class="card card-5">
+                            <h2>Miami International Airport (MIA)</h2>
+
+                            <p>
+                                Top U.S. Airport for International Freight: 
+                                Handled 2.78 million tons of cargo in 2023.
+                            </p>
+
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span>Economic Impact:</span> Contributes $118 billion annually 
+                                        and supports 700,000 jobs locally.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <span>Specialized Leadership:</span> Excels in perishable goods, electronics, 
+                                        and pharmaceuticals, with a $400 million expansion in progress 
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="TL-slide">
+                        <div class="card card-4">
+                            <h2>Strategic Assets</h2>
+
+                            <ul>
+                                <li>
+                                    <p>
+                                        <span>Warehouse Infrastructure:</span> 277 million square feet 
+                                        of capacity, with an additional 3.9 million square feet under 
+                                        construction in 2024.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <span>Free Trade Zones (FTZs):</span> Offer duty exemptions and 
+                                        streamlined trade processes.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <span>Logistics Powerhouses:</span> Home to 1,800 companies, including 
+                                        Ryder, FedEx, and Crowley Logistics. 
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                </div>
+           </div> 
         </section>
 
         <!--EXPLORE OUR OPPORTUNITIES-->
