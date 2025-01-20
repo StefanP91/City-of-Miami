@@ -657,4 +657,504 @@
     }
 }
 
+@media (max-width: 768px) {
+    .hero{
+    
+
+        & p {
+            font-size: 16px !important;
+        }
+
+        & h1 {
+            font-size: 40px !important;
+        }
+
+        & span {
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+            font-size: 16px;
+        }
+
+        & .hero-btn {
+            border: none;
+            border-radius: 9px;
+            background: linear-gradient(93.23deg, rgba(255, 255, 255, 0.8) 0.37%, rgba(202, 202, 202, 0.8) 100%);
+            
+            padding: 8px 12px;
+
+            & span {
+                color: #0A0A0A;
+                font-weight: 700;
+            }
+        }
+
+        & .hero-btn:hover{
+            background-color: #f6f6f6;
+        }
+
+        & .hero-btn:active{
+            transform: scale(0.9);
+        }
+
+        & .key-insights {
+
+            text-align: center;
+            margin-top: 135px;
+
+            & h2{
+                color: #FFFFFF;
+                font-size:32px;
+                font-weight: 900;
+            }
+
+            & p{
+                color: #BFBFBF;
+                font-size: 16px;
+                font-weight: 500;
+            }
+
+            & .card{
+                background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%);
+                backdrop-filter: blur(20px);
+                border: none;
+                border-radius: 24px;
+                padding: 20% 5% 5% 5%;
+                margin-top: 10%;
+
+                & h3{
+                    color: #0A0A0A;
+                    font-size: 90px;
+                    font-weight: 900;
+                    text-wrap: nowrap;
+                    font-family: RidleyGrotesk;
+                    font-style: normal;
+
+                    & span{
+                        font-size: 74px;
+                        font-weight: 900;
+                        color: #0A0A0A;
+                    }
+                }
+
+                & p{
+                    color: #0A0A0A;
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 19.67px;
+                }
+
+                & hr {
+                    background-color: #BFBFBF;
+                }
+
+                & button{
+                    border: none;
+                    border-radius: 9px;
+                    background-color: transparent;
+                    width: 100%;
+                    
+                    
+                    & span{
+                        color: #606060;
+                        font-weight: 500;
+                    }
+                }
+
+                & button:hover{
+                    background-color: #f6f6f6;
+                }
+
+                & button:active{
+                    transform: scale(0.9);
+                }
+            }
+        }
+
+    }
+
+    #key-insights {
+
+        padding: 5% 0;
+        background: 
+        linear-gradient(rgba(246, 246, 246, 0.9), rgba(246, 246, 246, 0.9)),
+            url("../images/key-insignts-mobile-bg.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        text-align: center;
+        margin-top: 50px;
+
+        & h2{
+            color: #404040;
+            font-size:20px;
+            font-weight: 800;
+        }
+
+        & p{
+            color: #606060;
+            font-size: 15px;
+            font-weight: 500;
+        }
+
+        & .card{
+            background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%);
+            backdrop-filter: blur(10px);
+
+            box-shadow: 3px 4px 4px 0px #0000001A;
+
+            border: none;
+            border-radius: 24px;
+            padding: 20% 5% 5% 5%;
+            height: 100%;
+
+            & h3{
+                color: #0A0A0A;
+                font-size: 32px;
+                font-weight: 900;
+                text-wrap: nowrap;
+
+                & span{
+                    font-size: 32px;
+                    font-weight: 900;
+                    color: #0A0A0A;
+                }
+            }
+
+            & p{
+                color: #0A0A0A;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 19.67px;
+            }
+
+            & hr {
+                background-color: #BFBFBF;
+            }
+
+            & button{
+                border: none;
+                border-radius: 9px;
+                background-color: transparent;
+                width: 100%;
+                
+                
+                & span{
+                    color: #606060;
+                    font-weight: 500;
+                }
+            }
+
+            & button:hover{
+                background-color: #f6f6f6;
+            }
+
+            & button:active{
+                transform: scale(0.9);
+            }
+        }
+    }
+
+    #keyInitiatives{
+        background-position: left;
+        margin-top: 0;
+
+        & .intro{
+            & p{
+                font-size: 15px;
+            }
+    
+            & h1{
+                font-size: 20px;
+            }
+    
+            & span{
+                font-size: 15px;
+            }
+        }
+
+        & .card-container{
+
+            & .card{
+                & h3 {
+                    font-size: 18px;
+                }
+
+
+                & button{
+                    border: none;
+                    border-radius: 9px;
+                    background-color: #0A0A0A;
+                    padding: 12px 16px;
+                    width: 100%;
+        
+                    & span{
+                        color: #FFFFFF;
+                        font-weight: 700;
+                    }
+                }
+        
+                & button:hover{
+                    background-color: #363535 !important;
+                }
+        
+                & button:active{
+                    transform: scale(0.9);
+                }
+
+                & p:first-of-type{
+                    margin-bottom: 1rem !important;
+                }
+        
+                p:not(:first-of-type) {
+                    max-height: 0;
+                    opacity: 0;
+                    margin-bottom: 0rem !important;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease, opacity 0.5s ease, margin 0.5s ease;
+                }
+        
+                p.show {
+                    max-height: 100%; 
+                    opacity: 1;
+                    margin-bottom: 1rem  !important; 
+                }
+
+                & ul {
+                    max-height: 0;
+                    opacity: 0;
+                    margin-bottom: 0rem !important;
+                    overflow: hidden;
+                    transition: max-height 0.5s ease, opacity 0.5s ease, margin 0.5s ease;
+                  }
+                  
+                  & ul.show {
+                    max-height: 100%; 
+                    opacity: 1;
+                    margin-bottom: 1rem  !important;
+                  }
+    
+            }
+
+        }
+
+    }
+
+    #keyAchievements{
+        margin-top: 0;
+
+        & .card{
+            height: 100% !important;
+
+            & h3 {
+                font-size: 18px;
+            }
+        }
+        
+    }
+
+    #techRennaissance{
+        padding: 5% 0;
+        background-color: #F6F6F6;
+    
+        & .intro{
+            margin-bottom: 5%;
+    
+            & p{
+                color:#808080;
+                font-size: 18px;
+                font-weight: 700;
+            }
+    
+            & h1{
+                color: #404040;
+                font-size: 32px;
+                font-weight: 800;
+            }
+    
+            & span{
+                color: #606060;
+                font-weight: 500;
+            }
+        }
+    
+    
+        & .card{
+            height: 439px;
+            width: 100%;
+            border: none;
+            border-radius: 18px;
+            padding: 1%;
+
+            & h6 {
+                margin-top: auto !important;
+                font-size: 16px;
+                font-weight: 700;
+            }
+
+
+            & .hstack {
+                text-decoration: none;
+                color: #404040;
+                font-size: 14px;
+                font-weight: 500;
+                display: none;
+
+                & img{
+                    margin-top: auto !important;
+                }
+            }
+        }
+
+        & .card-1{
+            background: 
+                linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                url("../images/tech-ren-img-1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-1:hover {
+
+            background: 
+                linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                url("../images/tech-ren-img-1.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            & .hstack{
+                display: flex;
+                
+            }
+                
+        }
+
+        & .card-2{
+            background: 
+                linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                url("../images/tech-ren-img-2.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right;
+
+        }
+
+        .card-2:hover {
+            background: 
+                linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                url("../images/tech-ren-img-2.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: right;
+
+            & .hstack{
+                display: flex;
+            }
+                
+        }
+
+        & .card-3{
+            background: 
+                linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                url("../images/tech-ren-img-3.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-3:hover {
+            background: 
+                linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 100%),
+                url("../images/tech-ren-img-3.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            & .hstack{
+                display: flex;
+            }
+                
+        }
+
+        & .card-4{
+            background: 
+                linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                url("../images/tech-ren-img-4.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .card-4:hover {
+            background: 
+                linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                url("../images/tech-ren-img-4.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            & .hstack{
+                display: flex;
+            }
+                
+        }
+
+        & .card-5{
+            background: 
+                linear-gradient(360deg, #F6F6F6 10.5%, rgba(246, 246, 246, 0) 40%),
+                url("../images/tech-ren-img-5.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .card-5:hover {
+            background: 
+                linear-gradient(360deg, #F6F6F6 18.5%, rgba(246, 246, 246, 0) 80%),
+                url("../images/tech-ren-img-5.webp");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+            & .hstack{
+                display: flex;
+            }
+                
+        }
+
+    
+        & button{
+            border: none;
+            border-radius: 9px;
+            background-color: #0A0A0A;
+            padding: 12px 16px;
+            margin-top: 20%;
+    
+            & span{
+                color: #FFFFFF;
+                font-weight: 700;
+            }
+        }
+    
+        & button:hover{
+            background-color: #363535 !important;
+        }
+    
+        & button:active{
+            transform: scale(0.9);
+        }
+    }
+
+    #keyIndustries{
+        & .descriptions{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
 
