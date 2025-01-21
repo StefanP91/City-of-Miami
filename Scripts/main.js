@@ -54,36 +54,6 @@ cards.forEach(card => {
   });
 });
 
-// Read More Button at Key Industries
-// function toggleReadMoreKI(button) {
-//   const description = button.closest('div[id^="description"]');
-//   const paragraphs = description.querySelectorAll('p:not(:first-of-type)');
-//   const lists = description.querySelectorAll ('ul')
-
-//   const isHidden = Array.from(paragraphs).some(p => !p.classList.contains('show'));
-
-//   paragraphs.forEach(p => {
-//       if (isHidden) {
-//           p.classList.add('show');
-//       } else {
-//           p.classList.remove('show');
-//       }
-//   });
-
-//   lists.forEach(ul => {
-//     if (isHidden) {
-//         ul.classList.add('show');
-//     } else {
-//         ul.classList.remove('show');
-//     }
-// });
-
-//   const btnText = button.querySelector('span');
-//   if (btnText) {
-//       btnText.textContent = isHidden ? 'Read Less' : 'Read More';
-//   }
-// }
-
 // Change content and Desktop and Mobile background on Key Industries
 function openDescriptionKI(id, backgroundImage, backgroundPositionDesktop, backgroundPositionMobile) {
   const descriptionContainer = document.getElementById('descriptionsKI');
@@ -125,56 +95,6 @@ cardsKI.forEach(card => {
     card.classList.add('active');  
   });
 });
-
-// Change content on Key Initiatives Trade and Logistics
-// document.getElementById('tradeIntro').style.display = 'none';
-// document.getElementById('tradeView').style.display = 'none';
-
-// function openTrade(){
-
-//   document.getElementById('tradeIntro').style.display = 'block';
-//   document.getElementById('tradeView').style.display = 'block';
-
-//   document.getElementById('normalView').style.display = 'none';
-//   document.getElementById('intro').style.display = 'none';
-  
-//   document.getElementById('readMoreTradeBtn').style.display = 'none';
-
-//   if (window.matchMedia("(max-width: 435px)").matches) {
-//     const element = document.getElementById('descriptionsKIView');
-//     if (element) {
-//       element.style.marginTop = '5%';
-//       element.classList.remove('col-8');
-//       element.classList.add('col-12');
-//     }
-//   }
- 
-// }
-
-// function goBack(){
-//   document.getElementById('normalView').style.display = 'block';
-//   document.getElementById('intro').style.display = 'block';
-  
-//   document.getElementById('tradeIntro').style.display = 'none';
-//   document.getElementById('tradeView').style.display = 'none';
-
-//   document.getElementById('readMoreTradeBtn').style.display = 'block';
-
-//   if (window.matchMedia("(max-width: 435px)").matches) {
-//     const element = document.getElementById('descriptionsKIView');
-//     if (element) {
-//       element.style.marginTop = '5%';
-//       element.classList.remove('col-12');
-//       element.classList.add('col-8');
-//     }
-//   }
-
-// }
-
-
-
-
-
 
 // Accordion button
 document.querySelectorAll('.accordion-button').forEach(button => {
