@@ -46,16 +46,17 @@ header {
 }
 
 /* MAIN */
-.hero{
+#hero{
     background-image: url('../images/hero-bg.svg');
     padding: 3% 0;
     
     & .hero-inner{
-        background: linear-gradient(180deg, rgba(246, 246, 246, 0) 0%, #F6F6F6 100%), url('../images/hero-img.svg');
+        background: linear-gradient(180deg, rgba(246, 246, 246, 0) 0%, #F6F6F6 300%), url('../images/hero-img.svg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         height: 887px;
+        width: 100%;
         position: relative;
 
 
@@ -64,11 +65,11 @@ header {
             & .card{
                 border: none;
                 border-radius: 20px;
-                padding: 2%;
+                padding: 1%;
                 background: rgba(255, 255, 255, 0.7);
                 backdrop-filter: blur(28.600000381469727px);
                 box-shadow: 0px 56px 97.1px 0px rgba(0, 2, 34, 0.35);
-                gap: 20px;
+                gap: 10px;
 
                 & h2{
                     color: #0A0A0A;
@@ -92,29 +93,232 @@ header {
             & .card-1{
                 width: 694px;
                 position: absolute;
+                top: 7%;
+                left: 5%;
             }
 
             & .card-2{
-                width: 355px;
+                width: 420px;
                 position: absolute;
-                right: 0;
+                top: 2%;
+                right: 20%;
             }
 
             & .card-3{
                 width: 536px;
                 position: absolute;
-                bottom: 0;
-                left: 0;
+                bottom: 4%;
+                left: 2%;
             }
 
             & .card-4{
                 width: 357px;
                 position: absolute;
-                bottom: 0;
-                right: 0;
+                bottom: 18%;
+                right: 10%;
             }
         }
     }
 
    
+}
+
+#keyInitiatives{
+    padding: 5% 0;
+
+    & .left-side{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        height: 100%;
+
+        & h1{
+            font-size: 48px;
+            font-weight: 700;
+            color: #404040;
+        }
+
+        & p{
+            color: #606060;
+
+        }
+
+        & .slider-buttons{
+            position: relative;
+            width: fit-content;
+            border-radius: 20px;
+            background-color: #FFFFFF;
+        }
+
+        & .slider-buttons::before{
+            content: '';
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            right: -1px;
+            bottom: -1px;
+            border-radius: 20px;
+            background: linear-gradient(107.99deg, rgba(0, 0, 0, 0) 3.59%, #BBBBBB 95.81%);
+            z-index: -1;
+        }  
+
+        #prevBtn, #nextBtn {
+            background-color: #FFFFFF;
+            padding: 16px;
+            border: none;
+        }
+
+        #prevBtn:hover, #nextBtn:hover {
+            transform: scale(1.1);
+        }
+
+        #prevBtn:active, #nextBtn:active {
+            transform: scale(0.9);
+        }
+        
+    
+        
+    }
+
+    & .right-side{
+        height: 739px;
+
+        & .slider-container{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+
+            & .slider {
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+                height: 100%;
+                width: 100%;
+               
+    
+                & .slide {
+                    flex: 0 0 33.33%;
+                    box-sizing: border-box;
+                    transition: flex 0.5s ease-in-out, transform 0.5s ease-in-out;
+                    height: 100%;
+                    padding: 3% 1%;
+                    display: flex; 
+                    flex-direction: column; 
+                    justify-content: flex-end;
+                    gap: 10px;
+
+                    & h6{
+                        font-size: 18px;
+                        font-weight: 600;
+                        color: #FFFFFF;
+                    }
+
+                    & p{
+                        font-weight: 600;
+                        color: #BFBFBF;
+                        opacity: 0;
+                        max-height: 0;
+                        overflow: hidden;
+                        transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
+                    }
+                }
+
+                & .slide:hover{
+                    flex: 0 0 50%;
+                }
+
+                & .slide:hover p{
+                    opacity: 1; 
+                    max-height: 100px;
+                }
+
+                & .slide:not(:hover){
+                    flex: 0 0 calc((100% - 33.33%) / 2); 
+                }
+
+                & .slide.last-visible:hover {
+                    flex: 0 0 50%;
+                    transform: translateX(-33.33%);
+                }
+                
+                & .slide:not(.last-visible):hover {
+                    flex: 0 0 50%;
+                }
+                
+                & .slide:not(.last-visible):not(:hover) {
+                    flex: 0 0 calc((100% - 33.33%) / 2); 
+                }
+                
+        
+                & .slide-1 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-1.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+
+                & .slide-2 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-2.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+
+                & .slide-3 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-3.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+
+                & .slide-4 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-4.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+
+                & .slide-5 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-5.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+
+                & .slide-6 {
+                    background: 
+                                linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
+                                linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
+                                url('../images/key-initiatives-img-6.jpeg');
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;  
+                }
+            }
+        }
+
+       
+    }
+
+    & .description{
+        color:#606060;
+    }
 }
