@@ -395,13 +395,13 @@ body {
         background: 
             linear-gradient(158.87deg, rgba(80, 142, 158, 0) 18.88%, rgba(37, 128, 159, 0.4) 61.74%),
             linear-gradient(178.63deg, rgba(69, 93, 99, 0) 43.78%, #1E2426 86.08%),
-            url("../images/key-achiv-card1-bg.webp");
+            url("../images/key-achiv-card1-bg.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         backdrop-filter: blur(15px);
         background-blend-mode: normal, multiply, normal;
-        height: 896px;
+        height: 732px;
 
         & h3{
             margin-top: auto !important;
@@ -451,7 +451,7 @@ body {
         background-size: cover;
         background-position: center;
         background-blend-mode: multiply;
-        height: 288px;
+        height: 300px;
 
         & h3{
             margin-top: auto !important;
@@ -459,6 +459,7 @@ body {
 
     }
 
+    & .card-0,
     & .card-2,
     & .card-4,
     & .card-7{
@@ -837,7 +838,7 @@ body {
     }
 
     & .card-1{
-        background-image: url("../images/trade-bg-img-1.svg");
+        background-image: url("../images/trade-bg-img-1.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -849,7 +850,7 @@ body {
     }
 
     & .card-2{
-        background-image: url("../images/trade-bg-img-2.svg");
+        background-image: url("../images/trade-bg-img-2.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -863,7 +864,7 @@ body {
     }
 
     & .card-3{
-        background-image: url("../images/trade-bg-img-3.svg");
+        background-image: url("../images/trade-bg-img-3.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;

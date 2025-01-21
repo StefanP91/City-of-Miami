@@ -523,7 +523,7 @@
         }
     
         & .card-1{
-            background-image: url("../images/trade-bg-mobile.svg");
+            background-image: url("../images/trade-bg-mobile.webp");
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
