@@ -15,34 +15,42 @@ body {
 
 header {
     display: flex;
-        width:  100%;
-        justify-content: space-between;
-        background: rgba(255, 255, 255, 0.4);
-        backdrop-filter: blur(5px);
-    
-        & .partner-with-us-link {
-            text-decoration: none;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+    width:  100%;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
 
-            & .partner-with-us{
-                background-color: #0A0A0A;
-                color: white;
-                padding: 12px 16px;
-                border: none;
-                border-radius: 9px;
-                font-size: 14px; 
-            }
-    
-            & .partner-with-us:hover{
-                background-color: #363535 !important;
-            }
-    
-            & .partner-with-us:active{
-                transform: scale(0.9);
-            }
+    & .partner-with-us-link {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .partner-with-us{
+            background-color: #0A0A0A;
+            color: white;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 9px;
+            font-size: 14px; 
         }
+
+        & .partner-with-us:hover{
+            background-color: #363535 !important;
+        }
+
+        & .partner-with-us:active{
+            transform: scale(0.9);
+        }
+    }
+
+    & .navbar-nav{
+        & .nav-item .active{
+            color: #4443F9;
+            border-bottom: 1px solid #4443F9;
+            font-weight: 800;
+        }
+    }
 }
 
 /* MAIN */
@@ -609,6 +617,12 @@ footer{
             & a:hover{
                 color: #4e4d4d;
                 transform: scale(1.1);
+            }
+
+            & a.active{
+                color: #4443F9;
+            border-bottom: 1px solid #4443F9;
+            font-weight: 800;
             }
 
             & h6 {
