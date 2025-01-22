@@ -1,0 +1,45 @@
+@media (max-width:435px) {
+    #hero{
+    
+        & .hero-inner{
+            /* background-image: url('../images/hero-img-bg-mobile.svg'); */
+    
+            & .cards-container{
+                & .card{
+                    border: none;
+                    border-radius: 20px;
+                    padding: 1%;
+                    background: rgba(255, 255, 255, 0.7);
+    
+                    backdrop-filter: blur(28.600000381469727px);
+                    box-shadow: 0px 56px 97.1px 0px rgba(0, 2, 34, 0.35);
+                    gap: 10px;
+    
+                    & h2{
+                        color: #0A0A0A;
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+    
+                    & p{
+                        color: #606060;
+                        font-weight: 500;
+    
+                        & span{
+                            color: #404040;
+                            font-weight: 700;
+                        }
+                    }
+    
+    
+                }
+    
+    
+                & .card-1, .card-2, .card-3, .card-4{
+                    position: static;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
