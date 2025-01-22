@@ -514,3 +514,65 @@ header {
         }
     }
 }
+
+#joinForces{
+    padding: 5% 0;
+    padding-left: 9%;
+
+    
+    & .join-forces-inner{
+        background-image: url('../images/join-forces-img.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 1000px;
+        
+        position: relative;
+
+        & .card{
+            width: 491px;
+            position: absolute;
+            bottom: 10%;
+            right: 13%;
+            border: none;
+
+            & h2{
+                font-size: 32px;
+                font-weight: 800;
+                color: #404040; 
+                margin-bottom: 3% !important;  
+            }
+
+            & p{
+                color: #606060;
+                font-weight: 500;
+            }
+
+            & .partner-with-us-link{
+                text-decoration: none;
+            }
+
+            & .partner-with-us{
+                background-color: #4443F9;
+                color: #FFFFFF;
+                font-weight: 700;
+                border: none;
+                border-radius: 9px;
+                padding: 10px 16px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 50px;
+                margin-top: 15%;
+            }
+
+            .partner-with-us:hover{
+                background-color: #0000be !important;
+            }
+
+            .partner-with-us:active{
+                transform: scale(0.9);
+            }
+        }
+    }
+}
