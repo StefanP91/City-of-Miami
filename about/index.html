@@ -71,7 +71,7 @@
         <section id="hero">
             <div class="container">
                 <div class="hero-inner">
-                    <div class="cards-container">
+                    <div class="cards-container d-none d-lg-flex">
                         <div class="card card-1">
                             <h2>
                                 About us
@@ -120,6 +120,59 @@
                             </p>
                         </div>
                     </div>
+
+                    <!-- MOBILE -->
+                    <div class="cards-container d-flex flex-column gap-3 d-lg-none">
+                        <div class="card card-1">
+                            <h2>
+                                About us
+                            </h2>
+
+                            <p>
+                                Welcome to the <span>City of Miami's Department of <br>
+                                Economic Innovation & Development.</span>
+                            </p>
+
+                            <p>
+                                Our vision is to position Miami as a <span>global leader</span> in innovation, opportunity, and economic prosperity. We strive to create a dynamic, inclusive ecosystem that fosters sustainable growth, empowers local talent, and 
+                                champions entrepreneurship. 
+                            </p>
+                        </div>
+
+                        <img src="images/hero-img-bg-mobile.svg" alt="hero-img-bg-mobile">
+
+                        <div class="card card-2">
+                            <p>
+                                By leveraging cutting-edge technologies, <span>fostering smart city</span> solutions, 
+                                and strengthening partnerships, we aim to build a vibrant future where Miami's 
+                                residents and businesses thrive in emerging industries.
+                            </p>
+                        </div>
+
+                        <div class="card card-3">
+                            <p>
+                                Our journey began with Mayor Francis Suarez's viral
+                                <span>"How can I help?"</span> tweet, which ignited a movement to position 
+                                Miami as a global hub for innovation and economic opportunity. 
+                            </p>
+
+                            <p>
+                                This momentum led to the creation of <span>Venture Miami</span> under the City Manager's 
+                                Office, which has since evolved into the full-fledged <span>Department of Economic 
+                                Innovation & Development</span> in response to the growing impact and success of its 
+                                initiatives, transforming Miami into a global hub for innovation and economic opportunity.
+                            </p>
+                        </div>
+
+                        <div class="card card-4">
+                            <p>
+                                As the city has evolved, so has our <span>mission.</span> Today, 
+                                we are committed to driving comprehensive <span>economic growth,</span> 
+                                ensuring Miami remains a <span>center for innovation</span> and opportunity 
+                                across multiple industries.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -130,14 +183,17 @@
                 <div class="row">
                     <div class="col-12 col-lg-4">
                         <div class="left-side">
-                            <h1>Key <br> Initiatives</h1>
+                            <h1 class="d-none d-lg-block">Key <br> Initiatives</h1>
+
+                            <!-- MOBILE -->
+                            <h1 class="block d-lg-none">Key Initiatives</h1>
         
                             <p>
                                 Our department offers a variety of resources, programs, 
                                 and partnerships designed to create a thriving economic landscape. 
                             </p>
         
-                            <div class="slider-buttons">
+                            <div class="slider-buttons d-none d-lg-flex">
                                 <button id="prevBtn"><img src="images/prev-arrow.svg" alt="prev-arrow"></button>
                                 <button id="nextBtn"><img src="images/next-arrow.svg" alt="next-arrow"></button>
                               </div>
@@ -146,7 +202,7 @@
 
                     <div class="col-12 col-lg-8">
                         <div class="right-side">
-                            <div class="slider-container">
+                            <div class="slider-container d-none d-lg-block">
                                 <div class="slider">
                                     <div class="slide slide-1">
                                         <h6>
@@ -213,6 +269,122 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="slider-container-mobile d-block d-lg-none">
+                                <div class="slider-mobile">
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Workforce Development & Upskilling
+                                            </h6>
+                                            
+                                            <p>
+                                                Preparing Miami residents for success in emerging industries.
+                                            </p>
+                                        </div>
+    
+                                        <div class="slide-mobile-1">
+                                            <h6>
+                                                Workforce Development & Upskilling
+                                            </h6>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Small Business Support
+                                            </h6>
+        
+                                            <p>
+                                                Providing mentorship, resources, and programs like the Chase x City of Miami Small Business Series.
+                                            </p>
+                                        </div>
+
+                                        <div class="slide-mobile-2">
+                                            <h6>
+                                                Small Business Support
+                                            </h6>
+                                        </div>
+                                    </div>
+    
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Innovation & Entrepreneurship
+                                            </h6>
+    
+                                            <p>
+                                                Empowering groundbreaking ideas through the Built in Miami Incubator.
+                                            </p>
+                                        </div>
+
+                                        <div class="slide-mobile-3">
+                                            <h6>
+                                                Innovation & Entrepreneurship
+                                            </h6>
+                                        </div>
+                                    </div>
+    
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Smart City & AAM Solutions
+                                            </h6>
+    
+                                            <p>
+                                                Leading efforts like the Future of Mobility Summit 
+                                                to explore advanced air mobility (AAM), urban innovation, 
+                                                and sustainable transportation technologies.
+                                            </p>
+                                        </div>
+
+                                        <div class="slide-mobile-4">
+                                            <h6>
+                                                Smart City & AAM Solutions
+                                            </h6>
+                                        </div>
+                                    </div>
+    
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Scholarship Fund
+                                            </h6>
+    
+                                            <p>
+                                                Supporting local talent pursuing careers in 
+                                                tech through the Venture Miami Scholarship Fund 
+                                            </p>
+                                        </div>
+
+                                        <div class="slide-mobile-5">
+                                            <h6>
+                                                Scholarship Fund
+                                            </h6>
+                                        </div>
+                                    </div>
+
+                                    <div class="slide-mobile">
+                                        <div class="left-side">
+                                            <h6>
+                                                Community-Focused Solutions
+                                            </h6>
+    
+                                            <p>
+                                                Advancing equitable access to resources through a 
+                                                wide range of initiatives and collaborations.
+                                            </p>
+                                        </div>
+
+                                        <div class="slide-mobile-6">
+                                            <h6>
+                                                Community-Focused Solutions
+                                            </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -237,72 +409,72 @@
 
         <!-- OUR MISSION -->
         <section id="ourMission">
-        <div class="row">
-            <div class="col-12 col-lg-7">
-                <div class="left-side"></div>
-            </div>
-
-            <div class="col-12 col-lg-5">
-                <div class="right-side">
-                    <div class="card">
-                        <h1>Our Mission</h1>
-                        <p>
-                            "To empower innovation, advance business growth, and build a 
-                            skilled workforce that sustains Miami’s position as a global leader in 
-                            commerce and development."
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- CORE GOALS -->
-        <section id="coreGoals">
-            <div class="container">
-                <div class="intro">
-                    <h1>Core Goals</h1>
+            <div class="row">
+                <div class="col-12 col-lg-7">
+                    <div class="left-side"></div>
                 </div>
 
-                <div class="row g-4">
-                    <div class="col-12 col-lg-4">
-                        <div class="card card-1">
-                            <h4>
-                                BUILDING TALENT
-                            </h4>
-                            
+                <div class="col-12 col-lg-5">
+                    <div class="right-side">
+                        <div class="card">
+                            <h1>Our Mission</h1>
                             <p>
-                                Create opportunities for workforce <span>development</span> and community empowerment.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-4">
-                        <div class="card card-2">
-                            <h4>
-                                ADVANCING BUSINESS
-                            </h4>
-                            
-                            <p>
-                                <span>Support businesses</span> through resources, incentives, and infrastructure.
-                                <br> <br>
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="col-12 col-lg-4">
-                        <div class="card card-3">
-                            <h4>
-                                EMPOWERING INNOVATION
-                            </h4>
-                            
-                            <p>
-                                Implement smart city initiatives that embrace <span>cutting-edge technology</span> and sustainability projects.
+                                "To empower innovation, advance business growth, and build a 
+                                skilled workforce that sustains Miami’s position as a global leader in 
+                                commerce and development."
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+
+            <!-- CORE GOALS -->
+            <section id="coreGoals">
+                <div class="container">
+                    <div class="intro">
+                        <h1>Core Goals</h1>
+                    </div>
+
+                    <div class="row g-4">
+                        <div class="col-12 col-lg-4">
+                            <div class="card card-1">
+                                <h4>
+                                    BUILDING TALENT
+                                </h4>
+                                
+                                <p>
+                                    Create opportunities for workforce <span>development</span> and community empowerment.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <div class="card card-2">
+                                <h4>
+                                    ADVANCING BUSINESS
+                                </h4>
+                                
+                                <p>
+                                    <span>Support businesses</span> through resources, incentives, and infrastructure.
+                                    <br> <br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-lg-4">
+                            <div class="card card-3">
+                                <h4>
+                                    EMPOWERING INNOVATION
+                                </h4>
+                                
+                                <p>
+                                    Implement smart city initiatives that embrace <span>cutting-edge technology</span> and sustainability projects.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
 
         <!-- LEADERSHIP TEAM -->
@@ -324,7 +496,7 @@
 
                         <div class="col-12 col-lg-7">
                             <div class="right-side">
-                                <div class="row g-4">
+                                <div class="row g-4 d-none d-lg-flex">
                                     <div class="col-12 col-lg-4">
                                         <div class="card">
                                             <img src="images/leadership-team-person-1.svg" alt="leadership-team-person-1" class="person-1-img">
@@ -341,7 +513,6 @@
                                                     Director of the Department of Economic Innovation and Development
                                                 </p>
                                             </div>
-
                                         </div>
                                     </div>
 
@@ -385,6 +556,89 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <!-- MOBILE -->
+                                <div class="row g-4 d-flex d-lg-none">
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="hstack gap-3">
+                                                <img src="images/leadership-team-person-1.svg" alt="leadership-team-person-1" class="person-1-img">
+                                                
+                                            <div class="vstack justify-content-center">
+                                                <h5>Keith Carswell</h5>
+
+                                                <div class="hstack">
+                                                    <a href="https://www.linkedin.com/in/kcarswell/">
+                                                        <img src="images/leadership-linkedin-icon.svg" alt="leadership-linkedin-icon" class="linkedin-icon">
+                                                    </a>
+
+                                                    <a href="https://x.com/kcarswell01">
+                                                        <img src="images/leadership-x-icon.svg" alt="x-icon" class="x-icon">
+                                                    </a>
+                                                </div>
+
+                                                <p>
+                                                    Director of the Department of Economic Innovation and Development
+                                                </p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="hstack gap-3">
+                                                <img src="images/leadership-team-person-2.svg" alt="leadership-team-person-2" class="person-2-img">
+                                            
+                                                <div class="vstack justify-content-center">
+                                                    <h5>Jennifer Moy</h5>
+                                                    
+                                                    <div class="hstack">
+                                                        <a href="https://www.linkedin.com/in/jennifer-moy-b7ba37336/">
+                                                            <img src="images/leadership-linkedin-icon.svg" alt="x-icon" class="x-icon">
+                                                        </a>
+
+                                                        <a href="#">
+                                                            <img src="images/leadership-x-icon.svg" alt="leadership-linkedin-icon" class="linkedin-icon">
+                                                        </a>
+                                                    </div>
+
+                                                    <p>
+                                                        Assistant Director
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 col-lg-4">
+                                        <div class="card">
+                                            <div class="hstack gap-3">
+                                                <img src="images/leadership-team-person-3.svg" alt="leadership-team-person-3" class="person-3-img">
+                                            
+                                            <div class="vstack justify-content-center">
+                                                <h5>Kelly Montoya-Cherry</h5>
+
+                                                <div class="hstack">
+                                                    
+                                                    <a href="https://www.linkedin.com/in/kellymontoyacherry/">
+                                                        <img src="images/leadership-linkedin-icon.svg" alt="leadership-linkedin-icon" class="linkedin-icon">
+                                                    </a>
+
+                                                    <a href="#">
+                                                        <img src="images/leadership-x-icon.svg" alt="x-icon" class="x-icon">
+                                                    </a>
+                                                </div>
+
+                                                <p>
+                                                    Head of Partnerships
+                                                </p>
+                                            </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -394,7 +648,28 @@
         
         <!-- JOIN FORCES -->
         <section id="joinForces">
-                <div class="join-forces-inner">
+                <div class="join-forces-inner d-none d-lg-flex">
+                    <div class="card">
+                        <h2>Join forces</h2>
+                        <p>
+                            By partnering with us, you’ll access a dynamic network and a 
+                            dedicated team focused on driving growth, expanding reach, and 
+                            delivering results. Our tailored collaborations are designed to 
+                            foster mutual value and lasting success. 
+                        </p>
+    
+                        <a href="mailto:kcarswell@miamigov.com?subject=Partner%20with%20us" class="partner-with-us-link">
+                            <button class="partner-with-us">
+                                <span>Partner with us</span>
+                                <img src="images/right-white-arrow.svg" alt="right-white-arrow">
+                            </button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="join-forces-inner d-flex d-lg-none">
+                    <img src="images/join-forces-mobile-img.svg" alt="join-forces-mobile-img">
+
                     <div class="card">
                         <h2>Join forces</h2>
                         <p>
