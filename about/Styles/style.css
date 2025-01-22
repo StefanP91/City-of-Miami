@@ -576,3 +576,72 @@ header {
         }
     }
 }
+
+/* FOOTER */
+footer{
+    padding: 2% 0 0 0;
+    background-color: #F6F6F6;
+    
+    & .upper-section{
+        border-top: solid 1px #DFDFDF;
+        border-bottom: solid 1px #DFDFDF;
+        padding: 4% 0;
+
+        & .left {
+            & h6 {
+                font-size: 14px;
+                font-weight: 700;
+                color: #404040;
+            }
+    
+            & p{
+                font-size: 12px;
+                color: #404040;
+            }
+        }
+
+        & .center{
+            & a {
+                text-decoration: none;
+                color:#0A0A0A;
+            }
+
+            & a:hover{
+                color: #4e4d4d;
+                transform: scale(1.1);
+            }
+
+            & h6 {
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            & p {
+               color: #848487;
+               font-size: 12px; 
+            }
+        }
+
+        & .right{
+            & img {
+                height: 32px;
+                width: 32px;
+            }
+        }
+
+    }
+
+    & .bottom-section{
+        background: #FFFFFF;
+        text-align: center;
+        padding: 1% 0;
+        color: #808080;
+        font-size: 14px;
+
+        &  a:hover{
+            color: #000000;
+            transform: scale(1.1);
+            font-weight: 700;
+        }
+    }
+}
