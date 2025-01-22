@@ -6,6 +6,8 @@
     
         & .hero-inner{
             background-image: none;
+            height: 100%;
+            padding: 5%;
     
             & .cards-container{
                 overflow: hidden;
