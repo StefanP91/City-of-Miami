@@ -1,0 +1,416 @@
+body {
+    margin: 0 !important;
+    box-sizing: border-box;
+    font-family: 'RidleyGrotesk' !important;
+
+
+    p, h1, h2, h3, h4, h5, h6 {
+        margin: 0 !important;
+    }
+}
+
+/* HEADER */
+header {
+    display: flex;
+    width:  100%;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+
+    & .partner-with-us-link {
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & .partner-with-us{
+            background-color: #0A0A0A;
+            color: white;
+            padding: 12px 16px;
+            border: none;
+            border-radius: 9px;
+            font-size: 14px; 
+        }
+
+        & .partner-with-us:hover{
+            background-color: #363535 !important;
+        }
+
+        & .partner-with-us:active{
+            transform: scale(0.9);
+        }
+    }
+
+    & .navbar-nav{
+        & .nav-item .active{
+            color: #4443F9;
+            border-bottom: 1px solid #4443F9;
+            font-weight: 800;
+        }
+    }
+}
+
+
+/* MAIN */
+#hero{
+    padding: 3% 0 5% 0 ;
+
+    background-image: url('../images/hero-bg.svg');
+
+    & .hero-inner{
+        padding: 5% 0;
+        background: 
+            linear-gradient(90deg, rgba(0, 0, 0, 0.4) 17%, rgba(0, 0, 0, 0) 69.01%),
+            linear-gradient(90deg, rgba(247, 247, 247, 0) 59.58%, #F7F7F7 98.49%),
+            url('../images/hero-img.jpeg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 24px;
+        width: 95%;
+
+        & .left-side{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            color: #FFFFFF;
+
+            & h1{
+                font-size: 64px;
+                font-weight: 700;
+                margin-bottom: 1rem;
+            }
+
+            & p{
+                font-size: 16px;
+                font-weight: 400;
+            }
+        }
+
+        & .right-side{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .card{
+
+                border: none;
+                background: rgba(255, 255, 255, 0.2);
+                backdrop-filter: blur(10px);
+                padding: 5%;
+
+                & h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    color: #0A0A0A;
+                }
+
+                & p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    color: #0A0A0A; 
+                }
+            }
+        }
+
+    }
+}
+
+#keyEconomic{
+    padding: 5% 0;
+
+    & .intro{
+        & h1{
+            text-align: center;
+            font-size: 32px;
+            font-weight: 700;
+            color: #404040;
+            margin-bottom: 3% !important;
+        }
+    }
+
+    & .card{
+        border: none;
+        border-radius: 24px;
+        padding: 5% 7%;
+    }
+
+    & .card-1{
+        background-image:  url('../images/key-economic-img-1.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 314px;
+    }
+
+    & .card-2{
+        background: url('../images/key-economics-img-2.svg'), #D9D9D9 ;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 398px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & h2{
+           font-size: 24px;
+           font-weight: 700;
+           color: #404040
+        }
+
+        & ul>li{
+            margin-top: auto !important;
+            color: #404040;
+            font-weight: 500;
+
+            & span{
+                font-weight: 800;
+            }
+
+        }
+    }
+
+    & .card-3{
+        background-color: #ECECEC;
+        height: 398px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        & h2{
+            font-size: 24px;
+            font-weight: 700;
+            color: #404040
+        }
+
+        & div>p{
+            color: #606060;
+
+            & span{
+                font-weight: 700;
+                color: #404040;
+            }
+        }
+    }
+
+    & .card-4{
+        background-image:  url('../images/key-economic-img-3.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 314px;
+    }
+}
+
+#successStories{
+    padding: 5% 0;
+
+    & .title{
+        text-align: center;
+        margin-bottom: 3% !important;
+    }
+
+    & .success-stories-inner{
+        background: 
+            linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
+            url('../images/success-stories-bg.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 24px;
+        padding: 3% 0 0 3%;
+        overflow: hidden;
+
+
+        & .upper-section{
+            margin-top: 20%;
+
+            & h1{
+                font-size: 48px;
+                font-weight: 700;
+                color: #FFFFFF;
+                text-shadow: 4px 3px 0px #00000040;
+            }
+
+            & p{
+                font-weight: 500;
+                color: #FFFFFF;
+                text-shadow: 4px 3px 0px #00000040;
+            }
+        }
+
+        & .down-section{
+            margin-top: 5%;
+            overflow: hidden;
+
+            & .col-lg-5{ 
+                padding: 0 !important;
+            }
+
+            & .card-1{
+                background: linear-gradient(270.22deg, rgba(115, 176, 196, 0) 35.05%, #73B0C4 89.43%),
+                            linear-gradient(0deg, #304D55, #304D55);
+                height: 270px;
+                padding: 10% 7%;
+                border: none;
+                color: #FFFFFF; 
+
+                & h4{
+                   font-size: 20px;
+                   font-weight: 700;
+                   margin-bottom: 3% !important;
+                }
+
+                & p{
+                    & span{
+                        font-size: 18px;
+                        font-weight: 600;
+                    }
+                }
+
+            }
+
+            & .card-2{
+                background: linear-gradient(179.82deg, #304D55 0.16%, #73B0C4 87.3%, #AFCFDD 104.27%);
+                height: 270px;
+                padding: 10% 7%;
+                border: none;
+                color: #FFFFFF; 
+
+                & h4{
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-bottom: 3% !important;
+                 }
+ 
+                 & p{
+                     & span{
+                         font-size: 18px;
+                         font-weight: 600;
+                     }
+                 }
+
+            }
+        }
+
+    }
+}
+
+#miamiMovement{
+    background: linear-gradient(92deg, #202020 24.43%, #4D4D4D 112.76%), url("../images/miami-movement-bg.webp");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 178px;
+    display: flex;
+    align-items: center;
+
+    & h1{
+        color: #FFFFFF;
+        font-size: 32px;
+        font-weight: 800;
+    }
+
+    & span{
+        color: #DFDFDF;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    & button{
+       border: none;
+       border-radius: 9px;
+       background-color: #4443F9;
+       color: #FFFFFF;
+       padding: 12px 26px; 
+       font-size: 18px;
+       font-weight: 700;
+    }
+
+    & button:hover{
+        background-color: #1414d4;
+    }
+
+    & button:active{
+        transform: scale(0.9);
+    }
+}
+
+
+/* FOOTER */
+footer{
+    padding: 2% 0 0 0;
+    background-color: #F6F6F6;
+    
+    & .upper-section{
+        border-top: solid 1px #DFDFDF;
+        border-bottom: solid 1px #DFDFDF;
+        padding: 4% 0;
+
+        & .left {
+            & h6 {
+                font-size: 14px;
+                font-weight: 700;
+                color: #404040;
+            }
+    
+            & p{
+                font-size: 12px;
+                color: #404040;
+            }
+        }
+
+        & .center{
+            & a {
+                text-decoration: none;
+                color:#0A0A0A;
+            }
+
+            & a:hover{
+                color: #4e4d4d;
+                transform: scale(1.1);
+            }
+
+            & a.active{
+                color: #4443F9;
+            border-bottom: 1px solid #4443F9;
+            font-weight: 800;
+            }
+
+            & h6 {
+                font-weight: 600;
+                font-size: 14px;
+            }
+
+            & p {
+               color: #848487;
+               font-size: 12px; 
+            }
+        }
+
+        & .right{
+            & img {
+                height: 32px;
+                width: 32px;
+            }
+        }
+
+    }
+
+    & .bottom-section{
+        background: #FFFFFF;
+        text-align: center;
+        padding: 1% 0;
+        color: #808080;
+        font-size: 14px;
+
+        &  a:hover{
+            color: #000000;
+            transform: scale(1.1);
+            font-weight: 700;
+        }
+    }
+}
