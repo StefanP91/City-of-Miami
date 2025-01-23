@@ -36,6 +36,39 @@ document.addEventListener('DOMContentLoaded', () => {
     updateSliderPosition();
 });
 
+// DIRECTOR MESSAGE SLIDER
+document.addEventListener('DOMContentLoaded', () => {
+  const slider = document.querySelector('.slider-DM');
+  const slides = document.querySelectorAll('.slide-DM');
+  const prevBtn = document.getElementById('prevBtnDM');
+  const nextBtn = document.getElementById('nextBtnDM');
+  let currentIndex = 0;
+
+  const updateSliderPosition = () => {
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    slides.forEach((slide, index) => {
+      slide.classList.toggle('active', index === currentIndex);
+    });
+  };
+
+  prevBtn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+      currentIndex--;
+      updateSliderPosition();
+    }
+  });
+
+  nextBtn.addEventListener('click', () => {
+    if (currentIndex < slides.length - 1) {
+      currentIndex++;
+      updateSliderPosition();
+    }
+  });
+
+  // Initialize slider position
+  updateSliderPosition();
+});
+
 // KEY INITIATIVES SLIDER MOBILE
 document.addEventListener('DOMContentLoaded', () => {
     const slider = document.querySelector('.slider-mobile');
