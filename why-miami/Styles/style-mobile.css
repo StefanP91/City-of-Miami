@@ -1,0 +1,237 @@
+@media (max-width:435px) {
+    header{
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+    }
+
+    #hero{
+        background-image: none;
+        padding: 0 0 5% 0;
+
+        & .hero-inner{
+            padding: 40% 0 5% 0;
+            background-image: url('../images/hero-img.jpeg') !important;
+            border-radius: 0px;
+            width: 100%;
+            margin-top: -25%;
+    
+            & .left-side{  
+                & h1{
+                    font-size: 32px;
+                    margin-bottom: 3% !important;
+                }
+    
+                & p{
+                    font-size: 12px;
+                    margin-bottom: 3% !important; 
+                }
+            }
+    
+            & .right-side{
+                gap: 10px;
+    
+                .card{
+                    background: rgba(255, 255, 255, 0.5);
+                    backdrop-filter: blur(20px);
+                    border-radius: 14px;
+    
+                    & h4{
+                        font-size: 16px;
+                    }
+    
+                    & p{
+                        font-size: 12px;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    #keyEconomic{
+        padding: 5% 0;
+    
+        & .intro{
+            & h1{
+                text-align: left;
+                font-size: 20px;
+                margin-bottom: 5% !important;
+            }
+        }
+    
+        & .card{
+            border: none;
+            border-radius: 24px;
+            padding: 5% 7%;
+        }
+    
+        & .card-1{
+            background-image:  url('../images/key-economic-img-1.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 314px;
+        }
+    
+        & .card-2{
+            background: url('../images/key-economics-img-2.svg'), #D9D9D9 ;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            & h2{
+               font-size: 20px;
+            }
+    
+            & ul>li{
+                font-size: 15px;
+    
+                & span{
+                    font-weight: 800;
+                }
+    
+            }
+        }
+    
+        & .card-3{
+            background-color: #ECECEC;
+            height: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            & h2{
+                font-size: 20px;
+            }
+    
+            & div>p{
+                font-size: 15px;
+            }
+        }
+    
+        & .card-4{
+            background-image:  url('../images/key-economic-img-3.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 314px;
+        }
+
+        & .slider-container{
+            position: relative;
+            overflow: hidden;
+
+            & .slider{
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+
+                & .slide{
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    #successStories{
+        padding: 5% 0;
+    
+        & .title{
+            text-align: center;
+            margin-bottom: 3% !important;
+        }
+    
+        & .success-stories-inner{
+            background: 
+                linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
+                url('../images/success-stories-mobile-bg.svg');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+            border-radius: 24px;
+            padding: 3% 0 0 3%;
+            overflow: hidden;
+    
+    
+            & .upper-section{
+                margin-top: 20%;
+    
+                & h1{
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 2% !important;
+                }
+    
+                & p{
+                    font-size: 15px;
+                    text-align: center;
+                }
+            }
+    
+            & .down-section{
+                margin-top: 100%;
+
+                & .card-1{
+                    height: auto;
+                    & h4{
+                       font-size: 16px;
+                    }
+    
+                    & p{
+                        & span{
+                            font-size: 15px;
+                        }
+                    }
+    
+                }
+    
+                & .card-2{
+                    height: auto;
+    
+                    & h4{
+                        font-size: 16px;
+                     }
+     
+                     & p{
+                         & span{
+                             font-size: 15px;
+                         }
+                     }
+    
+                }
+            }
+    
+        }
+    }
+
+    #miamiMovement{
+
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 5% 0;
+    
+        & h1{
+            font-size: 20px;
+            margin-bottom: 3% !important;
+        }
+
+    
+        & button{
+            font-size: 14px;
+            width: 100%;
+            padding: 12px 26px; 
+        }
+
+        .hstack{
+            display: flex;
+            flex-direction: column;
+        }
+    
+    }
+
+}
