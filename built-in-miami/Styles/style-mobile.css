@@ -127,10 +127,11 @@
     #programGoals{
         padding: 5% 0;
         background-color: #F6F6F6;
-        padding-top: 5% !important;
+
     
         & .title{
             margin-bottom: 3% !important;
+            padding-top: 5% !important;
             font-size: 20px;
         }
     
