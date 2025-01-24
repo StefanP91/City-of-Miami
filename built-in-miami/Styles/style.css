@@ -81,11 +81,12 @@ header {
                 padding-top: 10%;
 
                 & .card{
-                    border: none;
                     border-radius: 30px;
                     padding: 4%;
                     background: linear-gradient(180deg, rgba(255, 255, 255, 0) 33.2%, rgba(255, 255, 255, 0.3) 78.7%);
                     backdrop-filter: blur(12px);
+                    border: 1px solid;
+                    border-image-source: linear-gradient(116.11deg, rgba(0, 0, 0, 0) -8.39%, #ADADAD 64.7%);
 
 
                     & img{
