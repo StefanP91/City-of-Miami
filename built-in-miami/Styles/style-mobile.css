@@ -127,6 +127,7 @@
     #programGoals{
         padding: 5% 0;
         background-color: #F6F6F6;
+        margin-top: 5% !important;
     
         & .title{
             margin-bottom: 3% !important;
