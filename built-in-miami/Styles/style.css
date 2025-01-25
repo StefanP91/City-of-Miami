@@ -52,7 +52,8 @@ header {
 
 /* MAIN */
 #hero{
-    padding: 3% 0 5% 9%;
+    padding: 3% 0 5% 0%;
+    margin-left: 9%;
     background-image: url('../images/hero-bg.svg');
 
         & .hero-inner{
