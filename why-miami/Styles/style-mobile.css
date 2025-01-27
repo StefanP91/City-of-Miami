@@ -2,6 +2,40 @@
     header{
         background-color: transparent;
         backdrop-filter: blur(30px);
+
+        & .navbar-nav{    
+           
+            & .dropdown{
+    
+                & .dropdown-menu.show{
+    
+                    & .container{
+                        display: flex !important;
+                        flex-direction: column !important;
+                    }
+    
+                    & .vstack{
+                        max-width: 100%!important;
+                        justify-content: center !important;
+                        align-items: center !important;
+                    }
+
+    
+                    & h5{
+                        font-size: 15px;
+                    }
+
+    
+                    & .dropdown-img{
+                        width: 100%;
+                        max-width: 200px;
+                    }
+    
+                }
+
+            }
+    
+        }  
     }
 
     #hero{
