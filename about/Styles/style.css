@@ -158,7 +158,6 @@ header {
 /* MAIN */
 #hero{
     background-image: url('../images/hero-bg.svg');
-    padding: 3% 0;
         
     & .hero-inner{
         background: linear-gradient(180deg, rgba(246, 246, 246, 0) 0%, #F6F6F6 300%), url('../images/hero-img.svg');
@@ -168,6 +167,7 @@ header {
         height: 887px;
         width: 100%;
         position: relative;
+        margin: 3% 0;
 
         & .cards-container{
             
@@ -210,7 +210,7 @@ header {
                 width: 420px;
                 position: absolute;
                 top: 2%;
-                right: 20%;
+                right: 7%;
             }
 
             & .card-3{
@@ -224,7 +224,7 @@ header {
                 width: 357px;
                 position: absolute;
                 bottom: 18%;
-                right: 10%;
+                right: 4%;
             }
         }
     }
@@ -810,7 +810,7 @@ header {
             width: 491px;
             position: absolute;
             bottom: 10%;
-            right: 13%;
+            right: 10%;
             border: none;
 
             & h2{

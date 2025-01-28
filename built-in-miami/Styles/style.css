@@ -158,7 +158,7 @@ header {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            padding: 5%;
+            padding: 13% 3%;
 
             & .upper-left-section{
                 padding-top: 10%;
@@ -204,7 +204,7 @@ header {
             }
 
             & .lower-left-section{
-                margin-top: 10%;
+                margin-top: 20%;
 
                 & h4{
                     font-weight: 700;
@@ -221,7 +221,7 @@ header {
             }
 
             &  .lower-right-section{
-                margin-top: 10%;
+                margin-top: 20%;
                 display: flex;
                 height: 100%;
 

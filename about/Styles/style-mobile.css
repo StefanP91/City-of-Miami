@@ -533,3 +533,46 @@
         }
     }
 }
+
+@media (min-width: 2560px) {
+    #hero{
+        background-image: url('../images/hero-bg.svg');
+            
+        & .hero-inner{
+
+            & .cards-container{
+    
+                & .card-2{
+                    right: 15%;
+                }
+    
+                & .card-4{
+                    right: 10%;
+                }
+            }
+        }
+    
+       
+    }
+
+    #joinForces{
+        
+        & .join-forces-inner{
+            background-image: url('../images/join-forces-img.svg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 1000px;
+            
+            position: relative;
+    
+            & .card{
+                width: 491px;
+                position: absolute;
+                bottom: 10%;
+                right: 22%;
+                border: none;
+            }
+        }
+    }
+}
