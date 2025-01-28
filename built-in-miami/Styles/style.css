@@ -274,7 +274,7 @@ header {
         border: none;
         border-radius: 10px;
         padding: 5%;
-        height: 284px;
+        height: 310px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -464,7 +464,7 @@ header {
 }
 
 #applyNow{
-    margin-top: 10%;
+    margin-top: 20%;
     background: linear-gradient(92deg, #202020 24.43%, #4D4D4D 112.76%), url("../images/apply-now-bg.webp");
     background-blend-mode: multiply;
     background-repeat: no-repeat;

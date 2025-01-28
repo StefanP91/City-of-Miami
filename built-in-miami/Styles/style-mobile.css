@@ -404,4 +404,37 @@
     }
 }
 
+@media (min-width: 2560px) {
+    #hero{
+    
+            & .hero-inner{
+    
+    
+                & .upper-right-section{
+                    padding-top: 10%;
+    
+                    & .card{
+                        width: 350px;
+    
+                    }
+                }
+    
+                & .lower-left-section{
+                    margin-top: 50%;
+                }
+    
+                &  .lower-right-section{
+                    margin-top: 30%;
+                    display: flex;
+                    height: 100%;
+
+                }
+            }
+    }
+
+    #applyNow{
+        margin-top: 10%;
+    }
+}
+
 
