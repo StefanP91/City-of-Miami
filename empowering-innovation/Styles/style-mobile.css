@@ -1,0 +1,26 @@
+@media (min-width: 2560px) {
+    & .hero-inner {
+        height: 68vh !important;
+    }
+
+    #empoweringInnovation {
+        & .card-2, .card-1{
+            padding: 15% 3%;
+        }
+    }
+
+    #buildingTalent {
+        display: flex;
+        justify-content: center;
+    }
+
+    #newsAndEvents {
+        .upper-section {
+            height: 218px;
+        }
+
+        .down-section {
+            height: 502px;
+        }
+    }
+}
