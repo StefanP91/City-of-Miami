@@ -59,6 +59,12 @@ header {
             font-weight: 800;
         }
 
+        & .nav-item:hover a{
+            color: #4443F9 !important;
+            border-bottom: 1px solid #4443F9 !important;
+            font-weight: 800;
+        }
+
        
         & .dropdown{
             position: static !important;
