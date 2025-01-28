@@ -884,19 +884,20 @@ footer{
             }
 
             & a:hover{
-                color: #4e4d4d;
+                color: #4443F9;
+                border-bottom: 1px solid #4443F9;
                 transform: scale(1.1);
             }
 
             & a.active{
                 color: #4443F9;
-            border-bottom: 1px solid #4443F9;
-            font-weight: 800;
+                border-bottom: 1px solid #4443F9;
+                font-weight: 800;
             }
 
             & h6 {
                 font-weight: 600;
-                font-size: 14px;
+                font-size: 12px;
             }
 
             & p {
