@@ -247,13 +247,13 @@ header {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        height: 398px;
+        height: 410px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         & h2{
-           font-size: 24px;
+           font-size: 22px;
            font-weight: 700;
            color: #404040
         }
@@ -272,13 +272,13 @@ header {
 
     & .card-3{
         background-color: #ECECEC;
-        height: 398px;
+        height: 410px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
         & h2{
-            font-size: 24px;
+            font-size: 22px;
             font-weight: 700;
             color: #404040
         }
@@ -329,13 +329,13 @@ header {
                 font-size: 48px;
                 font-weight: 700;
                 color: #FFFFFF;
-                text-shadow: 4px 3px 0px #00000040;
+                text-shadow: 1px 2px 0px #00000040;
             }
 
             & p{
                 font-weight: 500;
                 color: #FFFFFF;
-                text-shadow: 4px 3px 0px #00000040;
+                text-shadow: 1px 2px 0px #00000040;
             }
         }
 
@@ -352,7 +352,7 @@ header {
                             linear-gradient(0deg, #304D55, #304D55);
                 height: 270px;
                 padding: 10% 7%;
-                border: none;
+                border: none !important;
                 color: #FFFFFF; 
 
                 & h4{
