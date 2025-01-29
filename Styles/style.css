@@ -1179,8 +1179,6 @@ body {
             text-decoration: none;
         }
 
-
-
         & .accordion-button:focus,
         & .accordion-button:hover{
             background-color: #F6F6F6;
