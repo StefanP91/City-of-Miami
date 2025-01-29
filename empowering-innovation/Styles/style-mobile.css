@@ -1,4 +1,8 @@
 @media (max-width: 435px) {
+    body {
+        overflow-x: hidden;
+    }
+
     #hero {
         padding: 10% 0 5% 0; 
         background-color: #FFFFFF;
@@ -8,7 +12,7 @@
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
-          height: 81vh;
+          height: 85vh;
 
     
     
