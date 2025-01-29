@@ -254,6 +254,7 @@
     }
 
     #partnerWithUs{
+        overflow-x: hidden !important;
     
         & .left-side{
             display: flex;
