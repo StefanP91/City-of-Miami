@@ -711,7 +711,7 @@ header {
 
                     & .down-section{
                         .col-lg-5{
-                            padding-left: 0 !important;
+                            padding-right: 0 !important;
                         }
 
                        & .card-1{
@@ -722,12 +722,12 @@ header {
                             & h4{
                                 font-size: 24px;
                                 font-weight: 700;
-                                color: #404040;
+                                color: #FFFFFF;
                             }
 
                             & p{
                                 font-weight: 500;
-                                color: #404040;
+                                color: #FFFFFF;
                                 font-size: 14px;
                             }
                         }
@@ -741,12 +741,12 @@ header {
                             & h4{
                                 font-size: 24px;
                                 font-weight: 700;
-                                color: #404040;
+                                color: #FFFFFF;
                             }
 
                             & p{
                                 font-weight: 500;
-                                color: #404040;
+                                color: #FFFFFF;
                                 font-size: 14px;
                             }
                         }
@@ -795,6 +795,11 @@ header {
             }
         }
 
+    }
+
+    & .description{
+        color: #000000;
+        margin-top: 2% !important;
     }
 }
 

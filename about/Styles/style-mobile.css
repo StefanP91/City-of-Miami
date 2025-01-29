@@ -477,6 +477,132 @@
         }
     }
 
+    #directorMessage{
+
+        padding: 5% 0;
+    
+        & .intro{
+            & p{
+               font-size: 15px;
+            }
+    
+            & h2{
+                font-size: 20px;
+                margin-bottom: 65% !important;
+            }
+        }
+    
+        & .director-message-inner{
+            background: 
+            linear-gradient(270deg, rgba(35, 152, 161, 0) 42.13%, #2398A1 75.67%),
+            url('../images/director-message-bg.jpeg');
+            background-repeat: no-repeat;
+            background-position:bottom left 40%;
+            background-size: 200%;
+            border-radius: 24px;
+            padding: 3% 0 0 0%;
+    
+    
+            & .card{
+                margin-top: -60%;
+            }
+    
+            & .slider-container-DM{   
+                & .slider-DM{    
+                    & .slide-DM{
+                        & .up-section{
+                            padding-left: 5%;
+                            margin-top: 10%;
+                            
+    
+                            & h1{
+                                font-size: 20px;
+                                font-weight: 700;
+                                color: #FFFFFF;
+                            }
+    
+                            & p{
+                                font-size: 15px;
+                                margin: 4% 0 20% 0 !important;
+                                width: 55%;
+                            }
+                        }
+    
+                        & .down-section{
+
+                            .col-12{
+                                padding-right: 1rem !important;
+                            }
+    
+                           & .card-1{
+                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%);
+                                height: 230px;
+                                padding: 5%;
+    
+                                & h4{
+                                    font-size: 16px;
+                                    margin-bottom: 5% !important;
+                                }
+    
+                                & p{
+                                    font-size: 14px;
+                                }
+                            }
+    
+                           & .card-2{
+                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%);
+                                height: 270px;
+                                padding: 10% 5%;
+                                border-bottom-right-radius: 0px;
+                                
+    
+                                & h4{
+                                    font-size: 16px;
+                                    margin-bottom: 5% !important;
+                                }
+    
+                                & p{
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+    
+                }
+    
+                & .slider-buttonsDM{
+    
+                    position: static;
+                    border-radius: 0px;
+                    background: linear-gradient(90deg, #FFFFFF 0%, #2398A1 100%);
+                    border: none;
+                    box-shadow: none;
+                    display: flex;
+                    justify-content: space-between;
+                    border-bottom-left-radius: 20px;
+                    border-bottom-right-radius: 20px;
+                    
+            
+                    #prevBtnDMMobile, #nextBtnDMMobile {
+                        background-color: transparent;
+                        padding: 16px;
+                        border: none;
+                    }
+            
+                    #prevBtnDMMobile:hover{
+                        box-shadow: none;
+    
+                    }
+    
+                    #nextBtnDMMobile:hover{
+                        box-shadow: none;
+                    }
+                }
+            }
+    
+        }
+    }
+
     #joinForces{
         padding: 10% 0;
         padding-left: 2% !important;
