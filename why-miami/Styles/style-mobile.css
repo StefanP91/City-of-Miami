@@ -187,22 +187,23 @@
             background-position: top;
             background-size: contain;
             border-radius: 24px;
-            padding: 3% 0 0 3%;
+            padding: 3% 0 0 0;
             overflow: hidden;
     
     
             & .upper-section{
                 margin-top: 20%;
+                padding: 0 5%;
     
                 & h1{
                     font-size: 20px;
                     text-align: center;
-                    margin-bottom: 2% !important;
+                    margin-bottom: 5% !important;
                 }
     
                 & p{
                     font-size: 15px;
-                    text-align: center;
+                    text-align: start;
                 }
             }
     
@@ -211,6 +212,11 @@
 
                 & .card-1{
                     height: auto;
+                    background: 
+                    linear-gradient(270deg, rgba(108, 167, 186, 0) 34.99%, #6CA7BA 95.34%),
+                    linear-gradient(179.82deg, #304D55 0.16%, #73B0C4 63.23%, #91BFD0 75.95%, #AFCFDD 97.83%);
+
+
                     & h4{
                        font-size: 16px;
                     }
@@ -225,7 +231,11 @@
     
                 & .card-2{
                     height: auto;
-    
+                    background: 
+                        linear-gradient(270.71deg, rgba(108, 167, 186, 0) 43.45%, #6CA7BA 99.89%),
+                        linear-gradient(0deg, #304D55, #304D55);
+
+                    
                     & h4{
                         font-size: 16px;
                      }
