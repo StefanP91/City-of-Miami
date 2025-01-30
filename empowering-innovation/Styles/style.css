@@ -157,7 +157,7 @@ header {
 
 
     & .hero-inner {
-      background-image: url('../images/hero-main-img.svg');
+      background-image: url('../images/hero-main-img.webp');
       background-repeat: no-repeat;
       background-size: cover;
       background-position: center;
@@ -278,7 +278,7 @@ header {
     }
 
     & .card-3{
-        background-image: url('../images/ei-card-3-bg-image.svg');
+        background-image: url('../images/ei-card-3-bg-image.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -400,7 +400,7 @@ header {
                 background: 
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 91.17%),
-                    url('../images/advacing-business-img-1.jpeg');
+                    url('../images/advacing-business-img-1.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;  
@@ -410,7 +410,7 @@ header {
                 background: 
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 91.17%),
-                    url('../images/advacing-business-img-2.jpeg');
+                    url('../images/advacing-business-img-2.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;  
@@ -420,7 +420,7 @@ header {
                 background: 
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                     linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 91.17%),
-                    url('../images/advacing-business-img-3.jpeg');
+                    url('../images/advacing-business-img-3.png');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;  
@@ -437,7 +437,7 @@ header {
 
 #buildingTalent{
     padding: 5% 0;
-    background-image: url('../images/building-talent-bg.svg');
+    background-image: url('../images/building-talent-bg.webp');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -538,7 +538,7 @@ header {
 
 #opportunitiesToPartner{
     padding: 10% 0;
-    background-image: url('../images/opportunities-to-partnership-bg.svg');
+    background-image: url('../images/opportunities-to-partnership-bg.webp');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -636,7 +636,7 @@ header {
     padding: 5% 0;
 
     .upper-section{
-        background-image: url('../images/news-and-events-bg-1.svg');
+        background-image: url('../images/news-and-events-bg-1.webp');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -672,7 +672,7 @@ header {
     .down-section{
         padding: 5% 5% 0 5%;
 
-        background-image: url('../images/news-and-events-bg-2.svg');
+        background-image: url('../images/news-and-events-bg-2.webp');
         height: 433px;
         background-repeat: no-repeat;
         background-size: cover;

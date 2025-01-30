@@ -44,17 +44,17 @@
         background-color: #FFFFFF;
     
         & .hero-inner {
-          background-image: url('../images/hero-main-img-mobile.svg');
+          background-image: url('../images/hero-main-img-mobile.webp');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
-          height: 81vh;
+          height: 81vh !important;
 
     
     
           & .top-img{
-            width: 134px;
-            height: 128px;
+            width: 134px !important;
+            height: 128px !important;
             margin-top: -8% !important;
           }
     
@@ -70,21 +70,21 @@
     
     
             & h1{
-              font-size: 32px;
+              font-size: 32px !important;
     
             }
     
           }
     
           & .card{
-            width: 134px;
-            height: 128px;
+            width: 134px !important;
+            height: 128px !important;
             padding: 3%;
             margin-bottom: -8% !important;
           
     
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             }
     
         }
@@ -102,11 +102,11 @@
             padding: 11% 5%;
     
             & h3{
-                font-size: 16px;
+                font-size: 16px !important;
             }
     
             & p{
-                font-size: 14px;
+                font-size: 14px !important;
             }
         }
     
@@ -114,38 +114,38 @@
             padding: 11% 5%;
     
             & h3{
-                font-size: 16px;
+                font-size: 16px !important;
             }
     
             & p{
-                font-size: 14px;
+                font-size: 14px !important;
             }
         }
     
         & .card-3{
-            background-image: url('../images/ei-card-3-bg-image-mobile.svg');
+            background-image: url('../images/ei-card-3-bg-image-mobile.webp');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            height: 60vh;
+            height: 60vh !important;
             padding: 0 5% 5% 5%;
             border: none;
             border-radius: 24px;
     
             & h2{
-                font-size: 20px;                
+                font-size: 20px !important;                
             }
     
             & h3{
-                font-size: 18px;  
+                font-size: 18px !important;  
             }
     
             & h4{
-                font-size: 16px;
+                font-size: 16px !important;
             }
     
             & p{
-                font-size: 14px;
+                font-size: 14px !important;
             }
         }
     }
@@ -161,7 +161,7 @@
             height: 100%;
     
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
                 margin-bottom: 5% !important;
                 text-align: center;
             }        
@@ -187,12 +187,12 @@
 
                     
                     & h6{
-                        font-size: 18px;
+                        font-size: 18px !important;
                         color: #FFFFFF;
                     }
     
                     & p{
-                        font-size: 16px;
+                        font-size: 16px !important;
                         color: #FFFFFF;
                     }
 
@@ -203,7 +203,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-1.jpeg');
+                        url('../images/advacing-business-img-1.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -213,7 +213,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-2.jpeg');
+                        url('../images/advacing-business-img-2.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -223,7 +223,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-3.jpeg');
+                        url('../images/advacing-business-img-3.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -238,11 +238,11 @@
         padding: 5% 0;
         background-color: #FFFFFF;
         background-image: none;
-        height: fit-content;
+        height: fit-content !important;
 
         & .mobile-view{
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
                 font-weight: 700;
                 color: #404040;
                 margin-bottom: 3% !important;
@@ -250,37 +250,37 @@
             }
 
             & .left-side{
-                background-image: url('../images/building-talent-img-mobile.svg');
+                background-image: url('../images/building-talent-img-mobile.webp');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
                 border-radius: 24px;
-                height: 206px;
+                height: 206px !important;
             }
         
             & .right-side{
-                height: fit-content;
+                height: fit-content !important;
                 display: block;        
                 & h1{
-                    font-size: 48px;
+                    font-size: 48px !important;
                     font-weight: 700;
                     color: #404040;
                     margin-bottom: 5% !important;
                 }
         
                 & .card{
-                    margin-left: 0;
-                    margin-top: -13%;
+                    margin-left: 0 !important;
+                    margin-top: -13% !important;
                     width: 100%;
                     backdrop-filter: blur(5px);
 
         
                     & h2{
-                        font-size: 20px;
+                        font-size: 20px !important;
                     }
         
                     & p{
-                        font-size: 15px;
+                        font-size: 15px !important;
                     }
         
         
@@ -296,14 +296,14 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            height: 100%;
+            height: 100% !important;
     
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
             }
     
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             }
         }
         
@@ -311,7 +311,7 @@
 
     #opportunitiesToPartner{
         padding: 10% 0;
-        background-image: url('../images/opportunities-to-partnership-bg.svg');
+        background-image: url('../images/opportunities-to-partnership-bg.webp');
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -326,7 +326,7 @@
             padding: 0;
     
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
             }
     
         }
@@ -341,7 +341,7 @@
             & .card{
     
                 & p{
-                   font-size: 15px;
+                   font-size: 15px !important;
                 }
             }
         }
@@ -352,7 +352,7 @@
         padding: 5% 0;
 
         & h1{
-            font-size: 20px;
+            font-size: 20px !important; 
             font-weight: 700;
             color: #404040;
             text-align: center;
@@ -360,11 +360,11 @@
         }
     
         .upper-section{
-            background-image: url('../images/news-and-events-bg-1-mobile.svg');
+            background-image: url('../images/news-and-events-bg-1-mobile.webp');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
-            height: 38vh;
+            height: 38vh !important;
 
             & .upper-section-inner{
                 padding: 0 5% 5% 5%;
@@ -373,12 +373,12 @@
                 flex-direction: column;
     
                 & p{
-                    font-size: 18px;
+                    font-size: 18px !important;
                     margin-top: 7% !important;
                 }
     
                 & span{
-                    font-size: 15px;
+                    font-size: 15px !important;
                     margin-top: 30% !important;
                 }
             }
@@ -387,7 +387,7 @@
         .down-section{
             padding: 5% 5% 0 5%;
     
-            background-image: url('../images/news-and-events-bg-2-mobile.svg');
+            background-image: url('../images/news-and-events-bg-2-mobile.webp');
             height: fit-content;
             background-repeat: no-repeat;
             background-size: cover;
@@ -397,7 +397,7 @@
             border-radius: 24px;
     
             & h2{
-               font-size: 20px;
+               font-size: 20px !important;
                text-align: center;
                margin-bottom: 5% !important;
             }
@@ -469,7 +469,7 @@
         background-color: #FFFFFF;
     
         & .hero-inner {
-          background-image: url('../images/hero-main-img-mobile.svg');
+          background-image: url('../images/hero-main-img-mobile.webp');
           background-repeat: no-repeat;
           background-size: cover;
           background-position: center;
@@ -548,7 +548,7 @@
         }
     
         & .card-3{
-            background-image: url('../images/ei-card-3-bg-image-mobile.svg');
+            background-image: url('../images/ei-card-3-bg-image-mobile.webp');
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -628,7 +628,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-1.jpeg');
+                        url('../images/advacing-business-img-1.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -638,7 +638,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-2.jpeg');
+                        url('../images/advacing-business-img-2.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -648,7 +648,7 @@
                     background: 
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 53.32%, rgba(0, 0, 0, 0.4) 77.4%),
                         linear-gradient(180deg, rgba(255, 255, 255, 0) 55.84%, rgba(34, 95, 110, 0.6) 70%),
-                        url('../images/advacing-business-img-3.jpeg');
+                        url('../images/advacing-business-img-3.png');
                     background-repeat: no-repeat;
                     background-size: cover;
                     background-position: center;  
@@ -675,7 +675,7 @@
             }
 
             & .left-side{
-                background-image: url('../images/building-talent-img-mobile.svg');
+                background-image: url('../images/building-talent-img-mobile.webp');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -736,7 +736,7 @@
 
     #opportunitiesToPartner{
         padding: 10% 0;
-        background-image: url('../images/opportunities-to-partnership-bg.svg');
+        background-image: url('../images/opportunities-to-partnership-bg.webp');
         background-repeat: no-repeat;
         background-size:cover;
         background-position: center;
@@ -785,7 +785,7 @@
         }
     
         .upper-section{
-            background-image: url('../images/news-and-events-bg-1-mobile.svg');
+            background-image: url('../images/news-and-events-bg-1-mobile.webp');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -812,7 +812,7 @@
         .down-section{
             padding: 5% 5% 0 5%;
     
-            background-image: url('../images/news-and-events-bg-2-mobile.svg');
+            background-image: url('../images/news-and-events-bg-2-mobile.webp');
             height: fit-content;
             background-repeat: no-repeat;
             background-size: cover;
