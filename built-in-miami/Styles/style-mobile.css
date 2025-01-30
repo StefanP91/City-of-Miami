@@ -105,57 +105,57 @@
             margin-top: -20% !important;
             
             & h4{
-            font-weight: 700 !important;
-            font-size: 20px !important;
-            color: #404040 !important;
-            margin-bottom: 10% !important;
-            margin-right: 10% !important;
-            text-align: right !important;
+                font-weight: 700 !important;
+                font-size: 20px !important;
+                color: #404040 !important;
+                margin-bottom: 10% !important;
+                margin-right: 10% !important;
+                text-align: right !important;
             }
 
             & p{
-            font-size: 15px !important;
-            font-weight: 500 !important;
-            color: #606060 !important;
-            text-align: right !important;
+                font-size: 15px !important;
+                font-weight: 500 !important;
+                color: #606060 !important;
+                text-align: right !important;
             }
         }
 
-        &  .down-section{
+        & .down-section{
             margin-top: 5% !important;
             display: flex !important;
             height: 100% !important;
             gap: 10px !important;
 
             & .card{
-            background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%) !important;
-            padding: 5% 3% !important;
-            display: flex !important;
-            flex-direction: column !important;
-            align-items: center !important;
-            border: 1px solid #C8C8C8 !important;
-            border-radius: 14px !important;
-            text-align: center !important;
+                background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%) !important;
+                padding: 5% 3% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                border: 1px solid #C8C8C8 !important;
+                border-radius: 14px !important;
+                text-align: center !important;
 
-            & h1{
-               font-size: 32px !important;
-               font-weight: 900 !important;
-               color: #0A0A0A !important; 
-            }
+                & h1{
+                    font-size: 32px !important;
+                    font-weight: 900 !important;
+                    color: #0A0A0A !important; 
+                }
 
-            & p{
-                font-weight: 500 !important;
-                color: #0A0A0A !important;
-                font-size: 14px !important;
-                text-wrap: wrap !important;
-            }
+                & p{
+                    font-weight: 500 !important;
+                    color: #0A0A0A !important;
+                    font-size: 14px !important;
+                    text-wrap: wrap !important;
+                }
             }
         }
     }
 
     #background{
-        background-color: #F6F6F6;
-        background: none;
+        background-color: #F6F6F6 !important;
+        background: none !important;
     }
 
     #programGoals{
