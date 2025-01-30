@@ -725,8 +725,8 @@ header {
                     }
 
                     & .down-section{
-                        .col-lg-5{
-                            padding-right: 0 !important;
+                        & .col-lg-5{
+                            padding-left: 0 !important;
                         }
 
                        & .card-1{
