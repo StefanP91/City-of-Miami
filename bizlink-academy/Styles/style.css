@@ -238,6 +238,7 @@ header {
                     font-size: 14px;
                     font-weight: 500;
                     color: #DFDFDF;
+                    margin-bottom: 3% !important;
 
                     & span{
                         font-weight: 700;
