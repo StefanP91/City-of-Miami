@@ -162,7 +162,7 @@ header {
 /* MAIN */
 #hero{
     padding: 3% 0 5% 0 ;
-    background-image: url('../images/hero-bg.svg');
+    background-image: url('../images/hero-bg.webp');
    
 
     & .hero-inner{
@@ -170,7 +170,7 @@ header {
         background: 
             linear-gradient(90deg, rgba(0, 0, 0, 0.4) 17%, rgba(0, 0, 0, 0) 69.01%),
             linear-gradient(90deg, rgba(247, 247, 247, 0) 59.58%, #F7F7F7 98.49%),
-            url('../images/hero-img.jpeg');
+            url('../images/hero-img.png');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -245,7 +245,7 @@ header {
     }
 
     & .card-1{
-        background-image:  url('../images/key-economic-img-1.svg');
+        background-image:  url('../images/key-economic-img-1.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -253,7 +253,7 @@ header {
     }
 
     & .card-2{
-        background: url('../images/key-economics-img-2.svg'), #D9D9D9 ;
+        background: url('../images/key-economics-img-2.webp'), #D9D9D9 ;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -304,7 +304,7 @@ header {
     }
 
     & .card-4{
-        background-image:  url('../images/key-economic-img-3.svg');
+        background-image:  url('../images/key-economic-img-3.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -323,7 +323,7 @@ header {
     & .success-stories-inner{
         background: 
             linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
-            url('../images/success-stories-bg.svg');
+            url('../images/success-stories-bg.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
