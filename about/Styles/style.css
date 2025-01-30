@@ -59,7 +59,7 @@ header {
             font-weight: 800;
         }
 
-        & .nav-item:hover a{
+        & .nav-item:hover .nav-link{
             color: #4443F9 !important;
             border-bottom: 1px solid #4443F9 !important;
             font-weight: 800;
@@ -71,10 +71,11 @@ header {
 
             & .dropdown-menu {
                 animation: fadeIn 0.7s ease-in-out;
+                
 
-              }
+            }
 
-            & .dropdown-menu.show{
+              & .dropdown-menu.show{
                 width: 100% !important;
                 min-width: 100% !important;
                 left: unset !important;
@@ -96,6 +97,7 @@ header {
 
                 & a{
                     text-decoration: none;
+                    border-bottom: 0;
                 }
 
                 & h5{
@@ -139,6 +141,8 @@ header {
                 }
 
             }
+
+
 
             & .dropdown-menu:not(.show) {
                 animation: fadeOut 0.5s ease-in-out; 

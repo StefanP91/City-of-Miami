@@ -61,9 +61,7 @@ header {
             border-bottom: 1px solid #4443F9;
             font-weight: 800;
         }
-
-
-       
+   
         & .dropdown{
             position: static !important;
 
@@ -94,6 +92,11 @@ header {
 
                 & a{
                     text-decoration: none;
+                    border-bottom: none;
+                }
+
+                & a:hover{
+                    border-bottom: 0;
                 }
 
                 & h5{
