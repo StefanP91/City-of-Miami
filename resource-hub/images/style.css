@@ -275,7 +275,7 @@ header {
     }
 
     & .card-1{
-        background-image: url('../images/examples-card-1-bg.svg');
+        background-image: url('../images/examples-card-1-bg.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -290,7 +290,7 @@ header {
     }
 
     & .card-2{
-        background-image: url('../images/examples-card-2-bg.svg');
+        background-image: url('../images/examples-card-2-bg.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -309,7 +309,7 @@ header {
     }
 
     & .card-4{
-        background-image: url('../images/examples-card-4-bg.svg');
+        background-image: url('../images/examples-card-4-bg.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
