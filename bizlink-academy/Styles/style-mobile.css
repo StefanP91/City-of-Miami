@@ -1,3 +1,292 @@
+@media (max-width: 435px) {
+    header {
+        & .navbar-nav{    
+           
+            & .dropdown{
+    
+                & .dropdown-menu.show{
+    
+                    & .container{
+                        display: flex !important;
+                        flex-direction: column !important;
+                    }
+    
+                    & .vstack{
+                        max-width: 100%!important;
+                        justify-content: center !important;
+                        align-items: center !important;
+                    }
+
+    
+                    & h5{
+                        font-size: 15px;
+                    }
+
+    
+                    & .dropdown-img{
+                        width: 100%;
+                        max-width: 200px;
+                    }
+    
+                }
+
+            }
+    
+        }  
+    }
+
+    #hero{
+        padding: 5% 0;
+        background-image: none;
+        background-color: #F6F6F6;
+    
+            & .hero-inner{
+                background-image: url('../images/hero-img-mobile.svg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                padding: 5%;
+    
+                & .upper-left-section{
+                    padding-top: 10%;
+    
+                    & p{
+                       font-size:12px;
+                    }
+    
+                    & h1{
+                       font-size: 32px;
+                    }
+                }
+    
+                & .upper-right-section{
+                    padding-top: 25%;
+                    padding-bottom: 30%;
+    
+                    & .card{
+                        border-radius: 30px;
+                        padding: 4%;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 33.2%, rgba(255, 255, 255, 0.3) 78.7%);
+                        backdrop-filter: blur(12px);
+                        border: 1px solid;
+                        border-image-source: linear-gradient(116.11deg, rgba(0, 0, 0, 0) -8.39%, #ADADAD 64.7%);
+    
+    
+                        & img{
+                           width: 266px;
+                           height: 278px;
+                           margin-left: -5%;
+                           margin-top: -25%; 
+                        }
+    
+                        & p{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: #FFFFFF;
+                            margin-top: 5% !important;
+                        }
+                    }
+                }
+    
+                
+            }
+    }
+
+    #mobile-hero{
+        background-color: #F6F6F6;
+
+        & .upper-section{
+            margin-top: -20%;
+            
+
+            & h4{
+                font-weight: 700;
+                font-size: 20px;
+                color: #404040;
+                margin-bottom: 12% !important;
+                margin-right: 10% !important;
+                text-align: right;
+            }
+
+            & p{
+                font-size: 15px;
+                font-weight: 500;
+                color: #606060;
+                margin-bottom: 3% !important;
+
+                & span{
+                    font-weight: 700;
+                }
+            }
+        }
+
+        &  .down-section{
+            margin-top: 5%;
+            height: 100%;
+
+           & .card{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 15px;
+            padding: 5%;
+            border: none;
+            border-radius: 24px;
+            background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%);
+            border: 1px solid #C8C8C8;
+   
+            
+
+            & h1{
+                font-size: 32px;
+                font-weight: 900;
+                color: #0A0A0A;
+            }
+
+            & p{
+                font-size: 15px;
+                font-weight: 500;
+                color: #0A0A0A;
+
+                & span{
+                    font-weight: 900;
+                }
+            }
+           }
+        }
+    }
+
+    #eligibility{
+        & .title{
+            font-size: 20px;
+            margin-bottom: 5% !important; 
+         }
+
+        & .slider-container-el{
+            overflow: hidden;
+            position: relative;
+
+            & .slider-el{
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            
+                & .slide-el{
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    #programFeatures{
+        & .title{
+            font-size: 20px;
+            margin-bottom: 5% !important;
+        }
+
+        & .card{
+    
+            & h3{
+                font-size: 20px;
+                font-weight: 800;
+                color: #FFFFFF;
+                margin-bottom: 3% !important;
+            }
+    
+            & p{
+                font-size: 14px;
+                font-weight: 700;
+                color: #FFFFFF;
+            }
+        }
+    
+
+        & .slider-container-pf{
+            overflow: hidden;
+            position: relative;
+
+            & .slider-pf{
+                display: flex;
+                transition: transform 0.3s ease-in-out;
+            
+                & .slide-pf{
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    #testimonials{
+        background-color: #304D55;
+        height: fit-content;
+        padding: 5% 10%;
+    
+        & .left-side{
+            justify-content: center;
+
+            & h3{
+               font-size: 24px; 
+               margin-bottom: 5% !important;
+
+            }
+        }
+    
+        & .right-side{
+    
+            & .card-1{
+                height: 300px;
+                margin-top: 0;
+    
+                & p{
+                    font-size: 12px;
+                }
+            }
+    
+            & .card-2{
+                height: 300px;
+                margin-top: 0;
+    
+                & p{
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+
+    #applyToday{
+        height: fit-content;
+        padding: 10% 0;
+    
+        & .left-side {
+            margin-bottom: 5% !important;
+            & h3{
+                font-size: 20px;
+                text-align: center;
+            }
+    
+            & p{
+                font-size: 15px;
+            }
+        }
+    
+        & .right-side{
+            gap: 10px;
+
+            & p{
+               font-size: 15px;
+            }
+    
+            & button{
+                font-size: 14px;
+                width: 100%;
+                margin-bottom: 3% !important;
+            }
+        }
+    }
+}
+
 @media (min-width: 2560px) {
     #hero{
     
