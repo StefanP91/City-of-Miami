@@ -163,10 +163,10 @@ header {
 /* MAIN */
 #hero{
     padding: 3% 0 5% 9%;
-    background-image: url('../images/hero-bg.svg');
+    background-image: url('../images/hero-bg.webp');
 
         & .hero-inner{
-            background-image: url('../images/hero-img.svg');
+            background-image: url('../images/hero-img.webp');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -313,7 +313,7 @@ header {
 
 #programFeatures{
     padding: 5% 0 15% 0;
-    background-image: url('../images/program-features-bg.svg');
+    background-image: url('../images/program-features-bg.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -427,7 +427,7 @@ header {
     & .right-side{
 
         & .card-1{
-            background-image: url('../images/testimonials-person-1.svg');
+            background-image: url('../images/testimonials-person-1.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -452,7 +452,7 @@ header {
         }
 
         & .card-2{
-            background-image: url('../images/testimonials-person-2.svg');
+            background-image: url('../images/testimonials-person-2.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
