@@ -1,0 +1,21 @@
+@media (min-width: 2560px) {
+    #hero{
+    
+        & .hero-inner{
+
+
+            & .upper-right-section{
+                padding-top: 10%;
+
+                & .card{
+                    width: 350px;
+
+                }
+            }
+        }
+    }
+
+    #applyToday{
+        margin-top: 10%;
+    }
+}
