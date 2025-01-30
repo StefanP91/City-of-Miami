@@ -40,109 +40,109 @@
     }
 
     #hero{
-        height: 100%;
-        width: 100%;
-        background-image: none;
+        height: 100% !important;
+        width: 100% !important;
+        background-image: none !important;
     
         & .hero-inner{
-            background-image: none;
-            height: 100%;
-            padding: 5%;
+            background-image: none !important;
+            height: 100% !important;
+            padding: 5% !important;
     
             & .cards-container{
-                overflow: hidden;
-                height: 100%;
+                overflow: hidden !important;
+                height: 100% !important;
                 & .card{
-                    padding: 4%;
-                    box-shadow: 0px 56px 97.1px -40px rgba(0, 2, 34, 0.35);
+                    padding: 4% !important;
+                    box-shadow: 0px 56px 97.1px -40px rgba(0, 2, 34, 0.35) !important;
     
                     & h2{
-                        font-size: 14px;
+                        font-size: 14px !important;
                     }
     
                     & p{
-                        font-size: 12px;
+                        font-size: 12px !important;
                     }
     
     
                 }
 
                 & img{
-                    width: 100%;
-                    transform: scale(1.3);
-                    z-index: -1;
+                    width: 100% !important;
+                    transform: scale(1.3) !important;
+                    z-index: -1 !important;
                 }
     
     
                 & .card-1, .card-2, .card-3, .card-4{
-                    position: static;
-                    width: 100%;
+                    position: static !important;
+                    width: 100% !important;
                 }
             }
         }
     }
 
     #keyInitiatives{
-        padding: 5% 0;
-        background-color: #f6f6f6;
+        padding: 5% 0 !important;
+        background-color: #f6f6f6 !important;
     
         & .left-side{
-            gap: 20px;
-            margin-bottom: 10%;
+            gap: 20px !important;
+            margin-bottom: 10% !important;
     
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
             }
     
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             } 
             
             
         }
     
         & .right-side{
-            height: 100%;
+            height: 100% !important;
     
             & .slider-container-mobile{
-                position: relative;
-                width: 100%;
-                overflow: hidden;
+                position: relative !important;
+                width: 100% !important;
+                overflow: hidden !important;
 
                 & .slider-mobile {
-                    display: flex;
-                    transition: transform 0.5s ease-in-out;
+                    display: flex !important;
+                    transition: transform 0.5s ease-in-out !important;
         
                     & .slide-mobile {
-                        min-width: 100%;
-                        box-sizing: border-box;
-                        height: 300px;
-                        display: flex;
-                        gap: 15px;
+                        min-width: 100% !important;
+                        box-sizing: border-box !important;
+                        height: 300px !important;
+                        display: flex !important;
+                        gap: 15px !important;
                         
 
                         & .left-side{
-                            height: fit-content;
-                            width: 50%;
-                            display: flex;
-                            flex-direction: column;
-                            align-items: center;
-                            justify-content: center;
-                            background-color: #FFFFFF;
-                            border-radius: 14px;
-                            padding: 5% 3%;
+                            height: fit-content !important;
+                            width: 50% !important;
+                            display: flex !important;
+                            flex-direction: column !important;
+                            align-items: center !important;
+                            justify-content: center !important;
+                            background-color: #FFFFFF !important;
+                            border-radius: 14px !important;
+                            padding: 5% 3% !important;
                             margin-top: auto !important;
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #404040;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #404040 !important;
                             }
 
                             & p{
-                                font-size: 15px;
-                                font-weight: 400;
-                                color: #606060;
+                                font-size: 15px !important;
+                                font-weight: 400 !important;
+                                color: #606060 !important;
                             }
                         }
                             
@@ -151,35 +151,35 @@
                             background: 
                                     linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                     linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                    url('../images/key-initiatives-img-1.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center;  
+                                    url('../images/key-initiatives-img-1.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important;  
 
                             /*  */
 
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             }
                         }
         
@@ -187,32 +187,32 @@
                             background: 
                                         linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                         linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                        url('../images/key-initiatives-img-2.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center; 
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                                        url('../images/key-initiatives-img-2.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important; 
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             } 
                         }
         
@@ -220,32 +220,32 @@
                             background: 
                                         linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                         linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                        url('../images/key-initiatives-img-3.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center;
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                                        url('../images/key-initiatives-img-3.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important;
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             }  
                         }
         
@@ -253,32 +253,32 @@
                             background: 
                                         linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                         linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                        url('../images/key-initiatives-img-4.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center;  
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                                        url('../images/key-initiatives-img-4.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important;  
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             }
                         }
         
@@ -286,32 +286,32 @@
                             background: 
                                         linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                         linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                        url('../images/key-initiatives-img-5.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center;  
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                                        url('../images/key-initiatives-img-5.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important;  
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             }
                         }
         
@@ -319,32 +319,32 @@
                             background: 
                                         linear-gradient(180.01deg, rgba(0, 0, 0, 0) 41.72%, rgba(0, 0, 0, 0.5) 99.99%),
                                         linear-gradient(180deg, rgba(255, 255, 255, 0) 59.1%, rgba(34, 95, 110, 0.6) 90.62%),
-                                        url('../images/key-initiatives-img-6.webp');
-                            background-repeat: no-repeat;
-                            background-size: cover;
-                            background-position: center;  
-                            display: flex; 
-                            flex-direction: column; 
-                            justify-content: flex-end;
-                            width: 50%;
-                            padding: 20px;
-                            border-radius: 14px;
+                                        url('../images/key-initiatives-img-6.webp') !important;
+                            background-repeat: no-repeat !important;
+                            background-size: cover !important;
+                            background-position: center !important;  
+                            display: flex !important; 
+                            flex-direction: column !important; 
+                            justify-content: flex-end !important;
+                            width: 50% !important;
+                            padding: 20px !important;
+                            border-radius: 14px !important;
                             
 
                             & h6{
-                                font-size: 15px;
-                                font-weight: 600;
-                                color: #FFFFFF;
+                                font-size: 15px !important;
+                                font-weight: 600 !important;
+                                color: #FFFFFF !important;
                             }
         
                             & p{
-                                font-weight: 600;
-                                color: #BFBFBF;
-                                opacity: 0;
-                                max-height: 0;
-                                overflow: hidden;
-                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out;
-                                font-size: 15px;
+                                font-weight: 600 !important;
+                                color: #BFBFBF !important;
+                                opacity: 0 !important;
+                                max-height: 0 !important;
+                                overflow: hidden !important;
+                                transition: opacity 0.9s ease-in-out, max-height 0.9s ease-in-out !important;
+                                font-size: 15px !important;
                             }
                         }
                     }
@@ -354,46 +354,46 @@
         }
     
         & .description{
-            color:#606060;
-            font-size: 15px;
+            color:#606060 !important;
+            font-size: 15px !important;
         }
     }
 
     #ourMission{
-        background-image: none;
-        background-color: #f6f6f6;
-        padding: 0 2%;
+        background-image: none !important;
+        background-color: #f6f6f6 !important;
+        padding: 0 2% !important;
 
         & .left-side{
-            height: 206px;
-            border-radius: 14px;
+            height: 206px !important;
+            border-radius: 14px !important;
             background-image: url('../images/our-mission-img.png') !important;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            background-position: center !important;
         }
 
         & .right-side{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            align-items: center !important;
+            height: 100% !important;
     
             & .card{
-                box-shadow: -20px 33px 65.8px 0px #2E5F6973;
-                backdrop-filter: blur(10px);
-                text-align: right;
-                width: 100%;
+                box-shadow: -20px 33px 65.8px 0px #2E5F6973 !important;
+                backdrop-filter: blur(10px) !important;
+                text-align: right !important;
+                width: 100% !important;
                 margin-right: 0 !important;
-                bottom: 30%;
+                bottom: 30% !important;
     
                 & h1{
-                    font-size: 20px;
+                    font-size: 20px !important;
                 }
     
                 & p{
-                    font-size: 15px;
+                    font-size: 15px !important;
                 }
             }
         }
@@ -401,25 +401,25 @@
     }
 
     #coreGoals{
-        padding: 5% 0 15% 0;
+        padding: 5% 0 15% 0 !important;
     
         & .intro{
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
                 margin-bottom: 5% !important;
             }
         }
     
         & .card{
-            height: 100%;
-            padding: 10%;
+            height: 100% !important;
+            padding: 10% !important;
     
             & h4 {
-                font-size: 18px;
+                font-size: 18px !important;
             }
     
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             }
     
         }
@@ -427,51 +427,51 @@
 
     #leadershipTeam{
 
-        height: 100%;
-        padding: 10% 0;
+        height: 100% !important;
+        padding: 10% 0 !important;
     
         & .left-side{
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
+            padding: 0 !important;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 20px !important;
             
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             }
     
             & h1{
-                font-size: 20px;
+                font-size: 20px !important;
             }
     
             & span{
-                font-size: 15px;
+                font-size: 15px !important;
             }
         }
     
         & .right-side{
-            position: relative;
+            position: relative !important;
     
             & .card{
                 margin-top: 0 !important;
                 display: flex !important;
 
                 & img{
-                    width: 50%;
+                    width: 50% !important;
                 }
     
                 & h5 {
-                    font-size: 14px;
+                    font-size: 14px !important;
                 }
     
                 & p{
-                    font-size: 12px;
+                    font-size: 12px !important;
                     margin-top: 7% !important;
                 }
     
                 & .linkedin-icon, .x-icon{
-                    width: 24px;
-                    height: 24px;
+                    width: 24px !important;
+                    height: 24px !important;
                 }
             }
         }
@@ -479,15 +479,15 @@
 
     #directorMessage{
 
-        padding: 5% 0;
+        padding: 5% 0 !important;
     
         & .intro{
             & p{
-               font-size: 15px;
+               font-size: 15px !important;
             }
     
             & h2{
-                font-size: 20px;
+                font-size: 20px !important;
                 margin-bottom: 65% !important;
             }
         }
@@ -495,36 +495,36 @@
         & .director-message-inner{
             background: 
             linear-gradient(270deg, rgba(35, 152, 161, 0) 42.13%, #2398A1 75.67%),
-            url('../images/director-message-bg.jpeg');
-            background-repeat: no-repeat;
-            background-position:bottom left 40%;
-            background-size: 200%;
-            border-radius: 24px;
-            padding: 3% 0 0 0%;
+            url('../images/director-message-bg.jpeg') !important;
+            background-repeat: no-repeat !important;
+            background-position:bottom left 40% !important;
+            background-size: 200% !important;
+            border-radius: 24px !important;
+            padding: 3% 0 0 0% !important;
     
     
             & .card{
-                margin-top: -60%;
+                margin-top: -60% !important;
             }
     
             & .slider-container-DM{   
                 & .slider-DM{    
                     & .slide-DM{
                         & .up-section{
-                            padding-left: 5%;
-                            margin-top: 10%;
+                            padding-left: 5% !important;
+                            margin-top: 10% !important;
                             
     
                             & h1{
-                                font-size: 20px;
-                                font-weight: 700;
-                                color: #FFFFFF;
+                                font-size: 20px !important;
+                                font-weight: 700 !important;
+                                color: #FFFFFF !important;
                             }
     
                             & p{
-                                font-size: 15px;
+                                font-size: 15px !important;
                                 margin: 4% 0 20% 0 !important;
-                                width: 55%;
+                                width: 55% !important;
                             }
                         }
     
@@ -535,34 +535,34 @@
                             }
     
                            & .card-1{
-                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%);
-                                height: 230px;
-                                padding: 5%;
+                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%) !important;
+                                height: 230px !important;
+                                padding: 5% !important;
     
                                 & h4{
-                                    font-size: 16px;
+                                    font-size: 16px !important;
                                     margin-bottom: 5% !important;
                                 }
     
                                 & p{
-                                    font-size: 14px;
+                                    font-size: 14px !important;
                                 }
                             }
     
                            & .card-2{
-                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%);
-                                height: 270px;
-                                padding: 10% 5%;
-                                border-bottom-right-radius: 0px;
+                                background: linear-gradient(270.33deg, rgba(255, 255, 255, 0) -1.3%, rgba(255, 255, 255, 0.7) 14.56%, #5DD0D9 35.64%, #2398A1 76.76%) !important;
+                                height: 270px !important;
+                                padding: 10% 5% !important;
+                                border-bottom-right-radius: 0px !important;
                                 
     
                                 & h4{
-                                    font-size: 16px;
+                                    font-size: 16px !important;
                                     margin-bottom: 5% !important;
                                 }
     
                                 & p{
-                                    font-size: 14px;
+                                    font-size: 14px !important;
                                 }
                             }
                         }
@@ -572,30 +572,30 @@
     
                 & .slider-buttonsDM{
     
-                    position: static;
-                    border-radius: 0px;
-                    background: linear-gradient(90deg, #FFFFFF 0%, #2398A1 100%);
-                    border: none;
-                    box-shadow: none;
-                    display: flex;
-                    justify-content: space-between;
-                    border-bottom-left-radius: 20px;
-                    border-bottom-right-radius: 20px;
+                    position: static !important;
+                    border-radius: 0px !important;
+                    background: linear-gradient(90deg, #FFFFFF 0%, #2398A1 100%) !important;
+                    border: none !important;
+                    box-shadow: none !important;
+                    display: flex !important;
+                    justify-content: space-between !important;
+                    border-bottom-left-radius: 20px !important;
+                    border-bottom-right-radius: 20px !important;
                     
             
                     #prevBtnDMMobile, #nextBtnDMMobile {
-                        background-color: transparent;
-                        padding: 16px;
-                        border: none;
+                        background-color: transparent !important;
+                        padding: 16px !important;
+                        border: none !important;
                     }
             
                     #prevBtnDMMobile:hover{
-                        box-shadow: none;
+                        box-shadow: none !important;
     
                     }
     
                     #nextBtnDMMobile:hover{
-                        box-shadow: none;
+                        box-shadow: none !important;
                     }
                 }
             }
@@ -604,54 +604,54 @@
     }
 
     #joinForces{
-        padding: 10% 0;
+        padding: 10% 0 !important;
         padding-left: 2% !important;
-        background-color: #f6f6f6;
+        background-color: #f6f6f6 !important;
     
         
         & .join-forces-inner{
-            background-image: none;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            position: static;
+            background-image: none !important;
+            height: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            position: static !important;
 
             & img{
-                width: 100%;
-                z-index: 1;
+                width: 100% !important;
+                z-index: 1 !important;
             }
     
             & .card{
-                width: 100%;
-                position: relative;
-                background-color: transparent;
-                transform: translateY(-25px);
-                right: 0;
-                padding-right: 2%;
+                width: 100% !important;
+                position: relative !important;
+                background-color: transparent !important;
+                transform: translateY(-25px) !important;
+                right: 0 !important;
+                padding-right: 2% !important;
                
                 & h2{
-                    text-align: right;
-                    font-size: 24px;
+                    text-align: right !important;
+                    font-size: 24px !important;
                     margin-right: 10% !important;
                 }
     
                 & p{
-                    font-size: 14px;
+                    font-size: 14px !important;
                 }
     
                 & .partner-with-us-link{
-                    text-decoration: none;
+                    text-decoration: none !important;
                 }
     
                 & .partner-with-us{
-                   font-size: 14px;
-                   width: 100%;
-                   justify-content: space-between;
-                   margin-top: 5%;
+                   font-size: 14px !important;
+                   width: 100% !important;
+                   justify-content: space-between !important;
+                   margin-top: 5% !important;
 
                    & img{
-                        width: 32px;
-                        height: 32px;
+                        width: 32px !important;
+                        height: 32px !important;
                    }
                 }
     
