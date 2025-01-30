@@ -163,10 +163,10 @@ header {
 /* MAIN */
 #hero{
     padding: 3% 0 5% 9%;
-    background-image: url('../images/hero-bg.svg');
+    background-image: url('../images/hero-bg.webp');
 
         & .hero-inner{
-            background-image: url('../images/hero-img.svg');
+            background-image: url('../images/hero-img.webp');
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
@@ -265,7 +265,7 @@ header {
 #background{
     background: 
         
-        url('../images/background.svg');
+        url('../images/background.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -311,7 +311,7 @@ header {
     }
 
     & .card-1{
-        background: url('../images/program-goals-img-1.svg');
+        background: url('../images/program-goals-img-1.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -319,7 +319,7 @@ header {
     }
 
     & .card-2{
-        background: url('../images/program-goals-img-2.svg');
+        background: url('../images/program-goals-img-2.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -327,7 +327,7 @@ header {
     }
 
     & .card-3{
-        background: url('../images/program-goals-img-3.svg');
+        background: url('../images/program-goals-img-3.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -335,7 +335,7 @@ header {
     }
 
     & .card-1-1, .card-2-2, .card-3-3{
-        background: url('../images/program-goals-gray-bg.svg');
+        background: url('../images/program-goals-gray-bg.webp');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -424,7 +424,7 @@ header {
     & .right-side{
 
         & .card-1{
-            background-image: url('../images/testimonials-person-1.svg');
+            background-image: url('../images/testimonials-person-1.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -449,7 +449,7 @@ header {
         }
 
         & .card-2{
-            background-image: url('../images/testimonials-person-2.svg');
+            background-image: url('../images/testimonials-person-2.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

@@ -47,21 +47,22 @@
         background-color: #F6F6F6;
     
             & .hero-inner{
-                background-image: url('../images/hero-img-mobile.svg');
+                background-image: url('../images/hero-img-mobile.webp');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
                 padding: 5%;
+                height: 100% !important;
     
                 & .upper-left-section{
                     padding-top: 10%;
     
                     & p{
-                       font-size:12px;
+                       font-size:12px !important;
                     }
     
                     & h1{
-                       font-size: 32px;
+                       font-size: 32px !important;
                     }
                 }
     
@@ -115,7 +116,7 @@
             }
 
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
                 font-weight: 500;
                 color: #606060;
                 text-align: right;
@@ -142,7 +143,7 @@
 
 
                 & h1{
-                   font-size: 32px;
+                   font-size: 32px !important;
                    font-weight: 900;
                    color: #0A0A0A; 
                 }
@@ -150,7 +151,7 @@
                 & p{
                     font-weight: 500;
                     color: #0A0A0A;
-                    font-size: 14px;
+                    font-size: 14px !important;
                     text-wrap: wrap;
                 }
             }
@@ -202,7 +203,7 @@
         }
     
         & .card-1{
-            background: url('../images/program-goals-img-1-mobile.svg');
+            background: url('../images/program-goals-img-1-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -210,7 +211,7 @@
         }
     
         & .card-2{
-            background: url('../images/program-goals-img-2-mobile.svg');
+            background: url('../images/program-goals-img-2-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -218,7 +219,7 @@
         }
     
         & .card-3{
-            background: url('../images/program-goals-img-3-mobile.svg');
+            background: url('../images/program-goals-img-3-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -226,7 +227,7 @@
         }
 
         & .card-1-1, .card-2-2, .card-3-3{
-            background: url('../images/program-goals-gray-bg.svg');
+            background: url('../images/program-goals-gray-bg.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -453,7 +454,7 @@
         background-color: #F6F6F6;
     
             & .hero-inner{
-                background-image: url('../images/hero-img-mobile.svg');
+                background-image: url('../images/hero-img-mobile.webp');
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
@@ -604,7 +605,7 @@
         }
     
         & .card-1{
-            background: url('../images/program-goals-img-1-mobile.svg');
+            background: url('../images/program-goals-img-1-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -612,7 +613,7 @@
         }
     
         & .card-2{
-            background: url('../images/program-goals-img-2-mobile.svg');
+            background: url('../images/program-goals-img-2-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -620,7 +621,7 @@
         }
     
         & .card-3{
-            background: url('../images/program-goals-img-3-mobile.svg');
+            background: url('../images/program-goals-img-3-mobile.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -628,7 +629,7 @@
         }
 
         & .card-1-1, .card-2-2, .card-3-3{
-            background: url('../images/program-goals-gray-bg.svg');
+            background: url('../images/program-goals-gray-bg.webp');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
