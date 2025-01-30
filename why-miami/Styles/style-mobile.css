@@ -279,3 +279,284 @@
     }
 
 }
+
+@media (max-width:768px) {
+    header{
+        background-color: transparent;
+        backdrop-filter: blur(30px);
+
+        & .navbar-nav{    
+           
+            & .dropdown{
+    
+                & .dropdown-menu.show{
+    
+                    & .container{
+                        display: flex !important;
+                        flex-direction: column !important;
+                    }
+    
+                    & .vstack{
+                        max-width: 100%!important;
+                        justify-content: center !important;
+                        align-items: center !important;
+                    }
+
+    
+                    & h5{
+                        font-size: 15px;
+                    }
+
+    
+                    & .dropdown-img{
+                        width: 100%;
+                        max-width: 200px;
+                    }
+    
+                }
+
+            }
+    
+        }  
+    }
+
+    #hero{
+        background-image: none;
+        padding: 0 0 5% 0;
+
+        & .hero-inner{
+            padding: 40% 0 5% 0;
+            background-image: url('../images/hero-img.jpeg') !important;
+            border-radius: 0px;
+            width: 100%;
+            margin-top: -25%;
+    
+            & .left-side{  
+                & h1{
+                    font-size: 32px;
+                    margin-bottom: 3% !important;
+                }
+    
+                & p{
+                    font-size: 12px;
+                    margin-bottom: 3% !important; 
+                }
+            }
+    
+            & .right-side{
+                gap: 10px;
+    
+                .card{
+                    background: rgba(255, 255, 255, 0.5);
+                    backdrop-filter: blur(20px);
+                    border-radius: 14px;
+    
+                    & h4{
+                        font-size: 16px;
+                    }
+    
+                    & p{
+                        font-size: 12px;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    #keyEconomic{
+        padding: 5% 0;
+    
+        & .intro{
+            & h1{
+                text-align: left;
+                font-size: 20px;
+                margin-bottom: 5% !important;
+            }
+        }
+    
+        & .card{
+            border: none;
+            border-radius: 24px;
+            padding: 5% 7%;
+        }
+    
+        & .card-1{
+            background-image:  url('../images/key-economic-img-1.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 314px;
+        }
+    
+        & .card-2{
+            background: url('../images/key-economics-img-2.svg'), #D9D9D9 ;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            & h2{
+               font-size: 20px;
+            }
+    
+            & ul>li{
+                font-size: 15px;
+    
+                & span{
+                    font-weight: 800;
+                }
+    
+            }
+        }
+    
+        & .card-3{
+            background-color: #ECECEC;
+            height: 398px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+    
+            & h2{
+                font-size: 20px;
+            }
+    
+            & div>p{
+                font-size: 15px;
+            }
+        }
+    
+        & .card-4{
+            background-image:  url('../images/key-economic-img-3.svg');
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 314px;
+        }
+
+        & .slider-container{
+            position: relative;
+            overflow: hidden;
+
+            & .slider{
+                display: flex;
+                transition: transform 0.5s ease-in-out;
+
+                & .slide{
+                    min-width: 100%;
+                    box-sizing: border-box;
+                }
+            }
+        }
+    }
+
+    #successStories{
+        padding: 5% 0;
+    
+        & .title{
+            text-align: center;
+            margin-bottom: 3% !important;
+        }
+    
+        & .success-stories-inner{
+            background: 
+                linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
+                url('../images/success-stories-mobile-bg.svg');
+            background-repeat: no-repeat;
+            background-position: top;
+            background-size: contain;
+            border-radius: 24px;
+            padding: 3% 0 0 0;
+            overflow: hidden;
+    
+    
+            & .upper-section{
+                margin-top: 20%;
+                padding: 0 5%;
+    
+                & h1{
+                    font-size: 20px;
+                    text-align: center;
+                    margin-bottom: 5% !important;
+                }
+    
+                & p{
+                    font-size: 15px;
+                    text-align: start;
+                }
+            }
+    
+            & .down-section{
+                margin-top: 60%;
+
+                & .card-1{
+                    height: auto;
+                    background: 
+                    linear-gradient(270deg, rgba(108, 167, 186, 0) 34.99%, #6CA7BA 95.34%),
+                    linear-gradient(179.82deg, #304D55 0.16%, #73B0C4 63.23%, #91BFD0 75.95%, #AFCFDD 97.83%);
+
+
+                    & h4{
+                       font-size: 16px;
+                    }
+    
+                    & p{
+                        & span{
+                            font-size: 15px;
+                        }
+                    }
+    
+                }
+    
+                & .card-2{
+                    height: auto;
+                    background: 
+                        linear-gradient(270.71deg, rgba(108, 167, 186, 0) 43.45%, #6CA7BA 99.89%),
+                        linear-gradient(0deg, #304D55, #304D55);
+
+                    
+                    & h4{
+                        font-size: 16px;
+                     }
+     
+                     & p{
+                         & span{
+                             font-size: 15px;
+                         }
+                     }
+    
+                }
+            }
+    
+        }
+    }
+
+    #miamiMovement{
+
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        padding: 5% 0;
+    
+        & h1{
+            font-size: 20px;
+            margin-bottom: 3% !important;
+        }
+
+    
+        & button{
+            font-size: 14px;
+            width: 100%;
+            padding: 12px 26px; 
+        }
+
+        .hstack{
+            display: flex;
+            flex-direction: column;
+        }
+    
+    }
+}
