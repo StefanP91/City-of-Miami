@@ -1,6 +1,6 @@
 @media (max-width:435px) {
     header {
-
+        background-color: #f6f6f6;
     
         & .navbar-nav{    
            
