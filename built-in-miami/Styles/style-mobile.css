@@ -42,23 +42,23 @@
     }
     
     #hero{
-        padding: 5% 0;
-        background-image: none;
-        background-color: #F6F6F6;
+        padding: 5% 0 !important;
+        background-image: none !important;
+        background-color: #F6F6F6 !important;
     
             & .hero-inner{
-                background-image: url('../images/hero-img-mobile.webp');
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-                padding: 5%;
+                background-image: url('../images/hero-img-mobile.webp') !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                background-position: center !important;
+                padding: 5% !important;
                 height: 100% !important;
     
                 & .upper-left-section{
-                    padding-top: 10%;
+                    padding-top: 10% !important;
     
                     & p{
-                       font-size:12px !important;
+                       font-size: 12px !important;
                     }
     
                     & h1{
@@ -67,29 +67,28 @@
                 }
     
                 & .upper-right-section{
-                    padding-top: 25%;
-                    padding-bottom: 30%;
+                    padding-top: 25% !important;
+                    padding-bottom: 30% !important;
     
                     & .card{
-                        border-radius: 30px;
-                        padding: 4%;
-                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 33.2%, rgba(255, 255, 255, 0.3) 78.7%);
-                        backdrop-filter: blur(12px);
-                        border: 1px solid;
-                        border-image-source: linear-gradient(116.11deg, rgba(0, 0, 0, 0) -8.39%, #ADADAD 64.7%);
-    
+                        border-radius: 30px !important;
+                        padding: 4% !important;
+                        background: linear-gradient(180deg, rgba(255, 255, 255, 0) 33.2%, rgba(255, 255, 255, 0.3) 78.7%) !important;
+                        backdrop-filter: blur(12px) !important;
+                        border: 1px solid !important;
+                        border-image-source: linear-gradient(116.11deg, rgba(0, 0, 0, 0) -8.39%, #ADADAD 64.7%) !important;
     
                         & img{
-                           width: 266px;
-                           height: 278px;
-                           margin-left: -5%;
-                           margin-top: -25%; 
+                           width: 266px !important;
+                           height: 278px !important;
+                           margin-left: -5% !important;
+                           margin-top: -25% !important; 
                         }
     
                         & p{
-                            font-size: 12px;
-                            font-weight: 400;
-                            color: #FFFFFF;
+                            font-size: 12px !important;
+                            font-weight: 400 !important;
+                            color: #FFFFFF !important;
                             margin-top: 5% !important;
                         }
                     }
@@ -100,60 +99,56 @@
     }
 
     #mobile-hero{
-        background-color: #F6F6F6;
+        background-color: #F6F6F6 !important;
 
         & .upper-section{
-            margin-top: -20%;
+            margin-top: -20% !important;
             
-
             & h4{
-                font-weight: 700;
-                font-size: 20px;
-                color: #404040;
-                margin-bottom: 10% !important;
-                margin-right: 10% !important;
-                text-align: right;
+            font-weight: 700 !important;
+            font-size: 20px !important;
+            color: #404040 !important;
+            margin-bottom: 10% !important;
+            margin-right: 10% !important;
+            text-align: right !important;
             }
 
             & p{
-                font-size: 15px !important;
-                font-weight: 500;
-                color: #606060;
-                text-align: right;
+            font-size: 15px !important;
+            font-weight: 500 !important;
+            color: #606060 !important;
+            text-align: right !important;
             }
         }
 
         &  .down-section{
-            margin-top: 5%;
-            display: flex;
-            height: 100%;
-            gap: 10px;
+            margin-top: 5% !important;
+            display: flex !important;
+            height: 100% !important;
+            gap: 10px !important;
 
             & .card{
+            background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%) !important;
+            padding: 5% 3% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            border: 1px solid #C8C8C8 !important;
+            border-radius: 14px !important;
+            text-align: center !important;
 
-                background: linear-gradient(141.76deg, rgba(255, 255, 255, 0.66) 0.7%, rgba(255, 255, 255, 0) 99.01%);
-                padding: 5% 3%;
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                border: 1px solid #C8C8C8;
-                border-radius: 14px;
-                text-align: center;
+            & h1{
+               font-size: 32px !important;
+               font-weight: 900 !important;
+               color: #0A0A0A !important; 
+            }
 
-
-
-                & h1{
-                   font-size: 32px !important;
-                   font-weight: 900;
-                   color: #0A0A0A; 
-                }
-
-                & p{
-                    font-weight: 500;
-                    color: #0A0A0A;
-                    font-size: 14px !important;
-                    text-wrap: wrap;
-                }
+            & p{
+                font-weight: 500 !important;
+                color: #0A0A0A !important;
+                font-size: 14px !important;
+                text-wrap: wrap !important;
+            }
             }
         }
     }
@@ -164,106 +159,106 @@
     }
 
     #programGoals{
-        padding: 5% 0;
-        background-color: #F6F6F6;
+        padding: 5% 0 !important;
+        background-color: #F6F6F6 !important;
 
     
         & .title{
             margin-bottom: 3% !important;
             padding-top: 5% !important;
-            font-size: 20px;
+            font-size: 20px !important;
         }
     
         & .card{
-            border: none;
-            border-radius: 10px;
-            padding: 5%;
-            height: 150px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: transparent;
-            position: relative;
+            border: none !important;
+            border-radius: 10px !important;
+            padding: 5% !important;
+            height: 150px !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            background-color: transparent !important;
+            position: relative !important;
             
     
             & h4 {
-                font-size: 20px;
-                font-weight: 600;
-                color: #FFFFFF;
+                font-size: 20px !important;
+                font-weight: 600 !important;
+                color: #FFFFFF !important;
             }
     
             & p{
-                font-weight: 500;
-                color: #404040;
+                font-weight: 500 !important;
+                color: #404040 !important;
     
                 & span{
-                    font-weight: 700;
+                    font-weight: 700 !important;
                 }
             }
         }
     
         & .card-1{
-            background: url('../images/program-goals-img-1-mobile.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: url('../images/program-goals-img-1-mobile.webp') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
     
         }
     
         & .card-2{
-            background: url('../images/program-goals-img-2-mobile.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: url('../images/program-goals-img-2-mobile.webp') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
     
         }
     
         & .card-3{
-            background: url('../images/program-goals-img-3-mobile.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
+            background: url('../images/program-goals-img-3-mobile.webp') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
     
         }
 
         & .card-1-1, .card-2-2, .card-3-3{
-            background: url('../images/program-goals-gray-bg.webp');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            z-index: 10;
-            visibility: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            opacity: 0;
-            transform: translateY(20%);
-            transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out, visibility 0.7s;
+            background: url('../images/program-goals-gray-bg.webp') !important;
+            background-size: cover !important;
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            z-index: 10 !important;
+            visibility: hidden !important;
+            position: absolute !important;
+            top: 0 !important;
+            left: 0 !important;
+            width: 100% !important;
+            height: 100% !important;
+            opacity: 0 !important;
+            transform: translateY(20%) !important;
+            transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out, visibility 0.7s !important;
             
         }
     
         & .card-1:hover .card-1-1{
-            display: none;  
+            display: none !important;  
         }
     
         & .card-2:hover .card-2-2{
-            display: none;  
+            display: none !important;  
         }
     
         & .card-3:hover .card-3-3{
-            display: none;  
+            display: none !important;  
         }
 
         & .card-mobile-1-1, .card-mobile-2-2, .card-mobile-3-3{
             & p {
-                font-size: 15px;
-                font-weight: 500;
-                color: #404040;
+                font-size: 15px !important;
+                font-weight: 500 !important;
+                color: #404040 !important;
 
                 & span{
-                    font-weight: 700;
+                    font-weight: 700 !important;
                 }
             }
         }
@@ -271,42 +266,42 @@
     }
 
     #whatYouGet{
-        padding: 5% 0 15% 0;
-        background-color: #F6F6F6;
+        padding: 5% 0 15% 0 !important;
+        background-color: #F6F6F6 !important;
     
         & .title{
-            font-size: 20px;
+            font-size: 20px !important;
         }
     
         .slider-container{
-            overflow: hidden;
-            position: relative;
+            overflow: hidden !important;
+            position: relative !important;
     
             & .slider{
-                display: flex;
-                transition: transform 0.3s ease-in-out;
+                display: flex !important;
+                transition: transform 0.3s ease-in-out !important;
 
                 & .slide{
-                    min-width: 100%;
-                    box-sizing: border-box;
+                    min-width: 100% !important;
+                    box-sizing: border-box !important;
 
                     & .card{
-                        border: none;
-                        border-radius: 24px;
-                        padding: 7% 5% 10% 5%;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between;
-                        height: 240px;
+                        border: none !important;
+                        border-radius: 24px !important;
+                        padding: 7% 5% 10% 5% !important;
+                        display: flex !important;
+                        flex-direction: column !important;
+                        justify-content: space-between !important;
+                        height: 240px !important;
                 
                         & img{
-                            width: 86px;
-                            height: 86px;
+                            width: 86px !important;
+                            height: 86px !important;
                         }
                 
                         & p{
-                            font-weight: 500;
-                            color: #606060;
+                            font-weight: 500 !important;
+                            color: #606060 !important;
                         }
                     }
                 }
@@ -315,15 +310,15 @@
     }
 
     #testimonials{
-        background-color: #304D55;
-        height: fit-content;
-        padding: 5% 10%;
+        background-color: #304D55 !important;
+        height: fit-content !important;
+        padding: 5% 10% !important;
     
         & .left-side{
-            justify-content: center;
+            justify-content: center !important;
 
             & h3{
-               font-size: 24px; 
+               font-size: 24px !important; 
                margin-bottom: 5% !important;
 
             }
@@ -332,74 +327,74 @@
         & .right-side{
     
             & .card-1{
-                height: 300px;
-                margin-top: 0;
+                height: 300px !important;
+                margin-top: 0 !important;
     
                 & p{
-                    font-size: 12px;
+                    font-size: 12px !important;
                 }
             }
     
             & .card-2{
-                height: 300px;
-                margin-top: 0;
+                height: 300px !important;
+                margin-top: 0 !important;
     
                 & p{
-                    font-size: 12px;
+                    font-size: 12px !important;
                 }
             }
         }
     }
 
     #applyNow{
-        height: fit-content;
-        padding: 5% 0;
+        height: fit-content !important;
+        padding: 5% 0 !important;
     
         & .left-side{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            height: 100%;
-            gap: 20px;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            height: 100% !important;
+            gap: 20px !important;
             margin-bottom: 3% !important;
     
             & h3{
-                font-size: 20px;
-                text-align: center;
+                font-size: 20px !important;
+                text-align: center !important;
             }
     
             & p{
-                font-size: 15px;
+                font-size: 15px !important;
             }
         }
     
         & .right-side{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            height: 100%;
-            gap: 10px;
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            height: 100% !important;
+            gap: 10px !important;
 
             & div{
                 width: 100% !important;
             }
     
             & button{
-                font-size: 14px;
+                font-size: 14px !important;
                 width: 100% !important;
             }
     
             & button:hover{
-                background-color: #1414d4;
+                background-color: #1414d4 !important;
             }
     
             & button:active{
-                transform: scale(0.9);
+                transform: scale(0.9) !important;
             }
     
             & span{
-                font-size: 14px;
-                font-weight: 500;
+                font-size: 14px !important;
+                font-weight: 500 !important;
             }
         }
     }

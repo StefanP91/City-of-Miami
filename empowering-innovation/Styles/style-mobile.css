@@ -40,14 +40,14 @@
     }
 
     #hero {
-        padding: 10% 0 5% 0; 
-        background-color: #FFFFFF;
+        padding: 10% 0 5% 0 !important; 
+        background-color: #FFFFFF !important;
     
         & .hero-inner {
-          background-image: url('../images/hero-main-img-mobile.webp');
-          background-repeat: no-repeat;
-          background-size: cover;
-          background-position: center;
+          background-image: url('../images/hero-main-img-mobile.webp') !important;
+          background-repeat: no-repeat !important;
+          background-size: cover !important;
+          background-position: center !important;
           height: 81vh !important;
 
     
@@ -59,14 +59,14 @@
           }
     
           & .hero-title{
-            margin: auto 0;
-            margin-left: 0;
-            padding-left: 0;
-            background: none;
-            border: none;
-            border-radius: none;
-            border-image-source: none;
-            backdrop-filter: none;
+            margin: auto 0 !important;
+            margin-left: 0 !important;
+            padding-left: 0 !important;
+            background: none !important;
+            border: none !important;
+            border-radius: none !important;
+            border-image-source: none !important;
+            backdrop-filter: none !important;
     
     
             & h1{
@@ -79,7 +79,7 @@
           & .card{
             width: 134px !important;
             height: 128px !important;
-            padding: 3%;
+            padding: 3% !important;
             margin-bottom: -8% !important;
           
     
@@ -95,11 +95,11 @@
     }
 
     #empoweringInnovation{
-        padding: 5% 0;
-        background-color: #FFFFFF;
+        padding: 5% 0 !important;
+        background-color: #FFFFFF !important;
     
         & .card-1{
-            padding: 11% 5%;
+            padding: 11% 5% !important;
     
             & h3{
                 font-size: 16px !important;
@@ -111,7 +111,7 @@
         }
     
         & .card-2{
-            padding: 11% 5%;
+            padding: 11% 5% !important;
     
             & h3{
                 font-size: 16px !important;
@@ -123,14 +123,14 @@
         }
     
         & .card-3{
-            background-image: url('../images/ei-card-3-bg-image-mobile.webp');
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: cover;
+            background-image: url('../images/ei-card-3-bg-image-mobile.webp') !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+            background-size: cover !important;
             height: 60vh !important;
-            padding: 0 5% 5% 5%;
-            border: none;
-            border-radius: 24px;
+            padding: 0 5% 5% 5% !important;
+            border: none !important;
+            border-radius: 24px !important;
     
             & h2{
                 font-size: 20px !important;                
@@ -310,20 +310,20 @@
     }
 
     #opportunitiesToPartner{
-        padding: 10% 0;
-        background-image: url('../images/opportunities-to-partnership-bg.webp');
-        background-repeat: no-repeat;
-        background-size:cover;
-        background-position: center;
+        padding: 10% 0 !important;
+        background-image: url('../images/opportunities-to-partnership-bg.webp') !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: center !important;
     
         & .left-side{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 10px;
-            text-align: center;
-            padding: 0;
+            height: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+            gap: 10px !important;
+            text-align: center !important;
+            padding: 0 !important;
     
             & h1{
                 font-size: 20px !important;
@@ -332,10 +332,10 @@
         }
     
         & .right-side{
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
+            height: 100% !important;
+            display: flex !important;
+            flex-direction: column !important;
+            gap: 15px !important;
     
     
             & .card{
@@ -349,28 +349,28 @@
     }
 
     #newsAndEvents{
-        padding: 5% 0;
+        padding: 5% 0 !important;
 
         & h1{
             font-size: 20px !important; 
-            font-weight: 700;
-            color: #404040;
-            text-align: center;
+            font-weight: 700 !important;
+            color: #404040 !important;
+            text-align: center !important;
             margin-bottom: 3% !important;
         }
     
         .upper-section{
-            background-image: url('../images/news-and-events-bg-1-mobile.webp');
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
+            background-image: url('../images/news-and-events-bg-1-mobile.webp') !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            background-position: center !important;
             height: 38vh !important;
 
             & .upper-section-inner{
-                padding: 0 5% 5% 5%;
-                height: 100%;
-                display: flex;
-                flex-direction: column;
+                padding: 0 5% 5% 5% !important;
+                height: 100% !important;
+                display: flex !important;
+                flex-direction: column !important;
     
                 & p{
                     font-size: 18px !important;
@@ -385,40 +385,40 @@
         }
     
         .down-section{
-            padding: 5% 5% 0 5%;
+            padding: 5% 5% 0 5% !important;
     
-            background-image: url('../images/news-and-events-bg-2-mobile.webp');
-            height: fit-content;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            border-radius: 24px;
+            background-image: url('../images/news-and-events-bg-2-mobile.webp') !important;
+            height: fit-content !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            background-position: center !important;
+            display: flex !important;
+            flex-direction: column !important;
+            border-radius: 24px !important;
     
             & h2{
                font-size: 20px !important;
-               text-align: center;
+               text-align: center !important;
                margin-bottom: 5% !important;
             }
     
             & .card{
-                padding: 5%;
+                padding: 5% !important;
 
     
                 & h4{
-                    font-size: 16px;
+                    font-size: 16px !important;
                 }
     
                 & p{
-                    font-size: 15px;
+                    font-size: 15px !important;
                 }
     
                  
             }
     
             & a{ 
-                width: 100%;
+                width: 100% !important;
                 margin: 5% 0 !important;
             }
     

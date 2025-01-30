@@ -37,7 +37,7 @@
     
     #hero{
         padding: 5% 0 !important;
-        background-image:none !important;
+        background-image: none !important;
     
         & .hero-inner{
             background-image: url('../images/hero-bg-mobile.webp') !important;
