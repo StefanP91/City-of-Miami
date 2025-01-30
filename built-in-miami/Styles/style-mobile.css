@@ -45,6 +45,7 @@
         padding: 5% 0 !important;
         background-image: none !important;
         background-color: #F6F6F6 !important;
+        overflow-x: hidden;
     
             & .hero-inner{
                 background-image: url('../images/hero-img-mobile.webp') !important;
