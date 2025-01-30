@@ -677,6 +677,17 @@ header {
             border-radius: 24px;
             padding: 5%;
             margin-top: -40%;
+
+            & p{
+                font-weight: 500;
+                color: #606060;
+                font-size: 14px;
+
+                & span{
+                    font-weight: 700;
+                    color: #404040;
+                }
+            }
         }
 
         & .slider-container-DM{

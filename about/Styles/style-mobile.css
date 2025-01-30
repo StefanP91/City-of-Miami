@@ -490,7 +490,7 @@
     
             & h2{
                 font-size: 20px !important;
-                margin-bottom: 65% !important;
+                margin-bottom: 55% !important;
             }
         }
     
@@ -506,7 +506,7 @@
     
     
             & .card{
-                margin-top: -60% !important;
+                margin-top: -50% !important;
             }
     
             & .slider-container-DM{   
@@ -600,6 +600,10 @@
                         box-shadow: none !important;
                     }
                 }
+            }
+
+            & .description{
+                font-size: 14px;
             }
     
         }
