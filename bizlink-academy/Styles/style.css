@@ -475,7 +475,7 @@ header {
 }
 
 #applyToday{
-    margin-top: 20%;
+    margin-top: 15%;
     background: linear-gradient(92deg, #202020 24.43%, #4D4D4D 112.76%), url("../images/apply-today-bg.webp");
     background-blend-mode: multiply;
     background-repeat: no-repeat;
