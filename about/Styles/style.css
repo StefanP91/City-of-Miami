@@ -168,6 +168,7 @@ header {
 /* MAIN */
 #hero{
     background-image: url('../images/hero-bg.png');
+    padding: 3% 0;
         
     & .hero-inner{
         background: linear-gradient(180deg, rgba(246, 246, 246, 0) 0%, #F6F6F6 300%), url('../images/hero-img.png');
@@ -177,7 +178,7 @@ header {
         height: 887px;
         width: 100%;
         position: relative;
-        margin: 3% 0;
+        padding: 3% 0;
 
         & .cards-container{
             
