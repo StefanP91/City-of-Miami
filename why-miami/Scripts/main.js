@@ -59,3 +59,15 @@ document.addEventListener('DOMContentLoaded', () => {
       slide.addEventListener('mouseleave', touchEnd);
     });
   });
+
+  // READ MORE BTN
+  function toggleReadMore(button) {
+    const content = button.previousElementSibling;
+    if (content.classList.contains('open')) {
+        content.classList.remove('open');
+        button.textContent = "Read More";
+    } else {
+        content.classList.add('open');
+        button.textContent = "Read Less";
+    }
+}

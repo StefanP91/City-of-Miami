@@ -112,7 +112,7 @@
             background-position: center !important;
             background-size: cover !important;
             background-repeat: no-repeat !important;
-            height: 398px !important;
+            height: fit-content !important;
             display: flex !important;
             flex-direction: column !important;
             justify-content: space-between !important;
@@ -133,7 +133,7 @@
     
         & .card-3{
             background-color: #ECECEC !important;
-            height: 398px !important;
+            height: fit-content !important;
             display: flex !important;
             flex-direction: column !important;
             justify-content: space-between !important;
