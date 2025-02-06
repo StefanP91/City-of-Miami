@@ -97,6 +97,7 @@
             border: none !important;
             border-radius: 24px !important;
             padding: 5% 7% !important;
+            width: 100% !important;
         }
     
         & .card-1{
