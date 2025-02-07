@@ -660,10 +660,10 @@ header {
 
         background: 
             linear-gradient(270deg, rgba(35, 152, 161, 0) 42.13%, #2398A1 75.67%),
-            url('../images/director-message-bg.jpeg');
+            url('../images/director-message-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: center;
+        background-position: center right 480%;
         border-radius: 24px;
         padding: 3% 0 0 3%;
 

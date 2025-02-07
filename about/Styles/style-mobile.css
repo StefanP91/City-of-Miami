@@ -498,10 +498,10 @@
         & .director-message-inner{
             background: 
             linear-gradient(270deg, rgba(35, 152, 161, 0) 42.13%, #2398A1 75.67%),
-            url('../images/director-message-bg.jpeg') !important;
+            url('../images/director-message-bg.jpg') !important;
             background-repeat: no-repeat !important;
-            background-position:bottom left 45% !important;
-            background-size: 243% !important;
+            background-position:center right 57% !important;
+            background-size: cover  !important;
             border-radius: 24px !important;
             padding: 3% 0 0 0% !important;
     
@@ -1119,9 +1119,9 @@
         & .director-message-inner{
             background: 
             linear-gradient(270deg, rgba(35, 152, 161, 0) 42.13%, #2398A1 75.67%),
-            url('../images/director-message-bg.jpeg');
+            url('../images/director-message-bg.jpg');
             background-repeat: no-repeat;
-            background-position: center left 40%;
+            background-position: center left 20%;
             background-size: 200%;
             border-radius: 24px;
             padding: 3% 0 0 0%;
