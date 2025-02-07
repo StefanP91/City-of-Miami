@@ -82,7 +82,7 @@
         }
     }
 
-    #keyEconomic{
+    /* #keyEconomic{
         padding: 5% 0 !important;
     
         & .intro{
@@ -115,8 +115,6 @@
             background-repeat: no-repeat !important;
             height: fit-content !important;
             display: block !important;
-            /* flex-direction: column !important;
-            justify-content: space-between !important; */
     
             & h2{
                font-size: 20px !important;
@@ -136,8 +134,6 @@
             background-color: #ECECEC !important;
             height: fit-content !important;
             display: block !important;
-            /* flex-direction: column !important;
-            justify-content: space-between !important; */
     
             & h2{
                 font-size: 20px !important;
@@ -170,7 +166,7 @@
                 }
             }
         }
-    }
+    } */
 
     #successStories{
         padding: 5% 0;
@@ -367,7 +363,7 @@
         }
     }
 
-    #keyEconomic{
+    /* #keyEconomic{
         padding: 5% 0;
     
         & .intro{
@@ -454,7 +450,7 @@
                 }
             }
         }
-    }
+    } */
 
     #successStories{
         padding: 5% 0;

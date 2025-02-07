@@ -1,4 +1,54 @@
-// KEY ECONOMICS SLIDER MOBILE
+//  INITIALIZATION OF AOS
+document.addEventListener('DOMContentLoaded', function () {
+  AOS.init({
+    duration: 650,
+    once: false,
+  });
+});
+
+// Change content and Desktop and Mobile background on Key Industries
+function openDescriptionKI(id, backgroundImage, backgroundPositionDesktop, backgroundPositionMobile) {
+  const descriptionContainer = document.getElementById('descriptionsKI');
+  const descriptions = descriptionContainer.querySelectorAll('div[id^="description"]');
+  const keyIndustriesSection = document.getElementById('keyIndustries');
+
+  descriptions.forEach(description => {
+      if (description.id === id) {
+
+          description.classList.add('show');
+          
+      } else {
+          description.classList.remove('show');
+      }
+  });
+
+  // Preload the new background image
+  const img = new Image();
+  img.src = backgroundImage;
+  img.onload = () => {
+    keyIndustriesSection.style.backgroundImage = `url('${backgroundImage}')`;
+
+    if (window.matchMedia("(max-width: 435px)").matches) {
+      keyIndustriesSection.style.backgroundPosition = backgroundPositionMobile;
+    } 
+    
+    else {
+      keyIndustriesSection.style.backgroundPosition = backgroundPositionDesktop;
+    }
+  }; 
+}
+
+// Change active class on Key Industries
+const cardContainerKI = document.getElementById('cardContainerKI');
+const cardsKI = cardContainerKI.querySelectorAll('.card');
+cardsKI.forEach(card => {
+  card.addEventListener('click', () => {
+    cardsKI.forEach(c => c.classList.remove('active'));
+    card.classList.add('active');  
+  });
+});
+
+// STARTUP INVESTMENTS SLIDER MOBILE
 document.addEventListener('DOMContentLoaded', () => {
     const slider = document.querySelector('.slider');
     let isDragging = false;
@@ -60,14 +110,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // READ MORE BTN
-  function toggleReadMore(button) {
-    const content = button.previousElementSibling;
-    if (content.classList.contains('open')) {
-        content.classList.remove('open');
-        button.textContent = "Read More";
-    } else {
-        content.classList.add('open');
-        button.textContent = "Read Less";
-    }
-}

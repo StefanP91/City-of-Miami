@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/style-mobile.css">
     <link rel="stylesheet" href="Styles/fonts.css">
+    <link rel="stylesheet" href="Styles/aos.css">
 
     <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
 </head>
@@ -37,10 +38,10 @@
                 <div class="collapse navbar-collapse" id="navMenu">
                     <ul class="navbar-nav ms-auto gap-lg-3 gap-0">
                         <li class="nav-item">
-                            <a href="../about" class="nav-link active">About</a>
+                            <a href="../about" class="nav-link">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="../why-miami" class="nav-link">Why Miami?</a>
+                            <a href="../why-miami" class="nav-link active">Why Miami?</a>
                         </li>
 
                         <li class="nav-item">
@@ -116,11 +117,285 @@
             </div>
         </section>
 
-        <!-- KEY ECONOMIC HIGHLIGHTS -->
-        <section id="keyEconomic">
+
+
+        <!-- GDP -->
+        <section id="gdp">
+            <div class="container">
+                <h1>City of Miami GDP Contribution 2024</h1>
+                <div class="gdp-inner">
+                    <div class="card">
+                        <p>
+                            The City of Miami's GDP is a <span>significant contributor</span> to 
+                            the broader Miami-Dade economy and it plays a central role 
+                            in sectors like <span>real estate, finance, and tourism.</span> <br> 
+                            (Source: Miami-Dade County Economic Impact)
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEY INDUSTRIES -->
+        <section id="keyIndustries">
             <div class="container">
                 <div class="intro">
-                    <h1>Key Economic Highlights</h1>
+                    <p>Key Industries</p>
+                    <h1>Key Sectors Driving the Economy of the City of Miami (2024)</h1>
+                </div>
+
+                <div class="card-container" id="cardContainerKI">
+                    <div class="row">
+                        <div class="col-4 col-lg-8" id="normalView">
+                            <div class="row g-2 g-lg-3">
+                                <div class="col-12 col-lg-6" data-aos="zoom-in-down" data-aos-duration="700">
+                                    <div class="card active" onclick="openDescriptionKI('description1', 'images/key-industries-tech-bg.svg', 'center' ,'right 30% center')">
+                                        <img src="images/key-industries-icon-1.svg" alt="key-industries-icon-1">
+                                        <h6>Technology</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12 col-lg-6" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="200">
+                                    <div class="card" onclick="openDescriptionKI('description2', 'images/key-industries-healthcare-bg.svg', 'center', 'right 50% center')">
+                                        <img src="images/key-industries-icon-2.svg" alt="key-industries-icon-2">
+    
+                                        <h6>Healthcare</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12 col-lg-6" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="600">
+                                    <div class="card" onclick="openDescriptionKI('description3', 'images/key-industries-real-estate-bg.svg', 'center', 'right 50% center')">
+                                        <img src="images/key-industries-icon-3.svg" alt="key-industries-icon-4">
+    
+                                        <h6>Real Estate & Construction</h6>
+                                    </div>
+                                </div>
+    
+                                <div class="col-12 col-lg-6" data-aos="zoom-in-down" data-aos-duration="700" data-aos-delay="800">
+                                    <div class="card" onclick="openDescriptionKI('description4', 'images/key-industries-trade-bg.svg', 'center', 'right 50% center')">
+                                        <img src="images/key-industries-icon-4.svg" alt="key-industries-icon-5">
+    
+                                        <h6>Logistics & Trade </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-8 col-lg-4" id="descriptionsKIView">
+                            <div class="descriptions" id="descriptionsKI">
+    
+                                <div id="description1" class="show" data-aos="fade-in">
+                                    <h3>Technology</h3>
+                                    
+                                    <p>
+                                        Miami’s tech scene has grown exponentially, with the city 
+                                        now recognized as a prominent tech hub in the U.S. Venture 
+                                        capital investments continued to increase, with Miami securing 
+                                        more than $5 billion in funding for startups. <br>
+                                        (Source: Knight Foundation)
+                                    </p>
+                                </div>
+    
+                                <div id="description2" data-aos="fade-in">
+                                    <h3>Healthcare</h3>
+                            
+                                    <p>
+                                        Healthcare remains one of Miami's largest sectors. Institutions such as the 
+                                        University of Miami Health System and Jackson Memorial Hospital are key drivers 
+                                        of both the local economy and employment. <br> 
+                                        (Source: The Firm Miami)
+                                    </p>
+    
+                                </div>
+    
+                                <div id="description3" data-aos="fade-in">
+                                    <h3>Real Estate and Construction</h3>
+                            
+                                   <p>
+                                    Real estate development, particularly in high-end residential and 
+                                    mixed-use properties, is a major economic driver for the City of Miami. 
+                                    Miami has seen a booming real estate market with luxury developments like 
+                                    those in Brickell and Wynwood. <br> 
+                                    (Source: The Firm Miami)
+                                   </p>
+                                </div>
+    
+                                <div id="description4" data-aos="fade-in">
+                                    <h3>Logistics and Trade</h3>
+                            
+                                    <p>
+                                        The PortMiami and Miami International Airport (MIA) are key 
+                                        logistics hubs, particularly for trade with Latin America. 
+                                        The city's proximity to international markets makes it a vital link 
+                                        in global trade, with billions of dollars in goods passing through 
+                                        each year. <br> 
+                                        (Source: PortMiami)
+                                    </p>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MIAMI INDUSTRY -->
+        <section id="miamiIndustry">
+            <div class="container">
+                <h1>Miami Industry Growth Trends (2025)</h1>
+
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="card-container">
+                            <div class="card card-1">
+                                <div class="hstack gap-2">
+                                    <img src="images/miami-industry-icon-1.svg" alt="miami-industry-icon-1">
+
+                                    <div class="vstack gap-2">
+                                        <h5>Finance & Investment</h5>
+
+                                        <p>
+                                            Miami is becoming a financial hub, attracting hedge funds and investors. 
+                                            The Global Alts conference highlights its growing financial sector. (Source: FT)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-2">
+                                <div class="hstack gap-2">
+                                    <img src="images/miami-industry-icon-2.svg" alt="miami-industry-icon-2">
+
+                                    <div class="vstack gap-2">
+                                        <h5>Technology & Innovation</h5>
+
+                                        <p>
+                                            Growth in fintech startups (429 in Miami). Projected 13% increase 
+                                            in tech jobs by 2030. (Source: Connexionsolutions)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-3">
+                                <div class="hstack gap-2">
+                                    <img src="images/miami-industry-icon-3.svg" alt="miami-industry-icon-3">
+
+                                    <div class="vstack gap-2">
+                                        <h5>Real Estate & Construction</h5>
+
+                                        <p>
+                                            25% increase in commercial real estate expected. Mixed-use developments 
+                                            transforming neighborhoods (e.g., Brickell, Wynwood). (Source: Smith CRE)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-4">
+                                <div class="hstack gap-2">
+                                    <img src="images/miami-industry-icon-4.svg" alt="miami-industry-icon-4">
+
+                                    <div class="vstack gap-2">
+                                        <h5>Tourism & Hospitality</h5>
+
+                                        <p>
+                                            8% growth in tourism, boosting the economy. Expansion in luxury real estate and 
+                                            tourism infrastructure. (Source: Connexionsolutions)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card card-5">
+                                <div class="hstack gap-2">
+                                    <img src="images/miami-industry-icon-5.svg" alt="miami-industry-icon-5">
+
+                                    <div class="vstack gap-2">
+                                        <h5>Industrial Real Estate</h5>
+
+                                        <p>
+                                            Miami is a key logistics hub due to its strategic location. 
+                                            Growth driven by the e-commerce boom and strong infrastructure. (Source: Agora RE)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6">
+                        <img src="images/miami-industry-person-bg.svg" alt="miami-industry-person" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SUCCESS STORIES -->
+        <section id="successStories">
+            <div class="container">
+
+                <div class="success-stories-inner">
+                    <div class="upper-section">
+                        <h1 class="d-none d-lg-block">
+                            Workforce Development <br> 
+                            Initiatives in the <br> 
+                            City of Miami
+                        </h1>
+
+                        <!-- MOBILE -->
+
+                        <h1 class="d-block d-lg-none">
+                            Workforce Development 
+                            Initiatives in the 
+                            City of Miami
+                        </h1>
+                    </div>
+
+                    <div class="down-section">
+                        <div class="row">
+                            <div class="col-12 col-lg-5 offset-0 offset-lg-2">
+                                <div class="card-1">
+                                    <h4>DEPARTMENT OF ECONOMIC INNOVATION & DEVELOPMENT</h4>
+
+                                    <p>
+                                        Focuses on economic development, technology integration, and workforce 
+                                        empowerment to improve the city's quality of life and attract businesses. 
+                                        (Source: City of Miami)
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-5">
+                                <div class="card-2">
+                                    <h4>KEY EMPLOYMENT METRICS FOR THE CITY OF MIAMI</h4>
+
+                                    <p>
+                                        <span>Total Nonfarm Employment:</span> <br>
+                                        The Miami-Miami Beach-Kendall division added 5,900 jobs, accounting for 57.3% 
+                                        of the metropolitan area's employment gain in the construction industry in November 2024. 
+                                        (Source: BLS)
+                                    </p>
+
+                                    <p>
+                                        <span>Unemployment Rate</span> <br>
+                                        The unemployment rate for Miami-Dade County was 3.3% as of November 2024.  (Source: BLS)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- KEY STARTUP INVESTMENTS -->
+        <section id="startupInvestments">
+            <div class="container">
+                <div class="intro">
+                    <h1>Startup Investments & Success</h1>
                 </div>
                 <div class="row g-3 d-none d-lg-flex">
                     <div class="col-12 col-lg-3">
@@ -129,255 +404,47 @@
 
                     <div class="col-12 col-lg-3">
                         <div class="card card-2">
-                            <h2>INFOGRAPHICS HIGHLIGHTING</h2>
+                            <h2>Startup Investments in Miami (2024)</h2>
 
-                            <p>Miami’s GDP contribution</p>
+                            <p>VENTURE CAPITAL</p>
                             
-                            <ul class="read-more-content">
+                            <ul>
                                 <li>
-                                    The <span>City of Miami's GDP</span> is a significant contributor to the 
-                                    broader Miami-Dade economy and it plays a central role in sectors 
-                                    like real estate, finance, and tourism. (Source: Miami-Dade County 
-                                    Economic Impact) <br>
-
-                                    <a href="">
-                                        (Source: Miami-Dade County Economic Impact)
-                                    </a>
-                                </li>
-
-                            </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-
-                            <p>Key Sectors Driving the Economy of the City of Miami (2024):</p>
-                            <ul class="read-more-content">
-                                <li>
-                                    <span>Technology:</span> 
-                                    <div class="more-content">
-                                        Miami’s tech scene has grown exponentially, 
-                                        with the city now recognized as a prominent tech hub in 
-                                        the U.S. Venture capital investments continued to increase, 
-                                        with Miami securing more than $5 billion in funding for startups. <br>
-                                        <a href="">
-                                            (Source: Knight Foundation) 
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Healthcare:</span> 
-                                    <div class="more-content">
-                                        Healthcare remains one of Miami's largest sectors. 
-                                        Institutions such as the University of Miami Health System 
-                                        and Jackson Memorial Hospital are key drivers of both the 
-                                        local economy and employment. <br>
-                                        <a href="https://knightfoundation.org/wp-content/uploads/2022/06/Miami-Tech-Assessment_Final_2022.pdf">
-                                            (Source: The Firm Miami)
-                                        </a>
-                                    </div>
-
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Real Estate and Construction:</span> 
-                                    <div class="more-content">
-                                        Real estate development, 
-                                        particularly in high-end residential and mixed-use properties, 
-                                        is a major economic driver for the City of Miami. Miami has seen a 
-                                        booming real estate market with luxury developments like those in 
-                                        Brickell and Wynwood. <br>
-                                    <a href="https://www.thefirmmiami.com/what-are-the-top-10-business-industries-in-miami-a-comprehensive-guide-introduction">
-                                        (Source: The Firm Miami)
-                                    </a>
-                                    
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Logistics and Trade:</span>
-                                    <div class="more-content">
-                                        The PortMiami and Miami International Airport (MIA) 
-                                        are key logistics hubs, particularly for trade with Latin America. The city's proximity 
-                                        to international markets makes it a vital link in global trade, with billions of dollars 
-                                        in goods passing through each year. <br>
-                                        <a href="">
-                                            (Source: PortMiami)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+                                    Miami saw continued growth in venture capital investments, 
+                                    reaching over $5 billion in recent years. (Source: Knight Foundation)
                                 </li>
                             </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+
+                            <p>GLOBAL RANKING</p>
+                            <ul>
+                                <li>
+                                    Miami ranks 16th globally for startup ecosystems in 2024, 
+                                    up from 23rd in 2023. (Source: Beacon Council)
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
                     <div class="col-12 col-lg-3">
                         <div class="card card-3">
-                            <H2>INTERACTIVE DASHBOARD</H2>
+                            <h2>STARTUP SUCCESS RATES (2024)</h2>
 
-                            <p>Miami Industry Growth Trends (2025)</p>
-                            <ul class="read-more-content">
+                            <p>ECOSYSTEM PERFORMANCE</p>
+                            <ul>
                                 <li>
-                                    <span>Finance & InvestmentMiami</span> 
-                                    <div class="more-content">
-                                        is becoming a financial hub, attracting hedge funds and investors.
-                                        The Global Alts conference highlights its growing financial sector. <br>
-                                        <a href="https://www.ft.com/content/3d29eae7-dbd9-40c4-b799-5e98a3c9971f">
-                                            (Source: FT)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Technology & InnovationGrowth</span> 
-                                    <div class="more-content">
-                                        in fintech startups (429 in Miami).
-                                        Projected 13% increase in tech jobs by 2030. <br>
-                                        <a href="https://www.connexionsolutions.com/insights/miami-florida-small-business-growth-forecast-2025/">
-                                            (Source: Connexionsolutions)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Real Estate & Construction</span> 
-                                    <div class="more-content">
-                                        25% increase in commercial real estate expected.
-                                        Mixed-use developments transforming neighborhoods (e.g., Brickell, Wynwood). <br>
-                                        <a href="https://www.smith-cre.com/our-blog/commercial-real-estate-market-trends-in-miami-for-2025-">
-                                            (Source: Smith CRE)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Tourism & Hospitality</span> 
-                                    <div class="more-content">
-                                        8% growth in tourism, boosting the economy.
-                                        Expansion in luxury real estate and tourism infrastructure. <br>
-                                       <a href="https://www.connexionsolutions.com/insights/miami-florida-small-business-growth-forecast-2025/">
-                                        (Source: Connexionsolutions)
-                                       </a>
-                                    </div>
-
-                                   <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Industrial Real Estate Miami </span> 
-                                    <div class="more-content">
-                                        is a key logistics hub due to its strategic location.
-                                        Growth driven by the e-commerce boom and strong infrastructure. <br>
-                                        <a href="https://www.agorare.com/global-trends-in-cre-for-2025-miamis-industrial-market-stays-ahead/">
-                                            (Source: Agora RE)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+                                    Miami ranks among the top 30 global ecosystems, 
+                                    reflecting strong startup performance. (Source: Refresh Miami)
                                 </li>
                             </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
 
-                            <p>Key Employment Metrics for the City of Miami:</p>
-                            <ul class="read-more-content">
+                            <p>STARTUP INVESTMENTS & SUCCESS</p>
+                            <ul>
                                 <li>
-                                    <span>Total Nonfarm Employment:</span>
-                                    <div class="more-content">
-                                        The Miami-Miami Beach-Kendall 
-                                        division added 5,900 jobs, accounting for 57.3% of the metropolitan 
-                                        area's employment gain in the construction industry in November 2024. <br>
-                                       <a href="https://www.bls.gov/regions/southeast/news-release/2024/areaemployment_miami_20241127.htm">
-                                        (Source: BLS)
-                                       </a>
-                                    </div>
-                                   <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Unemployment Rate:</span>
-                                    <div class="more-content">
-                                        The unemployment rate for Miami-Dade County was 3.3% as of November 2024. <br> 
-                                        <a href="https://www.bls.gov/regions/southeast/news-release/2025/areaemployment_miami_20250103.htm">
-                                            (Source: BLS)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+                                    Early-Stage Funding: Ranked in the top 15 North American cities 
+                                    for early-stage funding. (Source: Refresh Miami)
                                 </li>
                             </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-
-                            <p>Workforce Development Initiatives in the City of Miami:</p>
-                            <ul class="read-more-content">
-                                <li>
-                                    <span>Department of Economic Innovation & Development:</span>Focuses on economic development, 
-                                    technology integration, and workforce empowerment to improve the city's quality of life and 
-                                    attract businesses. <br>
-                                    <a href="https://www.miami.gov/My-Government/Departments/Economic-Innovation-and-Development">
-                                        (Source: City of Miami)
-                                    </a> 
-                                </li>
-                            </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-
-                            <p>Startup Investments in Miami (2024):</p>
-                            <ul class="read-more-content">
-                                <li>
-                                    <span>Venture Capital:</span> 
-                                    <div class="more-content">
-                                        Miami saw continued growth in venture capital 
-                                        investments, reaching over $5 billion in recent years. <br>
-                                        <a href="https://knightfoundation.org/wp-content/uploads/2022/06/Miami-Tech-Assessment_Final_2022.pdf">
-                                            (Source: Knight Foundation)
-                                        </a> 
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Global Ranking:</span> 
-                                    <div class="more-content">
-                                        Miami ranks 16th globally for startup ecosystems 
-                                        in 2024, up from 23rd in 2023. <br>
-                                        <a href="https://www.beaconcouncil.com/technology/">
-                                            (Source: Beacon Council)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-                            </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-
-                            <p>Startup Success Rates (2024):</p>
-                            <ul class="read-more-content">
-                                <li>
-                                    <span>Ecosystem Performance:</span> 
-                                    <div class="more-content">
-                                        Miami ranks among the top 30 global ecosystems, 
-                                        reflecting strong startup performance. <br>
-                                        <a href="https://refreshmiami.com/news/miamis-ecosystem-regains-its-runner-up-global-ranking-in-startup-genome-report/">
-                                            (Source: Refresh Miami) 
-                                        </a>
-                                    </div> 
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-
-                                <li>
-                                    <span>Early-Stage Funding:</span> 
-                                    <div class="more-content">
-                                        Ranked in the top 15 North American 
-                                        cities for early-stage funding. <br>
-                                        <a href="https://refreshmiami.com/news/miamis-ecosystem-regains-its-runner-up-global-ranking-in-startup-genome-report/">
-                                            (Source: Refresh Miami)
-                                        </a>
-                                    </div>
-                                    <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                </li>
-                            </ul>
-                            <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+                            
                         </div>
                     </div>
 
@@ -386,92 +453,29 @@
                     </div>
                 </div>
 
-                <!-- MOBILE -->
+               <!-- MOBILE -->
                 <div class="slider-container d-flex d-lg-none">
                     <div class="slider">
                         <div class="slide">
                             <div class="card card-2">
-                                <h2>INFOGRAPHICS HIGHLIGHTING</h2>
+                                <h2>Startup Investments in Miami (2024)</h2>
     
-                                <p>Miami’s GDP contribution</p>
+                                <p>VENTURE CAPITAL</p>
                                 
-                                <ul class="read-more-content">
+                                <ul>
                                     <li>
-                                        The <span>City of Miami's GDP</span> is a significant contributor to the 
-                                        broader Miami-Dade economy and it plays a central role in sectors 
-                                        like real estate, finance, and tourism. (Source: Miami-Dade County 
-                                        Economic Impact) <br>
-    
-                                        <a href="">
-                                            (Source: Miami-Dade County Economic Impact)
-                                        </a>
-                                    </li>
-    
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-    
-                                <p>Key Sectors Driving the Economy of the City of Miami (2024):</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Technology:</span> 
-                                        <div class="more-content">
-                                            Miami’s tech scene has grown exponentially, 
-                                            with the city now recognized as a prominent tech hub in 
-                                            the U.S. Venture capital investments continued to increase, 
-                                            with Miami securing more than $5 billion in funding for startups. <br>
-                                            <a href="">
-                                                (Source: Knight Foundation) 
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Healthcare:</span> 
-                                        <div class="more-content">
-                                            Healthcare remains one of Miami's largest sectors. 
-                                            Institutions such as the University of Miami Health System 
-                                            and Jackson Memorial Hospital are key drivers of both the 
-                                            local economy and employment. <br>
-                                            <a href="https://knightfoundation.org/wp-content/uploads/2022/06/Miami-Tech-Assessment_Final_2022.pdf">
-                                                (Source: The Firm Miami)
-                                            </a>
-                                        </div>
-    
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Real Estate and Construction:</span> 
-                                        <div class="more-content">
-                                            Real estate development, 
-                                            particularly in high-end residential and mixed-use properties, 
-                                            is a major economic driver for the City of Miami. Miami has seen a 
-                                            booming real estate market with luxury developments like those in 
-                                            Brickell and Wynwood. <br>
-                                        <a href="https://www.thefirmmiami.com/what-are-the-top-10-business-industries-in-miami-a-comprehensive-guide-introduction">
-                                            (Source: The Firm Miami)
-                                        </a>
-                                        
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Logistics and Trade:</span>
-                                        <div class="more-content">
-                                            The PortMiami and Miami International Airport (MIA) 
-                                            are key logistics hubs, particularly for trade with Latin America. The city's proximity 
-                                            to international markets makes it a vital link in global trade, with billions of dollars 
-                                            in goods passing through each year. <br>
-                                            <a href="">
-                                                (Source: PortMiami)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
+                                        Miami saw continued growth in venture capital investments, 
+                                        reaching over $5 billion in recent years. (Source: Knight Foundation)
                                     </li>
                                 </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
+    
+                                <p>GLOBAL RANKING</p>
+                                <ul>
+                                    <li>
+                                        Miami ranks 16th globally for startup ecosystems in 2024, 
+                                        up from 23rd in 2023. (Source: Beacon Council)
+                                    </li>
+                                </ul>
                             </div>
                         </div>
 
@@ -481,170 +485,25 @@
 
                         <div class="slide">
                             <div class="card card-3">
-                                <H2>INTERACTIVE DASHBOARD</H2>
-    
-                                <p>Miami Industry Growth Trends (2025)</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Finance & InvestmentMiami</span> 
-                                        <div class="more-content">
-                                            is becoming a financial hub, attracting hedge funds and investors.
-                                            The Global Alts conference highlights its growing financial sector. <br>
-                                            <a href="https://www.ft.com/content/3d29eae7-dbd9-40c4-b799-5e98a3c9971f">
-                                                (Source: FT)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Technology & InnovationGrowth</span> 
-                                        <div class="more-content">
-                                            in fintech startups (429 in Miami).
-                                            Projected 13% increase in tech jobs by 2030. <br>
-                                            <a href="https://www.connexionsolutions.com/insights/miami-florida-small-business-growth-forecast-2025/">
-                                                (Source: Connexionsolutions)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Real Estate & Construction</span> 
-                                        <div class="more-content">
-                                            25% increase in commercial real estate expected.
-                                            Mixed-use developments transforming neighborhoods (e.g., Brickell, Wynwood). <br>
-                                            <a href="https://www.smith-cre.com/our-blog/commercial-real-estate-market-trends-in-miami-for-2025-">
-                                                (Source: Smith CRE)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Tourism & Hospitality</span> 
-                                        <div class="more-content">
-                                            8% growth in tourism, boosting the economy.
-                                            Expansion in luxury real estate and tourism infrastructure. <br>
-                                           <a href="https://www.connexionsolutions.com/insights/miami-florida-small-business-growth-forecast-2025/">
-                                            (Source: Connexionsolutions)
-                                           </a>
-                                        </div>
-    
-                                       <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Industrial Real Estate Miami </span> 
-                                        <div class="more-content">
-                                            is a key logistics hub due to its strategic location.
-                                            Growth driven by the e-commerce boom and strong infrastructure. <br>
-                                            <a href="https://www.agorare.com/global-trends-in-cre-for-2025-miamis-industrial-market-stays-ahead/">
-                                                (Source: Agora RE)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-    
-                                <p>Key Employment Metrics for the City of Miami:</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Total Nonfarm Employment:</span>
-                                        <div class="more-content">
-                                            The Miami-Miami Beach-Kendall 
-                                            division added 5,900 jobs, accounting for 57.3% of the metropolitan 
-                                            area's employment gain in the construction industry in November 2024. <br>
-                                           <a href="https://www.bls.gov/regions/southeast/news-release/2024/areaemployment_miami_20241127.htm">
-                                            (Source: BLS)
-                                           </a>
-                                        </div>
-                                       <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Unemployment Rate:</span>
-                                        <div class="more-content">
-                                            The unemployment rate for Miami-Dade County was 3.3% as of November 2024. <br> 
-                                            <a href="https://www.bls.gov/regions/southeast/news-release/2025/areaemployment_miami_20250103.htm">
-                                                (Source: BLS)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-    
-                                <p>Workforce Development Initiatives in the City of Miami:</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Department of Economic Innovation & Development:</span>Focuses on economic development, 
-                                        technology integration, and workforce empowerment to improve the city's quality of life and 
-                                        attract businesses. <br>
-                                        <a href="https://www.miami.gov/My-Government/Departments/Economic-Innovation-and-Development">
-                                            (Source: City of Miami)
-                                        </a> 
-                                    </li>
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-    
-                                <p>Startup Investments in Miami (2024):</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Venture Capital:</span> 
-                                        <div class="more-content">
-                                            Miami saw continued growth in venture capital 
-                                            investments, reaching over $5 billion in recent years. <br>
-                                            <a href="https://knightfoundation.org/wp-content/uploads/2022/06/Miami-Tech-Assessment_Final_2022.pdf">
-                                                (Source: Knight Foundation)
-                                            </a> 
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Global Ranking:</span> 
-                                        <div class="more-content">
-                                            Miami ranks 16th globally for startup ecosystems 
-                                            in 2024, up from 23rd in 2023. <br>
-                                            <a href="https://www.beaconcouncil.com/technology/">
-                                                (Source: Beacon Council)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-    
-                                <p>Startup Success Rates (2024):</p>
-                                <ul class="read-more-content">
-                                    <li>
-                                        <span>Ecosystem Performance:</span> 
-                                        <div class="more-content">
-                                            Miami ranks among the top 30 global ecosystems, 
-                                            reflecting strong startup performance. <br>
-                                            <a href="https://refreshmiami.com/news/miamis-ecosystem-regains-its-runner-up-global-ranking-in-startup-genome-report/">
-                                                (Source: Refresh Miami) 
-                                            </a>
-                                        </div> 
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-    
-                                    <li>
-                                        <span>Early-Stage Funding:</span> 
-                                        <div class="more-content">
-                                            Ranked in the top 15 North American 
-                                            cities for early-stage funding. <br>
-                                            <a href="https://refreshmiami.com/news/miamis-ecosystem-regains-its-runner-up-global-ranking-in-startup-genome-report/">
-                                                (Source: Refresh Miami)
-                                            </a>
-                                        </div>
-                                        <button id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                                    </li>
-                                </ul>
-                                <button class="w-100" id="readMore" onclick="toggleReadMore(this)">Read More</button>
-                            </div>
+                            <h2>STARTUP SUCCESS RATES (2024)</h2>
+                            
+                            <p>ECOSYSTEM PERFORMANCE</p>
+                            <ul>
+                                <li>
+                                    Miami ranks among the top 30 global ecosystems, 
+                                    reflecting strong startup performance. (Source: Refresh Miami)
+                                </li>
+                            </ul>
+
+                            <p>STARTUP INVESTMENTS & SUCCESS</p>
+                            <ul>
+                                <li>
+                                    Early-Stage Funding: Ranked in the top 15 North American cities 
+                                    for early-stage funding. (Source: Refresh Miami)
+                                </li>
+                            </ul>
+                            
+                        </div>
                         </div>
 
                         <div class="slide">
@@ -655,76 +514,8 @@
             </div>
         </section>
 
-        <!-- SUCCESS STORIES -->
-        <section id="successStories">
-            <div class="container">
-                <h1 class="title">
-                    Success Stories
-                </h1>
-
-                <div class="success-stories-inner">
-                    <div class="upper-section">
-                        <h1 class="d-none d-lg-block">
-                            Explore Miami’s <br> 
-                            Economic <br> 
-                            Opportunities
-                        </h1>
-    
-                        <p class="d-none d-lg-block">
-                            Discover why Miami is one of the fastest-growing <br> 
-                            global hubs for innovation, talent, and business.
-                        </p>
-
-                        <!-- MOBILE -->
-
-                        <h1 class="d-block d-lg-none">
-                            Explore Miami’s
-                            Economic 
-                            Opportunities
-                        </h1>
-    
-                        <p class="d-block d-lg-none">
-                            Discover why Miami is one of the fastest-growing 
-                            global hubs for innovation, talent, and business.
-                        </p>
-                    </div>
-
-                    <div class="down-section">
-                        <div class="row">
-                            <div class="col-12 col-lg-5 offset-0 offset-lg-2">
-                                <div class="card-1">
-                                    <h4>HIGHLIGHTING IMPACT</h4>
-
-                                    <p>
-                                        <span>Local Business Success</span> <br>
-                                        Stories of businesses and startups flourishing with the help of department initiatives.
-                                    </p>
-
-                                    <p>
-                                        <span>Resident Testimonials</span> <br>
-                                        Hear from residents who advanced their careers through workforce programs.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div class="col-12 col-lg-5">
-                                <div class="card-2">
-                                    <h4>MULTIMEDIA FEATURES</h4>
-
-                                    <p>
-                                        <span>Video Clips</span> <br>
-                                        Showcase impactful public-private partnerships that shape the city's growth.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- MIAMI MOVEMENT -->
-        <section id="miamiMovement">
+        <!-- <section id="miamiMovement">
             <div class="container">
                 <div class="hstack justify-content-between">
                     <h1>Join the Miami Movement!</h1>
@@ -736,6 +527,84 @@
                         <span>
                             for updates, events, or explore opportunities in Miami’s thriving sectors.
                         </span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+    
+        <!-- HIGHLIGHTING IMPACT -->
+        <section id="highlightingImpact">
+            <div class="container">
+                <div class="intro">
+                    <p>HIGHLIGHTING IMPACT</p>
+                    <h1>Local business success</h1>
+                    <span>
+                        Gain insights from prominent business leaders who have shared their 
+                        experiences working closely with the department to drive innovation and growth
+                    </span>
+                </div>
+            </div>
+
+            <div class="highlighting-impact-inner">
+                <div class="container">
+                    <div class="card-container">
+                        <div class="row g-3">
+                            <div class="col-12 col-lg-4">
+                                <div class="card">
+                                    <img src="images/impact-img-1.svg" alt="impact-img-1">
+            
+                                    <p>
+                                        "The Department of Economic Innovation and Development’s support 
+                                        is invaluable in advancing our <span>affordable housing</span> initiatives. 
+                                        Their commitment to economic empowerment and community-driven development 
+                                        strengthens our efforts to create sustainable, high-quality housing for Miami’s residents."
+                                    </p>
+            
+                                    <h4>Carol Gardner, President & CEO</h4>
+            
+                                    <span>
+                                        Tacolcy Economic Development Corporation 
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="card">
+                                    <img src="images/impact-img-2.svg" alt="impact-img-2">
+            
+                                    <p>
+                                        "We appreciate the Department of Economic Innovation and Development's 
+                                        commitment to <span>fostering innovation</span> and economic growth in Little Haiti. 
+                                        Their support is instrumental in making the Magic City Innovation District 
+                                        a hub for opportunity, entrepreneurship, and community empowerment."
+                                    </p>
+            
+                                    <h4>Neil Fairman, Chairman</h4>
+            
+                                    <span>
+                                        Plaza Equity Partners
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-4">
+                                <div class="card">
+                                    <img src="images/impact-img-3.svg" alt="impact-img-3.svg">
+            
+                                    <p>
+                                        "We appreciate the Department of Economic Innovation and Development’s 
+                                        support of the HUBZone program and their commitment to <span>inclusive growth</span>, 
+                                        ensuring UNI drives impact in the Omni CRA, Opportunity Zone, and HUBZone communities."
+                                    </p>
+            
+                                    <h4>Nir Shoshani, Principal</h4>
+            
+                                    <span>
+                                        NR Investments
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -822,5 +691,6 @@
     </footer>
 </body>
     <script src="Scripts/main.js"></script>
+    <script src="Scripts/aos.js"></script>
     <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </html>
