@@ -237,7 +237,7 @@ header {
     }
 
     & .gdp-inner{
-        background-image: url('../images/gdp-inner-bg.svg');
+        background-image: url('../images/gdp-inner-bg.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -291,7 +291,7 @@ header {
     background: 
         linear-gradient(270deg, rgba(0, 0, 0, 0.8) 16.17%, rgba(255, 255, 255, 0) 97.64%),
         linear-gradient(271.89deg, rgba(255, 255, 255, 0) 50.88%, rgba(19, 85, 110, 0.4) 89.37%),
-        url("../images/key-industries-tech-bg.svg");
+        url("../images/key-industries-tech-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -479,7 +479,7 @@ header {
     & .success-stories-inner{
         background: 
             linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
-            url('../images/success-stories-bg.svg');
+            url('../images/success-stories-bg.webp');
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -627,7 +627,7 @@ header {
     }
 
     & .card-1{
-        background-image:  url('../images/startup-investments-img-1.svg');
+        background-image:  url('../images/startup-investments-img-1.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -688,7 +688,7 @@ header {
     }
 
     & .card-4{
-        background-image:  url('../images/startup-investments-img-3.svg');
+        background-image:  url('../images/startup-investments-img-3.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -723,7 +723,7 @@ header {
 
     & .highlighting-impact-inner{
         padding: 5% 0;
-        background-image: url('../images/impact-bg.svg');
+        background-image: url('../images/impact-bg.webp');
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
