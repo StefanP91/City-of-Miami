@@ -92,7 +92,7 @@
         }
     
         & .gdp-inner{
-            background-image: url('../images/gdp-inner-bg-mobile.svg');
+            background-image: url('../images/gdp-inner-bg-mobile.webp');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -244,7 +244,7 @@
         & .success-stories-inner{
             background: 
                 linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
-                url('../images/success-stories-mobile-bg.svg') !important;
+                url('../images/success-stories-mobile-bg.webp') !important;
             background-repeat: no-repeat !important;
             background-position: center !important;
             background-size: cover !important;
@@ -545,7 +545,7 @@
         }
     
         & .gdp-inner{
-            background-image: url('../images/gdp-inner-bg-mobile.svg');
+            background-image: url('../images/gdp-inner-bg-mobile.webp');
             background-position: center;
             background-size: cover;
             background-repeat: no-repeat;
@@ -652,7 +652,7 @@
         & .success-stories-inner{
             background: 
                 linear-gradient(270deg, rgba(115, 176, 196, 0) 16.83%, rgba(115, 176, 196, 0) 47.81%, #73B0C4 80.83%),
-                url('../images/success-stories-mobile-bg.svg');
+                url('../images/success-stories-mobile-bg.webp');
             background-repeat: no-repeat;
             background-position: top;
             background-size: cover;
