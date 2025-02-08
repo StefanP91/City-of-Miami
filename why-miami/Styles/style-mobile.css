@@ -316,6 +316,11 @@
     #startupInvestments{
         padding: 5% 0 !important;
 
+        & .intro{
+            & h1{
+                font-size: 20px;
+            }
+        }
     
         & .card{
             border: none !important;
