@@ -325,6 +325,11 @@ header {
     padding: 5% 0;
     background-color: #f6f6f6;
 
+    & .container{
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
     & .left-side{
         display: flex;
         flex-direction: column;
