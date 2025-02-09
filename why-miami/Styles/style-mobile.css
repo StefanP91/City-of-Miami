@@ -4,6 +4,7 @@
         backdrop-filter: blur(30px);
 
         & .navbar-nav{    
+            background-color: #FFFFFF;
            
             & .dropdown{
     
