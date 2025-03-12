@@ -1,3 +1,12 @@
+//  INITIALIZATION OF AOS
+document.addEventListener('DOMContentLoaded', function () {
+  AOS.init({
+    duration: 650,
+    once: false,
+  });
+});
+
+
 // COUNTER
 const counter = document.getElementById('counter');
 const days = document.getElementById('days');
