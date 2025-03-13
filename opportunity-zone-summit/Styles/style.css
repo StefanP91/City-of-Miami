@@ -301,10 +301,6 @@ header {
         & .register-btn:hover{
             background-color: #1010f3;
         }
-
-        & .register-btn:active{
-            transform: scale(0.9);
-        }
         
     }
 
