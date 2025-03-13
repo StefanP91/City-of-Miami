@@ -188,12 +188,8 @@
         display: flex;
         justify-content: center;
     
-        & #applicationForm{
+        & .application-inner{
             width: 95%;
-    
-            & h1{
-                font-size: 28px;
-            }
 
             & button{
                 font-size: 14px;

@@ -523,7 +523,7 @@ header {
     display: flex;
     justify-content: center;
 
-    & #applicationForm{
+    & .application-inner{
         background: url('../images/form-bg.jpg'), #3C5AFA;
         background-position: center;
         background-size: cover;
@@ -532,40 +532,6 @@ header {
         border-radius: 46px;
         box-shadow: 0px 95px 165.6px -30px #00199B73;
         width: 35%;
-
-
-        & h1{
-            font-size: 32px;
-            font-weight: 700;
-            color: #FFFFFF;
-            text-align: center;
-            margin-bottom: 5% !important;
-
-            & span{
-                color: #DFDFDF;   
-            }
-        }
-
-        & label{
-            font-weight: 500;
-            color: #F7F7F7;
-        }
-
-        & input{
-            border: transparent;
-            background-color: #00147C;
-            color: #BFBFBF;
-            transition: background-color 0.5s ease-in-out;
-        }
-
-        & input:hover, input:focus{
-            border: 1px solid #FFFFFF;
-            background-color: #062be0;
-        }
-
-        & ::placeholder{
-            color: #BFBFBF;
-        }
 
         & button{
             border: none;
