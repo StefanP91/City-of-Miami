@@ -5,34 +5,53 @@
     #hero{
     
         & .vstack{
-            & p{
-                font-size: 18px;
-            }
-    
-            & h6{
-                font-size: 26px;
-            }
-        }
-    
-        & h1{
-            font-size: 32px;
-        }
-    
-        & .card{
-            text-align: start;
-    
+        
             & .top-text{
                 font-size: 18px;
             }
     
-            & .middle-text{
-                font-size: 18px;
+            & h1{
+                font-size: 55px;
+    
+                & span{
+                    font-size: 40px;
+                }
             }
     
             & .bottom-text{
-                font-size: 16px;
+                
+                & span{          
+                    font-size: 16px;
+                }
+    
+                & p{
+                    font-size: 20px;
+    
+                    & span{
+                        font-size: 20px;
+                    }
+                }
             }
     
+        }
+    
+        & .right-side{
+            & .card{
+                text-align: start;
+        
+                & .top-text{
+                    font-size: 18px;
+                }
+        
+                & .middle-text{
+                    font-size: 18px;
+                }
+        
+                & .bottom-text{
+                    font-size: 16px;
+                }
+        
+            }
         }
     
         #counter{
@@ -126,34 +145,40 @@
     }
 
     #sponsors{
+        padding: 5% 0;
+        background-color: #F6F6F6;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     
         & h1{
             font-size: 28px;
             margin-bottom: 5% !important;
+            width: 100%;
         }
     
         & .logo-container{
             width: 100%;
-            margin: 0;
         }
     }
 
     #apply{
-        & .left-side{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            gap: 20px;
-            height: 100%;
-            
-            & h1{
+    
+        & .apply-inner{
+    
+            width: 100%;
+    
+            & p{
                 font-size: 28px;
-                text-align: center;
             }
     
-            & a{
+            & button{
                 font-size: 14px;
+                position: static;
+                transform: translate(0);
+                width: 100%;
             }
+    
         }
     }
 
