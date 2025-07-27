@@ -1,0 +1,96 @@
+@media (max-width: 435px) {
+    body, html{
+        overflow-x: hidden !important;
+    }
+
+    #hero{
+        padding: 5% 0;
+        background-image: url('/full-scholarships/images/hero-bg-mobile.svg');
+        background-size: cover;
+        background-position: center;
+        
+        .hero-inner{
+            & h1{
+                font-size: 32px;
+            }
+
+            & h5{
+                font-size: 28px;
+            }
+
+            & p{
+                font-size: 18px;
+            }
+
+            & .blurred-box{
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                & h6{
+                    font-size: 20px;
+                }
+
+                & span{
+                    font-size: 16px;
+                }
+            } 
+        }
+    }
+    
+    #program{
+        padding: 5% 0;
+
+        & .program-inner{
+            width: 100%;
+            margin: 0 auto;
+            
+            & .title{
+                font-size: 20px;
+                text-align: center;
+            }
+
+            & .program-box{
+                margin-top: 5%;
+
+                & h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    #learn{
+        & .title{
+            font-size: 20px;
+        }
+    }
+
+    #whoCanApply{
+        padding: 5% 0;
+
+        & .title{
+            font-size: 20px;
+        }
+    }
+
+    #whyThisProgram{
+        & .title{
+            font-size: 20px;
+        }
+    }
+
+    #applyNow{
+        padding: 5% 3%;
+
+        & .title{
+            font-size: 20px;
+        }
+
+        & p{
+            font-size: 16px;
+        }
+    }
+}
+
