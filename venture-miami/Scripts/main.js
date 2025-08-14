@@ -43,7 +43,7 @@ class EligibilityChecker {
         return {
             eligible: isInBounds,
             message: isInBounds ? 
-                "✅ You are eligible! Address is within Miami city limits." : 
+                "✅ You are eligible. Please continue your application using this link." : 
                 "❌ Sorry, this address is outside Miami city limits."
         };
     }
