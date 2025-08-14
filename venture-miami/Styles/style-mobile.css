@@ -1,0 +1,245 @@
+@media (max-width: 435px) {
+    body, html{
+        overflow-x: hidden !important;
+    }
+
+    #hero{
+        padding: 5% 0;
+        height: 380px;
+        
+        .hero-inner{
+            & span{
+                padding: 1% 3%;
+            }
+
+            & h1{
+                font-size: 32px;
+            }
+
+            & p{
+                font-size: 18px; 
+            }
+
+            & .btn-container{
+                & a{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    #startUpIdea{
+        & .startUpIdeaInner{
+            width: 100%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+
+            & a{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+
+    #historicPartnership{
+        & .historic-partnership-inner{
+            width: 100%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #whyJoin{
+
+        & .intro{
+            margin-bottom: 5%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #whoShouldApply{
+        padding: 5% 0;
+
+        & .right-side{
+            & h2{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+
+            & a{
+                width: 100%;
+                text-align: center;
+            }
+
+            & a:hover{
+                background-color: #4443F9;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    #importantDates{
+        & .intro{
+            margin-bottom: 5%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #program{
+
+        & .intro{
+            margin-bottom: 5%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+
+        & .phase{
+            padding: 5%;
+
+            & h3{
+                font-size: 20px;
+            }
+        }
+    }
+
+    #graduation{
+        & .graduation-inner{
+            padding: 5%;
+
+            & h3{
+                font-size: 20px;
+            }
+        }
+    }
+
+    #notSure{
+        & .not-sure-inner{
+            & .left-side{
+                & h2{
+                    font-size: 24px;
+                }
+
+                & a{
+                    width: 100%;
+                    text-align: center;
+                }
+
+                & a:hover{
+                    background-color: #4443F9;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    #about{
+
+        & .intro{
+            margin-bottom: 5%;
+
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+
+        & .left-side{
+            & .upper-text{
+                font-size: 16px;
+            }
+
+            & .lower-text{
+                font-size: 16px;
+            }
+        }
+    }
+
+    #programLeadership{
+        & .intro{
+            & h2{
+                font-size: 24px;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+        }
+
+        & .card{
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            & h6{
+                font-size: 20px;
+            }
+
+            & p{
+                text-align: center;
+            }
+        }
+    }
+
+    #readyToBuild{        
+        & .ready-to-build-inner{
+
+            & h2{
+                font-size: 24px;
+                text-align: center;
+            }
+
+            & p{
+                font-size: 16px;
+            }
+
+            & a{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+
